@@ -22,7 +22,7 @@ private:
     bool JumpEnabled = true;
     bool InventoryUpdatesEnabled = true;
 
-    int8_t tick_sleep_time = 50;
+    uint32_t tick_sleep_time = 50;
 
     float SpeedMultiplier = 3.0f;
     float JumpMultiplier = 3.0f;

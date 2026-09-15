@@ -3,20 +3,21 @@
 
 bool Cheat::FetchPointers()
 {
-    World = UWorld::GetWorld();
-    if (!World) return false;
+    World = UWorld::GetWorld(); if (!World) return false;
 
-    PC = World->OwningGameInstance->LocalPlayers[0]->PlayerController;
-    if (!PC) return false;
+    UGameInstance* GI = World->OwningGameInstance; if (!GI) return false;
 
-    Character = static_cast<ABP_FirstPersonCharacter_C*>(PC->AcknowledgedPawn);
-    if (!Character) return false;
+    if (GI->LocalPlayers.Num() == 0) return false; ULocalPlayer* LP = GI->LocalPlayers[0]; if (!LP) return false;
 
-    Movement = Character->CharacterMovement;
-    if (!Movement) return false;
+    PC = LP->PlayerController; if (!PC) return false;
 
-    Inventory = Character->Inventorik;
-    if (!Inventory) return false;
+    APawn* Pawn = PC->AcknowledgedPawn; if (!Pawn || !Pawn->IsA(ABP_FirstPersonCharacter_C::StaticClass())) return false;
+
+    Character = static_cast<ABP_FirstPersonCharacter_C*>(Pawn);
+
+    Movement = Character->CharacterMovement; if (!Movement) return false;
+
+    Inventory = Character->Inventorik; if (!Inventory) return false;
 
     return true;
 }
@@ -24,15 +25,14 @@ bool Cheat::FetchPointers()
 void Cheat::SpeedHack()
 {
     if (!SpeedEnabled) return;
-    Movement->MaxWalkSpeed = 600.0f * SpeedMultiplier;
+    Movement->MaxWalkSpeed = 600.0f * SpeedMultiplier; //default was 600
 }
 
 void Cheat::JumpHack()
 {
     if (!JumpEnabled) return;
-
-    Movement->JumpZVelocity = 420.0 * JumpMultiplier; //original is 420
-    Movement->AirControl = 10.0;
+    Movement->JumpZVelocity = 420.0f * JumpMultiplier; //default was 420
+    Movement->AirControl = 100.0f;
 }
 
 void Cheat::UpdateInventory()
@@ -47,9 +47,6 @@ void Cheat::KeyPressEvents()
     if (GetAsyncKeyState(VK_F1) & 1) Inventory->Pridaj_mi_do_inv(1000.0, 0.0);
 
     if (GetAsyncKeyState(VK_RBUTTON) & 1) Character->K2_SetActorLocation(Character->K2_GetActorLocation() + Character->GetActorForwardVector() * 500.f, false, nullptr, true);
-
-    Character->GetTransform();
-    
 }
 
 void Cheat::Tick()
