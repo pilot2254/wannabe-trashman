@@ -1,19 +1,32 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
 #include "pch.h"
+#include "cheat.hpp"
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                     )
+HMODULE g_Module = nullptr;
+
+static void CheatThread()
 {
-    switch (ul_reason_for_call)
+    AllocConsole();
+    FILE* f;
+    freopen_s(&f, "CONOUT$", "w", stdout);
+
+    printf("womp womp nigga\n");
+
+    Cheat cheat;
+
+    while (true)
     {
-    case DLL_PROCESS_ATTACH:
-    case DLL_THREAD_ATTACH:
-    case DLL_THREAD_DETACH:
-    case DLL_PROCESS_DETACH:
-        break;
+        cheat.Tick();
+        Sleep(50);
+    }
+}
+
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved)
+{
+    if (ul_reason_for_call == DLL_PROCESS_ATTACH)
+    {
+        g_Module = hModule;
+        DisableThreadLibraryCalls(hModule);
+        std::thread(CheatThread).detach();
     }
     return TRUE;
 }
-

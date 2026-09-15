@@ -9,5 +9,13 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+#include <thread>
+#include <cstdio>
+
+#include "dump/SDK.hpp"
+
+using namespace SDK;
 
 #endif //PCH_H

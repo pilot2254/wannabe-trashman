@@ -151,9 +151,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cheat.hpp" />
     <ClInclude Include="dump\PropertyFixup.hpp" />
     <ClInclude Include="dump\SDK.hpp" />
     <ClInclude Include="dump\SDK\Basic.hpp" />
+    <ClInclude Include="dump\SDK\BP_FirstPersonCharacter_classes.hpp" />
+    <ClInclude Include="dump\SDK\BP_FirstPersonCharacter_parameters.hpp" />
     <ClInclude Include="dump\SDK\CoreUObject_classes.hpp" />
     <ClInclude Include="dump\SDK\CoreUObject_parameters.hpp" />
     <ClInclude Include="dump\SDK\CoreUObject_structs.hpp" />
@@ -166,8 +169,13 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cheat.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="dump\SDK\Basic.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dump\SDK\BP_FirstPersonCharacter_functions.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>

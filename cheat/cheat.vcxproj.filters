@@ -54,6 +54,15 @@
     <ClInclude Include="dump\SDK\Basic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cheat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dump\SDK\BP_FirstPersonCharacter_classes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dump\SDK\BP_FirstPersonCharacter_parameters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -69,6 +78,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dump\SDK\Basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dump\SDK\BP_FirstPersonCharacter_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
