@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
+#include "AnimGraphRuntime_structs.hpp"
+#include "NPCUnarmed_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 #include "CoreUObject_structs.hpp"
-#include "NPCUnarmed_structs.hpp"
-#include "AnimGraphRuntime_structs.hpp"
 
 
 SDK_NAMESPACE_START
@@ -49,10 +49,10 @@ public:
 	bool                                          IsFalling;                                         // 0x0739(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void AnimGraph(struct FPoseLink* AnimGraph_0);
-	void BlueprintInitializeAnimation();
-	void BlueprintUpdateAnimation(float DeltaTimeX);
 	void ExecuteUbergraph_NPCUnarmed(int32 EntryPoint);
+	void BlueprintUpdateAnimation(float DeltaTimeX_BlueprintUpdateAnimation);
+	void BlueprintInitializeAnimation();
+	void AnimGraph(struct FPoseLink* AnimGraph);
 
 public:
 	static class UClass* StaticClass()

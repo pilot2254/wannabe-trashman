@@ -63,23 +63,23 @@ public:
 	TMulticastInlineDelegate<void()>              BoughtForTutorial;                                 // 0x0478(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 
 public:
-	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature();
-	void DoPlayer_Have_Money_(int32 Price, bool* no);
-	void ExecuteUbergraph_UpgradeHUD(int32 EntryPoint);
-	void LoadAcutalUpgrades();
-	void Play_Sound(class USoundBase* Sound);
 	void Set_Moneytxt();
+	void Play_Sound(class USoundBase* Sound);
+	void LoadAcutalUpgrades();
+	void ExecuteUbergraph_UpgradeHUD(int32 EntryPoint);
+	void DoPlayer_Have_Money_(int32 Price, bool* no);
+	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature();
 
 public:
 	static class UClass* StaticClass()

@@ -16,56 +16,21 @@
 
 SDK_NAMESPACE_START
 
-// Function ABP_Unarmed.ABP_Unarmed_C.AnimGraph
-// (HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function ABP_Unarmed.ABP_Unarmed_C.ExecuteUbergraph_ABP_Unarmed
+// (Final, UbergraphFunction)
 // Parameters:
-// struct FPoseLink*                       AnimGraph_0                                            (Parm, OutParm, NoDestructor)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UABP_Unarmed_C::AnimGraph(struct FPoseLink* AnimGraph_0)
+void UABP_Unarmed_C::ExecuteUbergraph_ABP_Unarmed(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_Unarmed_C", "AnimGraph");
+		Func = Class->GetFunction("ABP_Unarmed_C", "ExecuteUbergraph_ABP_Unarmed");
 
-	Params::ABP_Unarmed_C_AnimGraph Parms{};
+	Params::ABP_Unarmed_C_ExecuteUbergraph_ABP_Unarmed Parms{};
 
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (AnimGraph_0 != nullptr)
-		*AnimGraph_0 = std::move(Parms.AnimGraph_0);
-}
-
-
-// Function ABP_Unarmed.ABP_Unarmed_C.BlueprintInitializeAnimation
-// (Event, Public, BlueprintEvent)
-
-void UABP_Unarmed_C::BlueprintInitializeAnimation()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_Unarmed_C", "BlueprintInitializeAnimation");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_Unarmed.ABP_Unarmed_C.BlueprintUpdateAnimation
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// float                                   DeltaTimeX                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_Unarmed_C::BlueprintUpdateAnimation(float DeltaTimeX)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_Unarmed_C", "BlueprintUpdateAnimation");
-
-	Params::ABP_Unarmed_C_BlueprintUpdateAnimation Parms{};
-
-	Parms.DeltaTimeX = DeltaTimeX;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -85,23 +50,58 @@ void UABP_Unarmed_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Unarmed_Ani
 }
 
 
-// Function ABP_Unarmed.ABP_Unarmed_C.ExecuteUbergraph_ABP_Unarmed
-// (Final, UbergraphFunction)
+// Function ABP_Unarmed.ABP_Unarmed_C.BlueprintUpdateAnimation
+// (Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaTimeX_BlueprintUpdateAnimation                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UABP_Unarmed_C::ExecuteUbergraph_ABP_Unarmed(int32 EntryPoint)
+void UABP_Unarmed_C::BlueprintUpdateAnimation(float DeltaTimeX_BlueprintUpdateAnimation)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_Unarmed_C", "ExecuteUbergraph_ABP_Unarmed");
+		Func = Class->GetFunction("ABP_Unarmed_C", "BlueprintUpdateAnimation");
 
-	Params::ABP_Unarmed_C_ExecuteUbergraph_ABP_Unarmed Parms{};
+	Params::ABP_Unarmed_C_BlueprintUpdateAnimation Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.DeltaTimeX_BlueprintUpdateAnimation = DeltaTimeX_BlueprintUpdateAnimation;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function ABP_Unarmed.ABP_Unarmed_C.BlueprintInitializeAnimation
+// (Event, Public, BlueprintEvent)
+
+void UABP_Unarmed_C::BlueprintInitializeAnimation()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_Unarmed_C", "BlueprintInitializeAnimation");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_Unarmed.ABP_Unarmed_C.AnimGraph
+// (HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FPoseLink*                       AnimGraph                                              (Parm, OutParm, NoDestructor)
+
+void UABP_Unarmed_C::AnimGraph(struct FPoseLink* AnimGraph)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_Unarmed_C", "AnimGraph");
+
+	Params::ABP_Unarmed_C_AnimGraph Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (AnimGraph != nullptr)
+		*AnimGraph = std::move(Parms.AnimGraph);
 }
 
 

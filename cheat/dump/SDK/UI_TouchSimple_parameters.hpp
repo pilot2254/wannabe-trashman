@@ -16,24 +16,6 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature
-// 0x0010 (0x0010 - 0x0000)
-struct UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature final
-{
-public:
-	struct FVector2D                              NewParam;                                          // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature;
-
-// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick Input__DelegateSignature
-// 0x0010 (0x0010 - 0x0000)
-struct UI_TouchSimple_C_BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature final
-{
-public:
-	struct FVector2D                              NewParam;                                          // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UI_TouchSimple_C_BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature;
-
 // Function UI_TouchSimple.UI_TouchSimple_C.ExecuteUbergraph_UI_TouchSimple
 // 0x00B0 (0x00B0 - 0x0000)
 struct UI_TouchSimple_C_ExecuteUbergraph_UI_TouchSimple final
@@ -61,6 +43,24 @@ public:
 	bool                                          K2Node_DynamicCast_bSuccess_3;                     // 0x00A8(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_UI_TouchSimple_C_ExecuteUbergraph_UI_TouchSimple;
+
+// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick Input__DelegateSignature
+// 0x0010 (0x0010 - 0x0000)
+struct UI_TouchSimple_C_BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature final
+{
+public:
+	struct FVector2D                              NewParam;                                          // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UI_TouchSimple_C_BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature;
+
+// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature
+// 0x0010 (0x0010 - 0x0000)
+struct UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature final
+{
+public:
+	struct FVector2D                              NewParam;                                          // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -27,8 +27,8 @@ public:
 	class UWidgetAnimation*                       Bob;                                               // 0x0358(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, RepSkip, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Construct();
 	void ExecuteUbergraph_WayPoint(int32 EntryPoint);
+	void Construct();
 
 public:
 	static class UClass* StaticClass()

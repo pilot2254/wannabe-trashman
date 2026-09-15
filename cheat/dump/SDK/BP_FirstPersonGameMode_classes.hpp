@@ -6,7 +6,7 @@
 * https://github.com/Encryqed/Dumper-7
 */
 
-// Package: MenuGamemod
+// Package: BP_FirstPersonGameMode
 
 #include "Basic.hpp"
 
@@ -15,9 +15,9 @@
 
 SDK_NAMESPACE_START
 
-// BlueprintGeneratedClass MenuGamemod.MenuGamemod_C
+// BlueprintGeneratedClass BP_FirstPersonGameMode.BP_FirstPersonGameMode_C
 // 0x0008 (0x0348 - 0x0340)
-class AMenuGamemod_C final : public AGameModeBase
+class ABP_FirstPersonGameMode_C final : public AGameModeBase
 {
 public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0340(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -25,17 +25,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("MenuGamemod_C")
+		BP_STATIC_CLASS_IMPL("BP_FirstPersonGameMode_C")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"MenuGamemod_C")
+		STATIC_NAME_IMPL(L"BP_FirstPersonGameMode_C")
 	}
-	static class AMenuGamemod_C* GetDefaultObj()
+	static class ABP_FirstPersonGameMode_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<AMenuGamemod_C>();
+		return GetDefaultObjImpl<ABP_FirstPersonGameMode_C>();
 	}
 };
-DUMPER7_ASSERTS_AMenuGamemod_C;
+DUMPER7_ASSERTS_ABP_FirstPersonGameMode_C;
 
 SDK_NAMESPACE_END

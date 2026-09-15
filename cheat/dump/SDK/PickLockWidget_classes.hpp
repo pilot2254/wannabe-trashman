@@ -31,9 +31,9 @@ public:
 	bool                                          Timed_;                                            // 0x0378(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 
 public:
-	void Construct();
-	void ExecuteUbergraph_PickLockWidget(int32 EntryPoint);
 	void SetText(const struct FLinearColor& Specified_Color, const class FText& Text);
+	void ExecuteUbergraph_PickLockWidget(int32 EntryPoint);
+	void Construct();
 
 public:
 	static class UClass* StaticClass()

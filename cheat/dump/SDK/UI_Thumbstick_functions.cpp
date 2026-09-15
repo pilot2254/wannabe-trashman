@@ -16,68 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function UI_Thumbstick.UI_Thumbstick_C.ExecuteUbergraph_UI_Thumbstick
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UUI_Thumbstick_C::ExecuteUbergraph_UI_Thumbstick(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UI_Thumbstick_C", "ExecuteUbergraph_UI_Thumbstick");
-
-	Params::UI_Thumbstick_C_ExecuteUbergraph_UI_Thumbstick Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function UI_Thumbstick.UI_Thumbstick_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UUI_Thumbstick_C::PreConstruct(bool IsDesignTime)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UI_Thumbstick_C", "PreConstruct");
-
-	Params::UI_Thumbstick_C_PreConstruct Parms{};
-
-	Parms.IsDesignTime = IsDesignTime;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function UI_Thumbstick.UI_Thumbstick_C.Tick
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData, NoDestructor)
-// float                                   InDeltaTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UUI_Thumbstick_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UI_Thumbstick_C", "Tick");
-
-	Params::UI_Thumbstick_C_Tick Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.InDeltaTime = InDeltaTime;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
 // Function UI_Thumbstick.UI_Thumbstick_C.Touch Input Check
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -93,6 +31,68 @@ void UUI_Thumbstick_C::Touch_Input_Check(ETouchIndex FingerIndex)
 	Params::UI_Thumbstick_C_Touch_Input_Check Parms{};
 
 	Parms.FingerIndex = FingerIndex;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UI_Thumbstick.UI_Thumbstick_C.Tick
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry_Tick                                        (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData, NoDestructor)
+// float                                   InDeltaTime_Tick                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UUI_Thumbstick_C::Tick(const struct FGeometry& MyGeometry_Tick, float InDeltaTime_Tick)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_Thumbstick_C", "Tick");
+
+	Params::UI_Thumbstick_C_Tick Parms{};
+
+	Parms.MyGeometry_Tick = std::move(MyGeometry_Tick);
+	Parms.InDeltaTime_Tick = InDeltaTime_Tick;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UI_Thumbstick.UI_Thumbstick_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UUI_Thumbstick_C::PreConstruct(bool IsDesignTime_PreConstruct)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_Thumbstick_C", "PreConstruct");
+
+	Params::UI_Thumbstick_C_PreConstruct Parms{};
+
+	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UI_Thumbstick.UI_Thumbstick_C.ExecuteUbergraph_UI_Thumbstick
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UUI_Thumbstick_C::ExecuteUbergraph_UI_Thumbstick(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_Thumbstick_C", "ExecuteUbergraph_UI_Thumbstick");
+
+	Params::UI_Thumbstick_C_ExecuteUbergraph_UI_Thumbstick Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

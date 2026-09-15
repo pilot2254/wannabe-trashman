@@ -15,6 +15,17 @@
 
 SDK_NAMESPACE_START
 
+// ScriptStruct NPCUnarmed.NPCUnarmed_C.AnimBlueprintGeneratedMutableData
+// 0x000B (0x000C - 0x0001)
+struct NPCUnarmed::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+public:
+	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	float                                         __FloatProperty;                                   // 0x0004(0x0004)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         __FloatProperty_0;                                 // 0x0008(0x0004)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPCUnarmed__FAnimBlueprintGeneratedMutableData;
+
 // ScriptStruct NPCUnarmed.NPCUnarmed_C.AnimBlueprintGeneratedConstantData
 // 0x032F (0x0330 - 0x0001)
 struct NPCUnarmed::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -52,16 +63,5 @@ public:
 	struct FAnimNodeExposedValueHandler_PropertyAccess AnimGraphNode_Slot;                           // 0x0300(0x0030)()
 };
 DUMPER7_ASSERTS_NPCUnarmed__FAnimBlueprintGeneratedConstantData;
-
-// ScriptStruct NPCUnarmed.NPCUnarmed_C.AnimBlueprintGeneratedMutableData
-// 0x000B (0x000C - 0x0001)
-struct NPCUnarmed::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-public:
-	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	float                                         __FloatProperty;                                   // 0x0004(0x0004)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         __FloatProperty_0;                                 // 0x0008(0x0004)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPCUnarmed__FAnimBlueprintGeneratedMutableData;
 
 SDK_NAMESPACE_END

@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "E_Difficulty_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
+#include "E_Difficulty_structs.hpp"
 
 
 SDK_NAMESPACE_START
@@ -28,7 +28,7 @@ public:
 	ETimelineDirection                            Timeline_0__Direction_4BCE058B4CBE035000547CB2FBB6825C; // 0x02BC(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_2BD[0x3];                                      // 0x02BD(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	class UTimelineComponent*                     Timeline_0;                                        // 0x02C0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 Parrent;                                           // 0x02C8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	class AActor*                                 parrent;                                           // 0x02C8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	E_Difficulty                                  Difficulty;                                        // 0x02D0(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	uint8                                         Pad_2D1[0x7];                                      // 0x02D1(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class UAudioComponent*                        DragKeySound;                                      // 0x02D8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
@@ -39,31 +39,31 @@ public:
 	bool                                          Pressed;                                           // 0x02F1(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Adrenaline_(int32 Amount___Max_3);
-	void CloseLockPICK();
-	void ExecuteUbergraph_PickLockminigame2(int32 EntryPoint);
-	void InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void KukamNaTeba(bool NE);
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
-	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds);
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Set_Difficulty();
-	void Spawnol_som_smeti();
-	void Stop_timerEvent();
-	void Timeline_0__FinishedFunc();
-	void Timeline_0__UpdateFunc();
-	void Ukončil_som_Pickup_Predčasne();
-	void UnlockLockPick();
-	void Zavri_ma_ak_som_locked_area();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
 	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void Zavri_ma_ak_som_locked_area();
+	void UnlockLockPick();
+	void Ukončil_som_Pickup_Predčasne();
+	void Timeline_0__UpdateFunc();
+	void Timeline_0__FinishedFunc();
+	void Stop_timerEvent();
+	void Spawnol_som_smeti();
+	void Set_difficulty();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveTick(float DeltaSeconds_ReceiveTick);
+	void ReceiveBeginPlay();
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void KukamNaTeba(bool NE);
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void ExecuteUbergraph_PickLockminigame2(int32 EntryPoint);
+	void CloseLockPICK();
+	void Adrenaline_(int32 Amount___Max_3);
 
 public:
 	static class UClass* StaticClass()

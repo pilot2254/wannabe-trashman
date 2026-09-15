@@ -29,9 +29,9 @@ public:
 	int32                                         Distance;                                          // 0x02D0(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_Marker(int32 EntryPoint);
-	void ReceiveBeginPlay();
 	void Tick();
+	void ReceiveBeginPlay();
+	void ExecuteUbergraph_Marker(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

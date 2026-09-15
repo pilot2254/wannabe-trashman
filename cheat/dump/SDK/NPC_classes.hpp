@@ -42,21 +42,21 @@ public:
 	float                                         Ako_Daleko_Mozem_ist;                              // 0x070C(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 
 public:
-	void BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
-	void BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
-	void CheckDistance();
-	void ExecuteUbergraph_NPC(int32 EntryPoint);
-	void OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41(EPathFollowingResult MovementResult);
-	void OnFail_FFFAA3F641203E541F30149A108FCDE0(EPathFollowingResult MovementResult);
-	void OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63(EPathFollowingResult Result, class AAIController* AIController);
-	void OnRequestFailed_B5774A844C876608FB4F00B3DAD9BA63();
-	void OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41(EPathFollowingResult MovementResult);
-	void OnSuccess_FFFAA3F641203E541F30149A108FCDE0(EPathFollowingResult MovementResult);
-	void Particle();
-	void Pohni_sa_inde();
-	void ReceiveBeginPlay();
-	void UserConstructionScript();
 	void ZHOD_HO_S_HUDKA();
+	void UserConstructionScript();
+	void ReceiveBeginPlay();
+	void Pohni_sa_inde();
+	void Particle();
+	void OnSuccess_FFFAA3F641203E541F30149A108FCDE0(EPathFollowingResult MovementResult);
+	void OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41(EPathFollowingResult MovementResult);
+	void OnRequestFailed_B5774A844C876608FB4F00B3DAD9BA63();
+	void OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63(EPathFollowingResult Result, class AAIController* AIController);
+	void OnFail_FFFAA3F641203E541F30149A108FCDE0(EPathFollowingResult MovementResult);
+	void OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41(EPathFollowingResult MovementResult);
+	void ExecuteUbergraph_NPC(int32 EntryPoint);
+	void CheckDistance();
+	void BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
+	void BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
 
 public:
 	static class UClass* StaticClass()

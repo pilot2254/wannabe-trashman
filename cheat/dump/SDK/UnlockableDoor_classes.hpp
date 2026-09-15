@@ -51,37 +51,37 @@ public:
 	struct FTimerHandle                           TimeLockHandle;                                    // 0x0340(0x0008)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Adrenaline_(int32 Amount___Max_3);
-	void BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
-	void BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-	void ExecuteUbergraph_UnlockableDoor(int32 EntryPoint);
-	void Get_The_player_out();
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void KukamNaTeba(bool NE);
-	void On_load_game();
-	void Close(bool Condition);
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
-	void ReceiveBeginPlay();
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Unlocked_Tag();
-	void Set_Timer_Text(int32 Value);
-	void Spawnol_som_smeti();
-	void Stop_timerEvent();
-	void Timeline_0__FinishedFunc();
-	void Timeline_0__UpdateFunc();
-	void Timeline__FinishedFunc();
-	void Timeline__UpdateFunc();
-	void TimerForUnlock();
-	void Ukončil_som_Pickup_Predčasne();
-	void UnlockLockPick();
-	void UserConstructionScript();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0);
-	void Zobral_som_odpadok();
 	void Čas_left();
+	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void UserConstructionScript();
+	void UnlockLockPick();
+	void Ukončil_som_Pickup_Predčasne();
+	void TimerForUnlock();
+	void Timeline__UpdateFunc();
+	void Timeline__FinishedFunc();
+	void Timeline_0__UpdateFunc();
+	void Timeline_0__FinishedFunc();
+	void Stop_timerEvent();
+	void Spawnol_som_smeti();
+	void Set_Timer_Text(int32 Value);
+	void Unlocked_Tag();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveBeginPlay();
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void Close(bool Condition);
+	void On_load_game();
+	void KukamNaTeba(bool NE);
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void Get_The_player_out();
+	void ExecuteUbergraph_UnlockableDoor(int32 EntryPoint);
+	void BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	void BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
+	void Adrenaline_(int32 Amount___Max_3);
 
 public:
 	static class UClass* StaticClass()

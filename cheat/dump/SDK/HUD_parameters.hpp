@@ -18,43 +18,97 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function HUD.HUD_C.BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature
-// 0x0018 (0x0018 - 0x0000)
-struct HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature final
-{
-public:
-	class FString                                 SelectedItem;                                      // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-	ESelectInfo                                   SelectionType;                                     // 0x0010(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature;
-
-// Function HUD.HUD_C.BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature
+// Function HUD.HUD_C.Update time till close gate
 // 0x0004 (0x0004 - 0x0000)
-struct HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature final
+struct HUD_C_Update_time_till_close_gate final
 {
 public:
-	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Time_left;                                         // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature;
+DUMPER7_ASSERTS_HUD_C_Update_time_till_close_gate;
 
-// Function HUD.HUD_C.BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature
+// Function HUD.HUD_C.PopupText
+// 0x0020 (0x0020 - 0x0000)
+struct HUD_C_PopupText final
+{
+public:
+	class FText                                   Text;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm)
+	struct FWidgetAnimationHandle                 CallFunc_PlayAnimation_ReturnValue;                // 0x0010(0x0010)(NoDestructor, ContainsInstancedReference, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_HUD_C_PopupText;
+
+// Function HUD.HUD_C.Play Upgrade sound
+// 0x0010 (0x0010 - 0x0000)
+struct HUD_C_Play_Upgrade_sound final
+{
+public:
+	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0000(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_HUD_C_Play_Upgrade_sound;
+
+// Function HUD.HUD_C.OnGenerateWidget
+// 0x0030 (0x0030 - 0x0000)
+struct HUD_C_OnGenerateWidget final
+{
+public:
+	class FString                                 Item;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+	class UWidget*                                ReturnValue;                                       // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0018(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class FText                                   CallFunc_Conv_StringToText_ReturnValue;            // 0x0020(0x0010)()
+};
+DUMPER7_ASSERTS_HUD_C_OnGenerateWidget;
+
+// Function HUD.HUD_C.OnGenerateItemWidget
+// 0x0028 (0x0028 - 0x0000)
+struct HUD_C_OnGenerateItemWidget final
+{
+public:
+	class FName                                   Item;                                              // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UWidget*                                ReturnValue;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0010(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class FText                                   CallFunc_Conv_NameToText_ReturnValue;              // 0x0018(0x0010)()
+};
+DUMPER7_ASSERTS_HUD_C_OnGenerateItemWidget;
+
+// Function HUD.HUD_C.On_PostProcessingPreset_GenerateWidget
+// 0x0030 (0x0030 - 0x0000)
+struct HUD_C_On_PostProcessingPreset_GenerateWidget final
+{
+public:
+	class FString                                 Item;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+	class UWidget*                                ReturnValue;                                       // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0018(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class FText                                   CallFunc_Conv_StringToText_ReturnValue;            // 0x0020(0x0010)()
+};
+DUMPER7_ASSERTS_HUD_C_On_PostProcessingPreset_GenerateWidget;
+
+// Function HUD.HUD_C.Mam na to €?
 // 0x0018 (0x0018 - 0x0000)
-struct HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature final
+struct HUD_C_Mam_na_to___ final
 {
 public:
-	class FString                                 SelectedItem;                                      // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-	ESelectInfo                                   SelectionType;                                     // 0x0010(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Cena;                                              // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          _;                                                 // 0x0004(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	int32                                         Nová_cena;                                         // 0x0008(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         CallFunc_Multiply_IntInt_ReturnValue;              // 0x000C(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_GreaterEqual_IntInt_ReturnValue;          // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_11[0x3];                                       // 0x0011(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x0014(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature;
+DUMPER7_ASSERTS_HUD_C_Mam_na_to___;
 
-// Function HUD.HUD_C.BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature
-// 0x0004 (0x0004 - 0x0000)
-struct HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature final
+// Function HUD.HUD_C.LoadVolume
+// 0x0008 (0x0008 - 0x0000)
+struct HUD_C_LoadVolume final
 {
 public:
-	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         SoundEffectsVolume;                                // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         MusicVolume;                                       // 0x0004(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature;
+DUMPER7_ASSERTS_HUD_C_LoadVolume;
 
 // Function HUD.HUD_C.ExecuteUbergraph_HUD
 // 0x01C8 (0x01C8 - 0x0000)
@@ -108,97 +162,43 @@ public:
 };
 DUMPER7_ASSERTS_HUD_C_ExecuteUbergraph_HUD;
 
-// Function HUD.HUD_C.LoadVolume
-// 0x0008 (0x0008 - 0x0000)
-struct HUD_C_LoadVolume final
-{
-public:
-	float                                         SoundEffectsVolume_0;                              // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         MusicVolume_0;                                     // 0x0004(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_HUD_C_LoadVolume;
-
-// Function HUD.HUD_C.Mam na to €?
-// 0x0018 (0x0018 - 0x0000)
-struct HUD_C_Mam_na_to___ final
-{
-public:
-	int32                                         Cena;                                              // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          _;                                                 // 0x0004(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         Nová_cena;                                         // 0x0008(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         CallFunc_Multiply_IntInt_ReturnValue;              // 0x000C(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_GreaterEqual_IntInt_ReturnValue;          // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_11[0x3];                                       // 0x0011(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x0014(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_HUD_C_Mam_na_to___;
-
-// Function HUD.HUD_C.On_PostProcessingPreset_GenerateWidget
-// 0x0030 (0x0030 - 0x0000)
-struct HUD_C_On_PostProcessingPreset_GenerateWidget final
-{
-public:
-	class FString                                 Item;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-	class UWidget*                                ReturnValue;                                       // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0018(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class FText                                   CallFunc_Conv_StringToText_ReturnValue;            // 0x0020(0x0010)()
-};
-DUMPER7_ASSERTS_HUD_C_On_PostProcessingPreset_GenerateWidget;
-
-// Function HUD.HUD_C.OnGenerateItemWidget
-// 0x0028 (0x0028 - 0x0000)
-struct HUD_C_OnGenerateItemWidget final
-{
-public:
-	class FName                                   Item;                                              // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class UWidget*                                ReturnValue;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0010(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class FText                                   CallFunc_Conv_NameToText_ReturnValue;              // 0x0018(0x0010)()
-};
-DUMPER7_ASSERTS_HUD_C_OnGenerateItemWidget;
-
-// Function HUD.HUD_C.OnGenerateWidget
-// 0x0030 (0x0030 - 0x0000)
-struct HUD_C_OnGenerateWidget final
-{
-public:
-	class FString                                 Item;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-	class UWidget*                                ReturnValue;                                       // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class UTextBlock_C*                           CallFunc_Create_ReturnValue;                       // 0x0018(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class FText                                   CallFunc_Conv_StringToText_ReturnValue;            // 0x0020(0x0010)()
-};
-DUMPER7_ASSERTS_HUD_C_OnGenerateWidget;
-
-// Function HUD.HUD_C.Play Upgrade sound
-// 0x0010 (0x0010 - 0x0000)
-struct HUD_C_Play_Upgrade_sound final
-{
-public:
-	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0000(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_HUD_C_Play_Upgrade_sound;
-
-// Function HUD.HUD_C.PopupText
-// 0x0020 (0x0020 - 0x0000)
-struct HUD_C_PopupText final
-{
-public:
-	class FText                                   Text;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm)
-	struct FWidgetAnimationHandle                 CallFunc_PlayAnimation_ReturnValue;                // 0x0010(0x0010)(NoDestructor, ContainsInstancedReference, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_HUD_C_PopupText;
-
-// Function HUD.HUD_C.Update time till close gate
+// Function HUD.HUD_C.BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature
 // 0x0004 (0x0004 - 0x0000)
-struct HUD_C_Update_time_till_close_gate final
+struct HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature final
 {
 public:
-	int32                                         Time_left;                                         // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_HUD_C_Update_time_till_close_gate;
+DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature;
+
+// Function HUD.HUD_C.BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature
+// 0x0018 (0x0018 - 0x0000)
+struct HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature final
+{
+public:
+	class FString                                 SelectedItem;                                      // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+	ESelectInfo                                   SelectionType;                                     // 0x0010(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature;
+
+// Function HUD.HUD_C.BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature
+// 0x0004 (0x0004 - 0x0000)
+struct HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature final
+{
+public:
+	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature;
+
+// Function HUD.HUD_C.BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature
+// 0x0018 (0x0018 - 0x0000)
+struct HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature final
+{
+public:
+	class FString                                 SelectedItem;                                      // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+	ESelectInfo                                   SelectionType;                                     // 0x0010(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

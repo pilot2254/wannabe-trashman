@@ -10,30 +10,28 @@
 
 #include "Basic.hpp"
 
-#include "GlovesUpgrades_structs.hpp"
 #include "BootsUpgrade_structs.hpp"
 #include "Engine_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "UMG_structs.hpp"
-#include "SlateCore_structs.hpp"
 #include "invnetoryUpgrades_structs.hpp"
+#include "SlateCore_structs.hpp"
+#include "GlovesUpgrades_structs.hpp"
 
 
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function UpgradeHUD.UpgradeHUD_C.DoPlayer Have Money?
-// 0x000C (0x000C - 0x0000)
-struct UpgradeHUD_C_DoPlayer_Have_Money_ final
+// Function UpgradeHUD.UpgradeHUD_C.Play Sound
+// 0x0018 (0x0018 - 0x0000)
+struct UpgradeHUD_C_Play_Sound final
 {
 public:
-	int32                                         Price;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          no;                                                // 0x0004(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_GreaterEqual_IntInt_ReturnValue;          // 0x0005(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_6[0x2];                                        // 0x0006(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x0008(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundBase*                             Sound;                                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_UpgradeHUD_C_DoPlayer_Have_Money_;
+DUMPER7_ASSERTS_UpgradeHUD_C_Play_Sound;
 
 // Function UpgradeHUD.UpgradeHUD_C.ExecuteUbergraph_UpgradeHUD
 // 0x0900 (0x0900 - 0x0000)
@@ -122,16 +120,18 @@ public:
 };
 DUMPER7_ASSERTS_UpgradeHUD_C_ExecuteUbergraph_UpgradeHUD;
 
-// Function UpgradeHUD.UpgradeHUD_C.Play Sound
-// 0x0018 (0x0018 - 0x0000)
-struct UpgradeHUD_C_Play_Sound final
+// Function UpgradeHUD.UpgradeHUD_C.DoPlayer Have Money?
+// 0x000C (0x000C - 0x0000)
+struct UpgradeHUD_C_DoPlayer_Have_Money_ final
 {
 public:
-	class USoundBase*                             Sound;                                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Price;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          no;                                                // 0x0004(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_GreaterEqual_IntInt_ReturnValue;          // 0x0005(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_6[0x2];                                        // 0x0006(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
+	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x0008(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_UpgradeHUD_C_Play_Sound;
+DUMPER7_ASSERTS_UpgradeHUD_C_DoPlayer_Have_Money_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -18,14 +18,18 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature
-// 0x0004 (0x0004 - 0x0000)
-struct W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature final
+// Function W_DonutStore.W_DonutStore_C.SetShopStatus
+// 0x0040 (0x0040 - 0x0000)
+struct W_DonutStore_C_SetShopStatus final
 {
 public:
-	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          BoughSupplies_;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor;                      // 0x0004(0x0014)()
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor_1;                    // 0x0018(0x0014)()
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor_2;                    // 0x002C(0x0014)()
 };
-DUMPER7_ASSERTS_W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature;
+DUMPER7_ASSERTS_W_DonutStore_C_SetShopStatus;
 
 // Function W_DonutStore.W_DonutStore_C.ExecuteUbergraph_W_DonutStore
 // 0x02E0 (0x02E0 - 0x0000)
@@ -93,18 +97,14 @@ public:
 };
 DUMPER7_ASSERTS_W_DonutStore_C_ExecuteUbergraph_W_DonutStore;
 
-// Function W_DonutStore.W_DonutStore_C.SetShopStatus
-// 0x0040 (0x0040 - 0x0000)
-struct W_DonutStore_C_SetShopStatus final
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature
+// 0x0004 (0x0004 - 0x0000)
+struct W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature final
 {
 public:
-	bool                                          BoughSupplies_;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor;                      // 0x0004(0x0014)()
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor_1;                    // 0x0018(0x0014)()
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor_2;                    // 0x002C(0x0014)()
+	float                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_W_DonutStore_C_SetShopStatus;
+DUMPER7_ASSERTS_W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -31,11 +31,11 @@ public:
 	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0378(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void HidePB();
-	void Set_(double Percent_0, class USoundBase* Sound, double Kedy_zrychlit, bool* done_);
-	void PreConstruct(bool IsDesignTime);
-	void End_PB();
 	void ExecuteUbergraph_WB_RoundProgressBar(int32 EntryPoint);
+	void End_PB();
+	void PreConstruct(bool IsDesignTime_PreConstruct);
+	void Set_(double Percent, class USoundBase* Sound, double Kedy_zrychlit, bool* done_);
+	void HidePB();
 
 public:
 	static class UClass* StaticClass()

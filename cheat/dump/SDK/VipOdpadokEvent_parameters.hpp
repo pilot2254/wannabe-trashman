@@ -18,14 +18,113 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct VipOdpadokEvent_C_Adrenaline_ final
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ZiskajHraca
+// 0x0008 (0x0008 - 0x0000)
+struct VipOdpadokEvent_C_ZiskajHraca final
 {
 public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_VipOdpadokEvent_C_Adrenaline_;
+DUMPER7_ASSERTS_VipOdpadokEvent_C_ZiskajHraca;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.UserConstructionScript
+// 0x0020 (0x0020 - 0x0000)
+struct VipOdpadokEvent_C_UserConstructionScript final
+{
+public:
+	double                                        CallFunc_RandomFloatInRange_ReturnValue;           // 0x0000(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_SetStaticMesh_ReturnValue;                // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        CallFunc_RandomFloatInRange_ReturnValue_1;         // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        CallFunc_RandomFloatInRange_ReturnValue_2;         // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_UserConstructionScript;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Unesiem to?
+// 0x0018 (0x0018 - 0x0000)
+struct VipOdpadokEvent_C_Unesiem_to_ final
+{
+public:
+	bool                                          ReturnValue;                                       // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_LessEqual_DoubleDouble_ReturnValue;       // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_Unesiem_to_;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct VipOdpadokEvent_C_Refka_na_Progressbar final
+{
+public:
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_Refka_na_Progressbar;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct VipOdpadokEvent_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_PosliHodnotuLootu;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct VipOdpadokEvent_C_KukamNaTeba final
+{
+public:
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_KukamNaTeba;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Kolko je spawned smeti?
+// 0x0008 (0x0008 - 0x0000)
+struct VipOdpadokEvent_C_Kolko_je_spawned_smeti_ final
+{
+public:
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_Kolko_je_spawned_smeti_;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.InterakciaHold
+// 0x0008 (0x0008 - 0x0000)
+struct VipOdpadokEvent_C_InterakciaHold final
+{
+public:
+	double                                        Kolko_Drzim;                                       // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_InterakciaHold;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.find look at
+// 0x01C0 (0x01C0 - 0x0000)
+struct VipOdpadokEvent_C_find_look_at final
+{
+public:
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0000(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class USceneComponent*                        CallFunc_K2_GetRootComponent_ReturnValue;          // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	struct FRotator                               CallFunc_K2_GetComponentRotation_ReturnValue;      // 0x0010(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	struct FVector                                CallFunc_K2_GetComponentLocation_ReturnValue;      // 0x0028(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_BreakRotator_Roll;                        // 0x0040(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_BreakRotator_Pitch;                       // 0x0044(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_BreakRotator_Yaw;                         // 0x0048(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_4C[0x4];                                       // 0x004C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FVector                                CallFunc_K2_GetComponentLocation_ReturnValue_1;    // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FRotator                               CallFunc_FindLookAtRotation_ReturnValue;           // 0x0068(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                         CallFunc_BreakRotator_Roll_1;                      // 0x0080(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_BreakRotator_Pitch_1;                     // 0x0084(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_BreakRotator_Yaw_1;                       // 0x0088(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_8C[0x4];                                       // 0x008C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0090(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FRotator                               CallFunc_MakeRotator_ReturnValue;                  // 0x0098(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	struct FHitResult                             CallFunc_K2_SetWorldRotation_SweepHitResult;       // 0x00B0(0x0100)(IsPlainOldData, NoDestructor, ContainsInstancedReference)
+	double                                        CallFunc_Add_DoubleDouble_A_ImplicitCast;          // 0x01B0(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_MakeRotator_Yaw_ImplicitCast;             // 0x01B8(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_VipOdpadokEvent_C_find_look_at;
 
 // Function VipOdpadokEvent.VipOdpadokEvent_C.ExecuteUbergraph_VipOdpadokEvent
 // 0x0470 (0x0470 - 0x0000)
@@ -93,113 +192,14 @@ public:
 };
 DUMPER7_ASSERTS_VipOdpadokEvent_C_ExecuteUbergraph_VipOdpadokEvent;
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.find look at
-// 0x01C0 (0x01C0 - 0x0000)
-struct VipOdpadokEvent_C_find_look_at final
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct VipOdpadokEvent_C_Adrenaline_ final
 {
 public:
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0000(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class USceneComponent*                        CallFunc_K2_GetRootComponent_ReturnValue;          // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	struct FRotator                               CallFunc_K2_GetComponentRotation_ReturnValue;      // 0x0010(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
-	struct FVector                                CallFunc_K2_GetComponentLocation_ReturnValue;      // 0x0028(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_BreakRotator_Roll;                        // 0x0040(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_BreakRotator_Pitch;                       // 0x0044(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_BreakRotator_Yaw;                         // 0x0048(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_4C[0x4];                                       // 0x004C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FVector                                CallFunc_K2_GetComponentLocation_ReturnValue_1;    // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FRotator                               CallFunc_FindLookAtRotation_ReturnValue;           // 0x0068(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
-	float                                         CallFunc_BreakRotator_Roll_1;                      // 0x0080(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_BreakRotator_Pitch_1;                     // 0x0084(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_BreakRotator_Yaw_1;                       // 0x0088(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_8C[0x4];                                       // 0x008C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0090(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FRotator                               CallFunc_MakeRotator_ReturnValue;                  // 0x0098(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor)
-	struct FHitResult                             CallFunc_K2_SetWorldRotation_SweepHitResult;       // 0x00B0(0x0100)(IsPlainOldData, NoDestructor, ContainsInstancedReference)
-	double                                        CallFunc_Add_DoubleDouble_A_ImplicitCast;          // 0x01B0(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_MakeRotator_Yaw_ImplicitCast;             // 0x01B8(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_VipOdpadokEvent_C_find_look_at;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.InterakciaHold
-// 0x0008 (0x0008 - 0x0000)
-struct VipOdpadokEvent_C_InterakciaHold final
-{
-public:
-	double                                        Kolko_Drzim_0;                                     // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_InterakciaHold;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Kolko je spawned smeti?
-// 0x0008 (0x0008 - 0x0000)
-struct VipOdpadokEvent_C_Kolko_je_spawned_smeti_ final
-{
-public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_Kolko_je_spawned_smeti_;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct VipOdpadokEvent_C_KukamNaTeba final
-{
-public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_KukamNaTeba;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct VipOdpadokEvent_C_PosliHodnotuLootu final
-{
-public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota_0;                                         // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_PosliHodnotuLootu;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Refka na Progressbar
-// 0x0008 (0x0008 - 0x0000)
-struct VipOdpadokEvent_C_Refka_na_Progressbar final
-{
-public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_Refka_na_Progressbar;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Unesiem to?
-// 0x0018 (0x0018 - 0x0000)
-struct VipOdpadokEvent_C_Unesiem_to_ final
-{
-public:
-	bool                                          ReturnValue;                                       // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_LessEqual_DoubleDouble_ReturnValue;       // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_Unesiem_to_;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.UserConstructionScript
-// 0x0020 (0x0020 - 0x0000)
-struct VipOdpadokEvent_C_UserConstructionScript final
-{
-public:
-	double                                        CallFunc_RandomFloatInRange_ReturnValue;           // 0x0000(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_SetStaticMesh_ReturnValue;                // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        CallFunc_RandomFloatInRange_ReturnValue_1;         // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        CallFunc_RandomFloatInRange_ReturnValue_2;         // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_UserConstructionScript;
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct VipOdpadokEvent_C_ZiskajHraca final
-{
-public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_VipOdpadokEvent_C_ZiskajHraca;
+DUMPER7_ASSERTS_VipOdpadokEvent_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -17,55 +17,33 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function StockSeller.StockSeller_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct StockSeller_C_Adrenaline_ final
-{
-public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_StockSeller_C_Adrenaline_;
-
-// Function StockSeller.StockSeller_C.ExecuteUbergraph_StockSeller
-// 0x0090 (0x0090 - 0x0000)
-struct StockSeller_C_ExecuteUbergraph_StockSeller final
-{
-public:
-	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_Event_Ano_NE;                               // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        K2Node_Event_V_ha_kg;                              // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        K2Node_Event_Hodnota;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_K2_GetComponentScale_ReturnValue;         // 0x0020(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_Add_VectorVector_ReturnValue;             // 0x0038(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_VLerp_ReturnValue;                        // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0068(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0070(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0080(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_81[0x7];                                       // 0x0081(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0088(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_StockSeller_C_ExecuteUbergraph_StockSeller;
-
-// Function StockSeller.StockSeller_C.Kolko je spawned smeti?
+// Function StockSeller.StockSeller_C.ZiskajHraca
 // 0x0008 (0x0008 - 0x0000)
-struct StockSeller_C_Kolko_je_spawned_smeti_ final
+struct StockSeller_C_ZiskajHraca final
 {
 public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_StockSeller_C_Kolko_je_spawned_smeti_;
+DUMPER7_ASSERTS_StockSeller_C_ZiskajHraca;
 
-// Function StockSeller.StockSeller_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct StockSeller_C_KukamNaTeba final
+// Function StockSeller.StockSeller_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct StockSeller_C_Refka_na_Progressbar final
 {
 public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_StockSeller_C_KukamNaTeba;
+DUMPER7_ASSERTS_StockSeller_C_Refka_na_Progressbar;
+
+// Function StockSeller.StockSeller_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct StockSeller_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_StockSeller_C_PosliHodnotuLootu;
 
 // Function StockSeller.StockSeller_C.lookat
 // 0x01C8 (0x01C8 - 0x0000)
@@ -96,33 +74,55 @@ public:
 };
 DUMPER7_ASSERTS_StockSeller_C_lookat;
 
-// Function StockSeller.StockSeller_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct StockSeller_C_PosliHodnotuLootu final
+// Function StockSeller.StockSeller_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct StockSeller_C_KukamNaTeba final
 {
 public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_StockSeller_C_PosliHodnotuLootu;
+DUMPER7_ASSERTS_StockSeller_C_KukamNaTeba;
 
-// Function StockSeller.StockSeller_C.Refka na Progressbar
+// Function StockSeller.StockSeller_C.Kolko je spawned smeti?
 // 0x0008 (0x0008 - 0x0000)
-struct StockSeller_C_Refka_na_Progressbar final
+struct StockSeller_C_Kolko_je_spawned_smeti_ final
 {
 public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_StockSeller_C_Refka_na_Progressbar;
+DUMPER7_ASSERTS_StockSeller_C_Kolko_je_spawned_smeti_;
 
-// Function StockSeller.StockSeller_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct StockSeller_C_ZiskajHraca final
+// Function StockSeller.StockSeller_C.ExecuteUbergraph_StockSeller
+// 0x0090 (0x0090 - 0x0000)
+struct StockSeller_C_ExecuteUbergraph_StockSeller final
 {
 public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_Event_Ano_NE;                               // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        K2Node_Event_V_ha_kg;                              // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        K2Node_Event_Hodnota;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_K2_GetComponentScale_ReturnValue;         // 0x0020(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_Add_VectorVector_ReturnValue;             // 0x0038(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_VLerp_ReturnValue;                        // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0068(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0070(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0080(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_81[0x7];                                       // 0x0081(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0088(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_StockSeller_C_ZiskajHraca;
+DUMPER7_ASSERTS_StockSeller_C_ExecuteUbergraph_StockSeller;
+
+// Function StockSeller.StockSeller_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct StockSeller_C_Adrenaline_ final
+{
+public:
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_StockSeller_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

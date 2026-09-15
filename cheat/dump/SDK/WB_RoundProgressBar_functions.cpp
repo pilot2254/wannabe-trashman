@@ -16,63 +16,21 @@
 
 SDK_NAMESPACE_START
 
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.HidePB
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UWB_RoundProgressBar_C::HidePB()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WB_RoundProgressBar_C", "HidePB");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.Set%
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.ExecuteUbergraph_WB_RoundProgressBar
+// (Final, UbergraphFunction, HasDefaults)
 // Parameters:
-// double                                  Percent_0                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundBase*                       Sound                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-// double                                  Kedy_zrychlit                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool*                                   done_                                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UWB_RoundProgressBar_C::Set_(double Percent_0, class USoundBase* Sound, double Kedy_zrychlit, bool* done_)
+void UWB_RoundProgressBar_C::ExecuteUbergraph_WB_RoundProgressBar(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WB_RoundProgressBar_C", "Set%");
+		Func = Class->GetFunction("WB_RoundProgressBar_C", "ExecuteUbergraph_WB_RoundProgressBar");
 
-	Params::WB_RoundProgressBar_C_Set_ Parms{};
+	Params::WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar Parms{};
 
-	Parms.Percent_0 = Percent_0;
-	Parms.Sound = Sound;
-	Parms.Kedy_zrychlit = Kedy_zrychlit;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (done_ != nullptr)
-		*done_ = Parms.done_;
-}
-
-
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UWB_RoundProgressBar_C::PreConstruct(bool IsDesignTime)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WB_RoundProgressBar_C", "PreConstruct");
-
-	Params::WB_RoundProgressBar_C_PreConstruct Parms{};
-
-	Parms.IsDesignTime = IsDesignTime;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -92,23 +50,65 @@ void UWB_RoundProgressBar_C::End_PB()
 }
 
 
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.ExecuteUbergraph_WB_RoundProgressBar
-// (Final, UbergraphFunction, HasDefaults)
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UWB_RoundProgressBar_C::ExecuteUbergraph_WB_RoundProgressBar(int32 EntryPoint)
+void UWB_RoundProgressBar_C::PreConstruct(bool IsDesignTime_PreConstruct)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WB_RoundProgressBar_C", "ExecuteUbergraph_WB_RoundProgressBar");
+		Func = Class->GetFunction("WB_RoundProgressBar_C", "PreConstruct");
 
-	Params::WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar Parms{};
+	Params::WB_RoundProgressBar_C_PreConstruct Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.Set%
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Percent                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundBase*                       Sound                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// double                                  Kedy_zrychlit                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool*                                   done_                                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWB_RoundProgressBar_C::Set_(double Percent, class USoundBase* Sound, double Kedy_zrychlit, bool* done_)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WB_RoundProgressBar_C", "Set%");
+
+	Params::WB_RoundProgressBar_C_Set_ Parms{};
+
+	Parms.Percent = Percent;
+	Parms.Sound = Sound;
+	Parms.Kedy_zrychlit = Kedy_zrychlit;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (done_ != nullptr)
+		*done_ = Parms.done_;
+}
+
+
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.HidePB
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UWB_RoundProgressBar_C::HidePB()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WB_RoundProgressBar_C", "HidePB");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

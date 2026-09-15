@@ -14,6 +14,28 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
+// Function Inventorik.Inventorik_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct Inventorik_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds_ReceiveTick;                          // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_Inventorik_C_ReceiveTick;
+
+// Function Inventorik.Inventorik_C.Pridaj mi do inv
+// 0x0028 (0x0028 - 0x0000)
+struct Inventorik_C_Pridaj_mi_do_inv final
+{
+public:
+	double                                        Hodnota_lootu;                                     // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        kg;                                                // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        CallFunc_Multiply_DoubleDouble_ReturnValue;        // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        CallFunc_Add_DoubleDouble_ReturnValue_1;           // 0x0020(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_Inventorik_C_Pridaj_mi_do_inv;
+
 // Function Inventorik.Inventorik_C.ExecuteUbergraph_Inventorik
 // 0x0038 (0x0038 - 0x0000)
 struct Inventorik_C_ExecuteUbergraph_Inventorik final
@@ -29,28 +51,6 @@ public:
 	float                                         K2Node_Event_DeltaSeconds;                         // 0x0030(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_Inventorik_C_ExecuteUbergraph_Inventorik;
-
-// Function Inventorik.Inventorik_C.Pridaj mi do inv
-// 0x0028 (0x0028 - 0x0000)
-struct Inventorik_C_Pridaj_mi_do_inv final
-{
-public:
-	double                                        Hodnota_lootu_0;                                   // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        kg_0;                                              // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        CallFunc_Multiply_DoubleDouble_ReturnValue;        // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        CallFunc_Add_DoubleDouble_ReturnValue;             // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        CallFunc_Add_DoubleDouble_ReturnValue_1;           // 0x0020(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_Inventorik_C_Pridaj_mi_do_inv;
-
-// Function Inventorik.Inventorik_C.ReceiveTick
-// 0x0004 (0x0004 - 0x0000)
-struct Inventorik_C_ReceiveTick final
-{
-public:
-	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_Inventorik_C_ReceiveTick;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -16,14 +16,85 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function PickLockminigame2.PickLockminigame2_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct PickLockminigame2_C_Adrenaline_ final
+// Function PickLockminigame2.PickLockminigame2_C.ZiskajHraca
+// 0x0008 (0x0008 - 0x0000)
+struct PickLockminigame2_C_ZiskajHraca final
 {
 public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_PickLockminigame2_C_Adrenaline_;
+DUMPER7_ASSERTS_PickLockminigame2_C_ZiskajHraca;
+
+// Function PickLockminigame2.PickLockminigame2_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct PickLockminigame2_C_Refka_na_Progressbar final
+{
+public:
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_Refka_na_Progressbar;
+
+// Function PickLockminigame2.PickLockminigame2_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct PickLockminigame2_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds_ReceiveTick;                          // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_ReceiveTick;
+
+// Function PickLockminigame2.PickLockminigame2_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct PickLockminigame2_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_PosliHodnotuLootu;
+
+// Function PickLockminigame2.PickLockminigame2_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct PickLockminigame2_C_KukamNaTeba final
+{
+public:
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_KukamNaTeba;
+
+// Function PickLockminigame2.PickLockminigame2_C.Kolko je spawned smeti?
+// 0x0008 (0x0008 - 0x0000)
+struct PickLockminigame2_C_Kolko_je_spawned_smeti_ final
+{
+public:
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_Kolko_je_spawned_smeti_;
+
+// Function PickLockminigame2.PickLockminigame2_C.InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1
+// 0x0030 (0x0030 - 0x0000)
+struct PickLockminigame2_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1 final
+{
+public:
+	struct FInputActionValue                      ActionValue;                                       // 0x0000(0x0020)(BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+	float                                         ElapsedTime;                                       // 0x0020(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         TriggeredTime;                                     // 0x0024(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	const class UInputAction*                     SourceAction;                                      // 0x0028(0x0008)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1;
+
+// Function PickLockminigame2.PickLockminigame2_C.InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0
+// 0x0030 (0x0030 - 0x0000)
+struct PickLockminigame2_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0 final
+{
+public:
+	struct FInputActionValue                      ActionValue;                                       // 0x0000(0x0020)(BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+	float                                         ElapsedTime;                                       // 0x0020(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         TriggeredTime;                                     // 0x0024(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	const class UInputAction*                     SourceAction;                                      // 0x0028(0x0008)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PickLockminigame2_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0;
 
 // Function PickLockminigame2.PickLockminigame2_C.ExecuteUbergraph_PickLockminigame2
 // 0x01C0 (0x01C0 - 0x0000)
@@ -96,85 +167,14 @@ public:
 };
 DUMPER7_ASSERTS_PickLockminigame2_C_ExecuteUbergraph_PickLockminigame2;
 
-// Function PickLockminigame2.PickLockminigame2_C.InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0
-// 0x0030 (0x0030 - 0x0000)
-struct PickLockminigame2_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0 final
-{
-public:
-	struct FInputActionValue                      ActionValue;                                       // 0x0000(0x0020)(BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-	float                                         ElapsedTime;                                       // 0x0020(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         TriggeredTime;                                     // 0x0024(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	const class UInputAction*                     SourceAction;                                      // 0x0028(0x0008)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_0;
-
-// Function PickLockminigame2.PickLockminigame2_C.InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1
-// 0x0030 (0x0030 - 0x0000)
-struct PickLockminigame2_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1 final
-{
-public:
-	struct FInputActionValue                      ActionValue;                                       // 0x0000(0x0020)(BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-	float                                         ElapsedTime;                                       // 0x0020(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         TriggeredTime;                                     // 0x0024(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	const class UInputAction*                     SourceAction;                                      // 0x0028(0x0008)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_1;
-
-// Function PickLockminigame2.PickLockminigame2_C.Kolko je spawned smeti?
-// 0x0008 (0x0008 - 0x0000)
-struct PickLockminigame2_C_Kolko_je_spawned_smeti_ final
-{
-public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_Kolko_je_spawned_smeti_;
-
-// Function PickLockminigame2.PickLockminigame2_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct PickLockminigame2_C_KukamNaTeba final
-{
-public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_KukamNaTeba;
-
-// Function PickLockminigame2.PickLockminigame2_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct PickLockminigame2_C_PosliHodnotuLootu final
-{
-public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_PosliHodnotuLootu;
-
-// Function PickLockminigame2.PickLockminigame2_C.ReceiveTick
+// Function PickLockminigame2.PickLockminigame2_C.Adrenaline+
 // 0x0004 (0x0004 - 0x0000)
-struct PickLockminigame2_C_ReceiveTick final
+struct PickLockminigame2_C_Adrenaline_ final
 {
 public:
-	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_PickLockminigame2_C_ReceiveTick;
-
-// Function PickLockminigame2.PickLockminigame2_C.Refka na Progressbar
-// 0x0008 (0x0008 - 0x0000)
-struct PickLockminigame2_C_Refka_na_Progressbar final
-{
-public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_Refka_na_Progressbar;
-
-// Function PickLockminigame2.PickLockminigame2_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct PickLockminigame2_C_ZiskajHraca final
-{
-public:
-	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PickLockminigame2_C_ZiskajHraca;
+DUMPER7_ASSERTS_PickLockminigame2_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

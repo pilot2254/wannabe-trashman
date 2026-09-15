@@ -26,8 +26,8 @@ public:
 	class FText                                   Text;                                              // 0x0350(0x0010)(Edit, BlueprintVisible, ExposeOnSpawn)
 
 public:
+	void PreConstruct(bool IsDesignTime_PreConstruct);
 	void ExecuteUbergraph_TextBlock(int32 EntryPoint);
-	void PreConstruct(bool IsDesignTime);
 
 public:
 	static class UClass* StaticClass()

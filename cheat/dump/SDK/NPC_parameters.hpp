@@ -18,35 +18,61 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function NPC.NPC_C.BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
-// 0x0120 (0x0120 - 0x0000)
-struct NPC_C_BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature final
+// Function NPC.NPC_C.UserConstructionScript
+// 0x0008 (0x0008 - 0x0000)
+struct NPC_C_UserConstructionScript final
 {
 public:
-	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
+	class USkeletalMesh*                          CallFunc_Array_Get_Item;                           // 0x0000(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_NPC_C_BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature;
+DUMPER7_ASSERTS_NPC_C_UserConstructionScript;
 
-// Function NPC.NPC_C.BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
-// 0x0120 (0x0120 - 0x0000)
-struct NPC_C_BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature final
+// Function NPC.NPC_C.OnSuccess_FFFAA3F641203E541F30149A108FCDE0
+// 0x0001 (0x0001 - 0x0000)
+struct NPC_C_OnSuccess_FFFAA3F641203E541F30149A108FCDE0 final
 {
 public:
-	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
+	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_NPC_C_BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature;
+DUMPER7_ASSERTS_NPC_C_OnSuccess_FFFAA3F641203E541F30149A108FCDE0;
+
+// Function NPC.NPC_C.OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41
+// 0x0001 (0x0001 - 0x0000)
+struct NPC_C_OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41 final
+{
+public:
+	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPC_C_OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41;
+
+// Function NPC.NPC_C.OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63
+// 0x0010 (0x0010 - 0x0000)
+struct NPC_C_OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63 final
+{
+public:
+	EPathFollowingResult                          Result;                                            // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class AAIController*                          AIController;                                      // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPC_C_OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63;
+
+// Function NPC.NPC_C.OnFail_FFFAA3F641203E541F30149A108FCDE0
+// 0x0001 (0x0001 - 0x0000)
+struct NPC_C_OnFail_FFFAA3F641203E541F30149A108FCDE0 final
+{
+public:
+	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPC_C_OnFail_FFFAA3F641203E541F30149A108FCDE0;
+
+// Function NPC.NPC_C.OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41
+// 0x0001 (0x0001 - 0x0000)
+struct NPC_C_OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41 final
+{
+public:
+	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPC_C_OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41;
 
 // Function NPC.NPC_C.ExecuteUbergraph_NPC
 // 0x0860 (0x0860 - 0x0000)
@@ -214,61 +240,35 @@ public:
 };
 DUMPER7_ASSERTS_NPC_C_ExecuteUbergraph_NPC;
 
-// Function NPC.NPC_C.OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41
-// 0x0001 (0x0001 - 0x0000)
-struct NPC_C_OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41 final
+// Function NPC.NPC_C.BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+// 0x0120 (0x0120 - 0x0000)
+struct NPC_C_BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature final
 {
 public:
-	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
 };
-DUMPER7_ASSERTS_NPC_C_OnFail_647FCA1D4B1C08E572CFEA8B4D74DE41;
+DUMPER7_ASSERTS_NPC_C_BndEvt__NPC_Mesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature;
 
-// Function NPC.NPC_C.OnFail_FFFAA3F641203E541F30149A108FCDE0
-// 0x0001 (0x0001 - 0x0000)
-struct NPC_C_OnFail_FFFAA3F641203E541F30149A108FCDE0 final
+// Function NPC.NPC_C.BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
+// 0x0120 (0x0120 - 0x0000)
+struct NPC_C_BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature final
 {
 public:
-	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
 };
-DUMPER7_ASSERTS_NPC_C_OnFail_FFFAA3F641203E541F30149A108FCDE0;
-
-// Function NPC.NPC_C.OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63
-// 0x0010 (0x0010 - 0x0000)
-struct NPC_C_OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63 final
-{
-public:
-	EPathFollowingResult                          Result;                                            // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class AAIController*                          AIController;                                      // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPC_C_OnMoveFinished_B5774A844C876608FB4F00B3DAD9BA63;
-
-// Function NPC.NPC_C.OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41
-// 0x0001 (0x0001 - 0x0000)
-struct NPC_C_OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41 final
-{
-public:
-	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPC_C_OnSuccess_647FCA1D4B1C08E572CFEA8B4D74DE41;
-
-// Function NPC.NPC_C.OnSuccess_FFFAA3F641203E541F30149A108FCDE0
-// 0x0001 (0x0001 - 0x0000)
-struct NPC_C_OnSuccess_FFFAA3F641203E541F30149A108FCDE0 final
-{
-public:
-	EPathFollowingResult                          MovementResult;                                    // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPC_C_OnSuccess_FFFAA3F641203E541F30149A108FCDE0;
-
-// Function NPC.NPC_C.UserConstructionScript
-// 0x0008 (0x0008 - 0x0000)
-struct NPC_C_UserConstructionScript final
-{
-public:
-	class USkeletalMesh*                          CallFunc_Array_Get_Item;                           // 0x0000(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPC_C_UserConstructionScript;
+DUMPER7_ASSERTS_NPC_C_BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

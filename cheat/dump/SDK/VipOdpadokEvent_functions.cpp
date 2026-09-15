@@ -16,91 +16,303 @@
 
 SDK_NAMESPACE_START
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Adrenaline+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AVipOdpadokEvent_C::Adrenaline_(int32 Amount___Max_3)
+void AVipOdpadokEvent_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Adrenaline+");
-
-	Params::VipOdpadokEvent_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ExecuteUbergraph_VipOdpadokEvent
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void AVipOdpadokEvent_C::ExecuteUbergraph_VipOdpadokEvent(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "ExecuteUbergraph_VipOdpadokEvent");
-
-	Params::VipOdpadokEvent_C_ExecuteUbergraph_VipOdpadokEvent Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.find look at
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::find_look_at()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "find look at");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Zobral som odpadok");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.InterakciaHold
-// (Public, BlueprintCallable, BlueprintEvent)
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// double                                  Kolko_Drzim_0                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void AVipOdpadokEvent_C::InterakciaHold(double Kolko_Drzim_0)
+void AVipOdpadokEvent_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "InterakciaHold");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "ZiskajHraca");
 
-	Params::VipOdpadokEvent_C_InterakciaHold Parms{};
+	Params::VipOdpadokEvent_C_ZiskajHraca Parms{};
 
-	Parms.Kolko_Drzim_0 = Kolko_Drzim_0;
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.UserConstructionScript
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::UserConstructionScript()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "UserConstructionScript");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.UnlockLockPick
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::UnlockLockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "UnlockLockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Unesiem to?
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+bool AVipOdpadokEvent_C::Unesiem_to_()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Unesiem to?");
+
+	Params::VipOdpadokEvent_C_Unesiem_to_ Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	return Parms.ReturnValue;
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline__UpdateFunc
+// (BlueprintEvent)
+
+void AVipOdpadokEvent_C::Timeline__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline__FinishedFunc
+// (BlueprintEvent)
+
+void AVipOdpadokEvent_C::Timeline__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline_0__UpdateFunc
+// (BlueprintEvent)
+
+void AVipOdpadokEvent_C::Timeline_0__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline_0__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline_0__FinishedFunc
+// (BlueprintEvent)
+
+void AVipOdpadokEvent_C::Timeline_0__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline_0__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AVipOdpadokEvent_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void AVipOdpadokEvent_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Refka na Progressbar");
+
+	Params::VipOdpadokEvent_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void AVipOdpadokEvent_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.PosliHodnotuLootu
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AVipOdpadokEvent_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "PosliHodnotuLootu");
+
+	Params::VipOdpadokEvent_C_PosliHodnotuLootu Parms{};
+
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Interakica
+// Function VipOdpadokEvent.VipOdpadokEvent_C.KukamNaTeba
 // (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AVipOdpadokEvent_C::Interakica()
+void AVipOdpadokEvent_C::KukamNaTeba(bool NE)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Interakica");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "KukamNaTeba");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::VipOdpadokEvent_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -129,303 +341,91 @@ void AVipOdpadokEvent_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_
 }
 
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.KukamNaTeba
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Interakica
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AVipOdpadokEvent_C::KukamNaTeba(bool NE)
+void AVipOdpadokEvent_C::Interakica()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "KukamNaTeba");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Interakica");
 
-	Params::VipOdpadokEvent_C_KukamNaTeba Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.NE = NE;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.InterakciaHold
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Kolko_Drzim                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AVipOdpadokEvent_C::InterakciaHold(double Kolko_Drzim)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "InterakciaHold");
+
+	Params::VipOdpadokEvent_C_InterakciaHold Parms{};
+
+	Parms.Kolko_Drzim = Kolko_Drzim;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.PosliHodnotuLootu
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota_0                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// Function VipOdpadokEvent.VipOdpadokEvent_C.find look at
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 
-void AVipOdpadokEvent_C::PosliHodnotuLootu(double Váha_kg, double Hodnota_0)
+void AVipOdpadokEvent_C::find_look_at()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "PosliHodnotuLootu");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "find look at");
 
-	Params::VipOdpadokEvent_C_PosliHodnotuLootu Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota_0 = Hodnota_0;
+
+// Function VipOdpadokEvent.VipOdpadokEvent_C.ExecuteUbergraph_VipOdpadokEvent
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AVipOdpadokEvent_C::ExecuteUbergraph_VipOdpadokEvent(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("VipOdpadokEvent_C", "ExecuteUbergraph_VipOdpadokEvent");
+
+	Params::VipOdpadokEvent_C_ExecuteUbergraph_VipOdpadokEvent Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void AVipOdpadokEvent_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function VipOdpadokEvent.VipOdpadokEvent_C.Adrenaline+
+// (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AVipOdpadokEvent_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+void AVipOdpadokEvent_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Refka na Progressbar");
+		Func = Class->GetFunction("VipOdpadokEvent_C", "Adrenaline+");
 
-	Params::VipOdpadokEvent_C_Refka_na_Progressbar Parms{};
+	Params::VipOdpadokEvent_C_Adrenaline_ Parms{};
+
+	Parms.Amount___Max_3 = Amount___Max_3;
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.RemoveDynamicEventTxt
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::RemoveDynamicEventTxt()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "RemoveDynamicEventTxt");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Spawnol som smeti
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline_0__FinishedFunc
-// (BlueprintEvent)
-
-void AVipOdpadokEvent_C::Timeline_0__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline_0__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline_0__UpdateFunc
-// (BlueprintEvent)
-
-void AVipOdpadokEvent_C::Timeline_0__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline_0__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline__FinishedFunc
-// (BlueprintEvent)
-
-void AVipOdpadokEvent_C::Timeline__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Timeline__UpdateFunc
-// (BlueprintEvent)
-
-void AVipOdpadokEvent_C::Timeline__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Timeline__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Unesiem to?
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-bool AVipOdpadokEvent_C::Unesiem_to_()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Unesiem to?");
-
-	Params::VipOdpadokEvent_C_Unesiem_to_ Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	return Parms.ReturnValue;
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.UserConstructionScript
-// (Event, Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::UserConstructionScript()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "UserConstructionScript");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac_0                                                 (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void AVipOdpadokEvent_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "ZiskajHraca");
-
-	Params::VipOdpadokEvent_C_ZiskajHraca Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac_0 != nullptr)
-		*Hrac_0 = Parms.Hrac_0;
-}
-
-
-// Function VipOdpadokEvent.VipOdpadokEvent_C.Zobral som odpadok
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AVipOdpadokEvent_C::Zobral_som_odpadok()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("VipOdpadokEvent_C", "Zobral som odpadok");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 

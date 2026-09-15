@@ -17,88 +17,14 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function TrashSpawner.TrashSpawner_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct TrashSpawner_C_Adrenaline_ final
-{
-public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_Adrenaline_;
-
-// Function TrashSpawner.TrashSpawner_C.ExecuteUbergraph_TrashSpawner
-// 0x0078 (0x0078 - 0x0000)
-struct TrashSpawner_C_ExecuteUbergraph_TrashSpawner final
-{
-public:
-	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	TDelegate<void()>                             K2Node_CreateDelegate_OutputDelegate;              // 0x0004(0x0010)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_14[0x4];                                       // 0x0014(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        K2Node_Event_V_ha_kg;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        K2Node_Event_Hodnota;                              // 0x0020(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0028(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_Event_Ano_NE;                               // 0x002C(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_2D[0x3];                                       // 0x002D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0030(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0038(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0048(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_49[0x7];                                       // 0x0049(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0050(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	double                                        CallFunc_RandomFloatInRange_ReturnValue;           // 0x0058(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FTimerHandle                           CallFunc_K2_SetTimerDelegate_ReturnValue;          // 0x0060(0x0008)(NoDestructor, HasGetValueTypeHash)
-	float                                         K2Node_Event_DeltaSeconds;                         // 0x0068(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x006C(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Temp_int_Variable;                                 // 0x0070(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                         CallFunc_K2_SetTimerDelegate_Time_ImplicitCast;    // 0x0074(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_ExecuteUbergraph_TrashSpawner;
-
-// Function TrashSpawner.TrashSpawner_C.Kolko je spawned smeti?
+// Function TrashSpawner.TrashSpawner_C.ZiskajHraca
 // 0x0008 (0x0008 - 0x0000)
-struct TrashSpawner_C_Kolko_je_spawned_smeti_ final
+struct TrashSpawner_C_ZiskajHraca final
 {
 public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_TrashSpawner_C_Kolko_je_spawned_smeti_;
-
-// Function TrashSpawner.TrashSpawner_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct TrashSpawner_C_KukamNaTeba final
-{
-public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_KukamNaTeba;
-
-// Function TrashSpawner.TrashSpawner_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct TrashSpawner_C_PosliHodnotuLootu final
-{
-public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_PosliHodnotuLootu;
-
-// Function TrashSpawner.TrashSpawner_C.ReceiveTick
-// 0x0004 (0x0004 - 0x0000)
-struct TrashSpawner_C_ReceiveTick final
-{
-public:
-	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_ReceiveTick;
-
-// Function TrashSpawner.TrashSpawner_C.Refka na Progressbar
-// 0x0008 (0x0008 - 0x0000)
-struct TrashSpawner_C_Refka_na_Progressbar final
-{
-public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_TrashSpawner_C_Refka_na_Progressbar;
+DUMPER7_ASSERTS_TrashSpawner_C_ZiskajHraca;
 
 // Function TrashSpawner.TrashSpawner_C.Spawnuj vo mne odpadok
 // 0x0120 (0x0120 - 0x0000)
@@ -134,14 +60,88 @@ public:
 };
 DUMPER7_ASSERTS_TrashSpawner_C_Spawnuj_vo_mne_odpadok;
 
-// Function TrashSpawner.TrashSpawner_C.ZiskajHraca
+// Function TrashSpawner.TrashSpawner_C.Refka na Progressbar
 // 0x0008 (0x0008 - 0x0000)
-struct TrashSpawner_C_ZiskajHraca final
+struct TrashSpawner_C_Refka_na_Progressbar final
 {
 public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_TrashSpawner_C_ZiskajHraca;
+DUMPER7_ASSERTS_TrashSpawner_C_Refka_na_Progressbar;
+
+// Function TrashSpawner.TrashSpawner_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct TrashSpawner_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds_ReceiveTick;                          // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_ReceiveTick;
+
+// Function TrashSpawner.TrashSpawner_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct TrashSpawner_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_PosliHodnotuLootu;
+
+// Function TrashSpawner.TrashSpawner_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct TrashSpawner_C_KukamNaTeba final
+{
+public:
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_KukamNaTeba;
+
+// Function TrashSpawner.TrashSpawner_C.Kolko je spawned smeti?
+// 0x0008 (0x0008 - 0x0000)
+struct TrashSpawner_C_Kolko_je_spawned_smeti_ final
+{
+public:
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_Kolko_je_spawned_smeti_;
+
+// Function TrashSpawner.TrashSpawner_C.ExecuteUbergraph_TrashSpawner
+// 0x0078 (0x0078 - 0x0000)
+struct TrashSpawner_C_ExecuteUbergraph_TrashSpawner final
+{
+public:
+	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	TDelegate<void()>                             K2Node_CreateDelegate_OutputDelegate;              // 0x0004(0x0010)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_14[0x4];                                       // 0x0014(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        K2Node_Event_V_ha_kg;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        K2Node_Event_Hodnota;                              // 0x0020(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0028(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_Event_Ano_NE;                               // 0x002C(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_2D[0x3];                                       // 0x002D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0030(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0038(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0048(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_49[0x7];                                       // 0x0049(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0050(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	double                                        CallFunc_RandomFloatInRange_ReturnValue;           // 0x0058(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FTimerHandle                           CallFunc_K2_SetTimerDelegate_ReturnValue;          // 0x0060(0x0008)(NoDestructor, HasGetValueTypeHash)
+	float                                         K2Node_Event_DeltaSeconds;                         // 0x0068(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         CallFunc_Subtract_IntInt_ReturnValue;              // 0x006C(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Temp_int_Variable;                                 // 0x0070(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                         CallFunc_K2_SetTimerDelegate_Time_ImplicitCast;    // 0x0074(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_ExecuteUbergraph_TrashSpawner;
+
+// Function TrashSpawner.TrashSpawner_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct TrashSpawner_C_Adrenaline_ final
+{
+public:
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_TrashSpawner_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -29,24 +29,24 @@ public:
 	class UW_DonutStore_C*                        DonutHUD;                                          // 0x02D0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Adrenaline_(int32 Amount___Max_3);
-	void camera_back_to_norm();
-	void ExecuteUbergraph_DonutStoreNotebook(int32 EntryPoint);
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void KukamNaTeba(bool NE);
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
-	void ReceiveBeginPlay();
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Spawnol_som_smeti();
-	void Stop_timerEvent();
-	void Ukončil_som_Pickup_Predčasne();
-	void UnlockLockPick();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0);
 	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void UnlockLockPick();
+	void Ukončil_som_Pickup_Predčasne();
+	void Stop_timerEvent();
+	void Spawnol_som_smeti();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveBeginPlay();
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void KukamNaTeba(bool NE);
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void ExecuteUbergraph_DonutStoreNotebook(int32 EntryPoint);
+	void camera_back_to_norm();
+	void Adrenaline_(int32 Amount___Max_3);
 
 public:
 	static class UClass* StaticClass()

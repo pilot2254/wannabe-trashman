@@ -16,15 +16,6 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function BPI_TouchInterface.BPI_TouchInterface_C.Primary Thumbstick
-// 0x0010 (0x0010 - 0x0000)
-struct BPI_TouchInterface_C_Primary_Thumbstick final
-{
-public:
-	struct FVector2D                              Axis;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_BPI_TouchInterface_C_Primary_Thumbstick;
-
 // Function BPI_TouchInterface.BPI_TouchInterface_C.Secondary Thumbstick
 // 0x0010 (0x0010 - 0x0000)
 struct BPI_TouchInterface_C_Secondary_Thumbstick final
@@ -33,6 +24,15 @@ public:
 	struct FVector2D                              Axis;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_BPI_TouchInterface_C_Secondary_Thumbstick;
+
+// Function BPI_TouchInterface.BPI_TouchInterface_C.Primary Thumbstick
+// 0x0010 (0x0010 - 0x0000)
+struct BPI_TouchInterface_C_Primary_Thumbstick final
+{
+public:
+	struct FVector2D                              Axis;                                              // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_BPI_TouchInterface_C_Primary_Thumbstick;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

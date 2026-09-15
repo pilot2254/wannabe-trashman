@@ -44,7 +44,7 @@ void Cheat::UpdateInventory()
 
 void Cheat::KeyPressEvents()
 {
-    if (GetAsyncKeyState(VK_F1) & 1) Inventory->Pridaj_mi_do_inv(1000.0, 0.0);
+    if (GetAsyncKeyState(VK_F1) & 1) Inventory->Pridaj_mi_do_inv(11111.0, 0.0);
 
     if (GetAsyncKeyState(VK_RBUTTON) & 1) Character->K2_SetActorLocation(Character->K2_GetActorLocation() + Character->GetActorForwardVector() * 500.f, false, nullptr, true);
 }

@@ -30,10 +30,10 @@ public:
 	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x00E0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_Inventorik(int32 EntryPoint);
-	void Pridaj_mi_do_inv(double Hodnota_lootu_0, double kg_0);
+	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds);
+	void Pridaj_mi_do_inv(double Hodnota_lootu, double kg);
+	void ExecuteUbergraph_Inventorik(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

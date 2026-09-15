@@ -12,9 +12,9 @@
 
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "GlovesUpgrades_structs.hpp"
 #include "BootsUpgrade_structs.hpp"
 #include "invnetoryUpgrades_structs.hpp"
+#include "GlovesUpgrades_structs.hpp"
 
 
 SDK_NAMESPACE_START
@@ -70,66 +70,66 @@ public:
 	double                                        SensSlider;                                        // 0x0800(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void __Adrenaline();
-	void Six0Sec_();
-	void Adrenaline_(int32 Amount___Max_3);
-	void Aim(float Yaw, double Pitch);
-	void AUTOSAVE_LOOP();
-	void ClearPlayerInventory();
-	void Close_Milan_Menu();
-	void Drop_Collected();
-	void Dynamic_Event_Garbage_Car();
-	void Dynamic_Event_Golden_Hour();
-	void Dynamic_Event_VIP_DROP();
-	void ExecuteUbergraph_BP_FirstPersonCharacter(int32 EntryPoint);
-	void InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1(const struct FKey& Key, const struct FInputActionValue& ActionValue);
-	void InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0(const struct FKey& Key, const struct FInputActionValue& ActionValue);
-	void InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2(const struct FKey& Key, const struct FInputActionValue& ActionValue);
-	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_Move_K2Node_EnhancedInputActionEvent_7(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void Kukam_prec();
-	void KukamNaTeba(bool NE);
-	void Load_Game();
-	void LoadItemsToStats();
-	void Move(double _Right, double _Backward);
-	void MusicPlayer();
-	void Nastav_Info_do_Tab();
-	void OnMusicFinished();
-	void PlayDynamic_Event_Anim(const class FText& Description, const class FText& Name_0, const struct FLinearColor& Name_Color);
-	void PlayerHoldingMesh();
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
-	void Primary_Thumbstick(const struct FVector2D& Axis);
-	void Random_Dynamic_Event();
-	void Raycast(class AActor** HitActor);
-	void Reborn();
-	void ReceiveBeginPlay();
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Save_game();
-	void Secondary_Thumbstick(const struct FVector2D& Axis);
-	void Spawnol_som_smeti();
-	void EndBlackScreen(bool Start_);
-	void Stop_timerEvent();
-	void Tick();
-	void Time_left_for_kufrik();
-	void Touch_Jump_End();
-	void Touch_Jump_Start();
-	void Ukončil_som_Pickup_Predčasne();
-	void UnlockLockPick();
-	void Wait_for_new_event();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
 	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void Wait_for_new_event();
+	void UnlockLockPick();
+	void Ukončil_som_Pickup_Predčasne();
+	void Touch_Jump_Start();
+	void Touch_Jump_End();
+	void Time_left_for_kufrik();
+	void Tick();
+	void Stop_timerEvent();
+	void EndBlackScreen(bool Start_);
+	void Spawnol_som_smeti();
+	void Secondary_Thumbstick(const struct FVector2D& Axis);
+	void Save_game();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveBeginPlay();
+	void Reborn();
+	void Raycast(class AActor** HitActor);
+	void Random_Dynamic_Event();
+	void Primary_Thumbstick(const struct FVector2D& Axis);
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void PlayerHoldingMesh();
+	void PlayDynamic_Event_Anim(const class FText& Description, const class FText& Name_0, const struct FLinearColor& Name_Color);
+	void OnMusicFinished();
+	void Nastav_Info_do_Tab();
+	void MusicPlayer();
+	void Move(double _Right, double _Backward);
+	void LoadItemsToStats();
+	void Load_Game();
+	void KukamNaTeba(bool NE);
+	void Kukam_prec();
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Move_K2Node_EnhancedInputActionEvent_7(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction);
+	void InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2(const struct FKey& Key, const struct FInputActionValue& ActionValue);
+	void InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0(const struct FKey& Key, const struct FInputActionValue& ActionValue);
+	void InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1(const struct FKey& Key, const struct FInputActionValue& ActionValue);
+	void ExecuteUbergraph_BP_FirstPersonCharacter(int32 EntryPoint);
+	void Dynamic_Event_VIP_DROP();
+	void Dynamic_Event_Golden_Hour();
+	void Dynamic_Event_Garbage_Car();
+	void Drop_Collected();
+	void Close_Milan_Menu();
+	void ClearPlayerInventory();
+	void AUTOSAVE_LOOP();
+	void Aim(float Yaw, double Pitch);
+	void Adrenaline_(int32 Amount___Max_3);
+	void Six0Sec_();
+	void __Adrenaline();
 
 public:
 	static class UClass* StaticClass()

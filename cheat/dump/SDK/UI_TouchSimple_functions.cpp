@@ -16,37 +16,51 @@
 
 SDK_NAMESPACE_START
 
-// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
+// Function UI_TouchSimple.UI_TouchSimple_C.ExecuteUbergraph_UI_TouchSimple
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UUI_TouchSimple_C::BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
+void UUI_TouchSimple_C::ExecuteUbergraph_UI_TouchSimple(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+		Func = Class->GetFunction("UI_TouchSimple_C", "ExecuteUbergraph_UI_TouchSimple");
+
+	Params::UI_TouchSimple_C_ExecuteUbergraph_UI_TouchSimple Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UI_TouchSimple.UI_TouchSimple_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UUI_TouchSimple_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_TouchSimple_C", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature
+// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature
 // (BlueprintEvent)
-// Parameters:
-// const struct FVector2D&                 NewParam                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UUI_TouchSimple_C::BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature(const struct FVector2D& NewParam)
+void UUI_TouchSimple_C::BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature");
+		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature");
 
-	Params::UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature Parms{};
-
-	Parms.NewParam = std::move(NewParam);
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
@@ -70,51 +84,37 @@ void UUI_TouchSimple_C::BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentB
 }
 
 
-// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature
+// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature
 // (BlueprintEvent)
-
-void UUI_TouchSimple_C::BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UI_TouchSimple.UI_TouchSimple_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UUI_TouchSimple_C::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UI_TouchSimple_C", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UI_TouchSimple.UI_TouchSimple_C.ExecuteUbergraph_UI_TouchSimple
-// (Final, UbergraphFunction)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const struct FVector2D&                 NewParam                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UUI_TouchSimple_C::ExecuteUbergraph_UI_TouchSimple(int32 EntryPoint)
+void UUI_TouchSimple_C::BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature(const struct FVector2D& NewParam)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UI_TouchSimple_C", "ExecuteUbergraph_UI_TouchSimple");
+		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick Input__DelegateSignature");
 
-	Params::UI_TouchSimple_C_ExecuteUbergraph_UI_TouchSimple Parms{};
+	Params::UI_TouchSimple_C_BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.NewParam = std::move(NewParam);
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UI_TouchSimple.UI_TouchSimple_C.BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUI_TouchSimple_C::BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_TouchSimple_C", "BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

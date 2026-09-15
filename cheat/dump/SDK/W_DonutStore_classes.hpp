@@ -57,19 +57,19 @@ public:
 	bool                                          WaitingForSupplies;                                // 0x0428(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature();
-	void BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature(float Value);
-	void Construct();
-	void ExecuteUbergraph_W_DonutStore(int32 EntryPoint);
-	void Got_Supplies_Ready();
-	void LoadGame();
-	void Secs();
-	void SetShopStatus(bool BoughSupplies_);
 	void Timer_Start();
+	void SetShopStatus(bool BoughSupplies_);
+	void Secs();
+	void LoadGame();
+	void Got_Supplies_Ready();
+	void ExecuteUbergraph_W_DonutStore(int32 EntryPoint);
+	void Construct();
+	void BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature(float Value);
+	void BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature();
+	void BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature();
 
 public:
 	static class UClass* StaticClass()

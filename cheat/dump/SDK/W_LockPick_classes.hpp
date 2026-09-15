@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "E_Difficulty_structs.hpp"
 #include "Engine_structs.hpp"
+#include "E_Difficulty_structs.hpp"
 #include "UMG_classes.hpp"
 
 
@@ -38,7 +38,7 @@ public:
 	uint8                                         Pad_399[0x7];                                      // 0x0399(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	struct FTimerHandle                           LoopingHandle;                                     // 0x03A0(0x0008)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<int32>                                 WinNumbers;                                        // 0x03A8(0x0010)(Edit, BlueprintVisible, DisableEditOnInstance)
-	class AActor*                                 Parrent;                                           // 0x03B8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	class AActor*                                 parrent;                                           // 0x03B8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	bool                                          Timed_;                                            // 0x03C0(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	uint8                                         Pad_3C1[0x7];                                      // 0x03C1(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class UAudioComponent*                        Sound;                                             // 0x03C8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
@@ -47,18 +47,18 @@ public:
 	double                                        PB_Uberanie;                                       // 0x03D8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_W_LockPick(int32 EntryPoint);
-	void Odober_s_PB();
-	void PlaySoundd(class USoundBase* Sound_0);
-	void PreConstruct(bool IsDesignTime);
-	void PressedSpace();
-	void Pridaj_do_PB();
-	void PustiHandle();
-	void Reset_GreenSpots();
-	void Resetuj_PB();
-	void Set_Difficulty();
-	void Timeline_output(double Alpha);
 	void Vyberabie_Hodnoty();
+	void Timeline_output(double Alpha);
+	void Set_difficulty();
+	void Resetuj_PB();
+	void Reset_GreenSpots();
+	void PustiHandle();
+	void Pridaj_do_PB();
+	void PressedSpace();
+	void PreConstruct(bool IsDesignTime_PreConstruct);
+	void PlaySoundd(class USoundBase* Sound);
+	void Odober_s_PB();
+	void ExecuteUbergraph_W_LockPick(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

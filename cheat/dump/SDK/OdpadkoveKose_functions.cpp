@@ -16,91 +16,331 @@
 
 SDK_NAMESPACE_START
 
-// Function OdpadkoveKose.OdpadkoveKose_C.Adrenaline+
+// Function OdpadkoveKose.OdpadkoveKose_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::Adrenaline_(int32 Amount___Max_3)
+void AOdpadkoveKose_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Adrenaline+");
+		Func = Class->GetFunction("OdpadkoveKose_C", "Zobral som odpadok");
 
-	Params::OdpadkoveKose_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.ExecuteUbergraph_OdpadkoveKose
-// (Final, UbergraphFunction, HasDefaults)
+// Function OdpadkoveKose.OdpadkoveKose_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::ExecuteUbergraph_OdpadkoveKose(int32 EntryPoint)
+void AOdpadkoveKose_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "ExecuteUbergraph_OdpadkoveKose");
+		Func = Class->GetFunction("OdpadkoveKose_C", "ZiskajHraca");
 
-	Params::OdpadkoveKose_C_ExecuteUbergraph_OdpadkoveKose Parms{};
-
-	Parms.EntryPoint = EntryPoint;
+	Params::OdpadkoveKose_C_ZiskajHraca Parms{};
 
 	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.find look at
+// Function OdpadkoveKose.OdpadkoveKose_C.UserConstructionScript
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::UserConstructionScript()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "UserConstructionScript");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.UnlockLockPick
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::UnlockLockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "UnlockLockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Unesiem to?
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+bool AOdpadkoveKose_C::Unesiem_to_()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Unesiem to?");
+
+	Params::OdpadkoveKose_C_Unesiem_to_ Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	return Parms.ReturnValue;
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Timeline__UpdateFunc
+// (BlueprintEvent)
+
+void AOdpadkoveKose_C::Timeline__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Timeline__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Timeline__FinishedFunc
+// (BlueprintEvent)
+
+void AOdpadkoveKose_C::Timeline__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Timeline__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.SetStaticMesh
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::SetStaticMesh()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "SetStaticMesh");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void AOdpadkoveKose_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "Refka na Progressbar");
+
+	Params::OdpadkoveKose_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void AOdpadkoveKose_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.random value zase
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 
-void AOdpadkoveKose_C::find_look_at()
+void AOdpadkoveKose_C::random_value_zase()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "find look at");
+		Func = Class->GetFunction("OdpadkoveKose_C", "random value zase");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.InterakciaHold
+// Function OdpadkoveKose.OdpadkoveKose_C.PosliHodnotuLootu
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// double                                  Kolko_Drzim_0                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::InterakciaHold(double Kolko_Drzim_0)
+void AOdpadkoveKose_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "InterakciaHold");
+		Func = Class->GetFunction("OdpadkoveKose_C", "PosliHodnotuLootu");
 
-	Params::OdpadkoveKose_C_InterakciaHold Parms{};
+	Params::OdpadkoveKose_C_PosliHodnotuLootu Parms{};
 
-	Parms.Kolko_Drzim_0 = Kolko_Drzim_0;
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.Interakica
-// (Public, BlueprintCallable, BlueprintEvent)
+// Function OdpadkoveKose.OdpadkoveKose_C.OnGameLoad
+// (BlueprintCallable, BlueprintEvent)
 
-void AOdpadkoveKose_C::Interakica()
+void AOdpadkoveKose_C::OnGameLoad()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Interakica");
+		Func = Class->GetFunction("OdpadkoveKose_C", "OnGameLoad");
 
 	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.LockPick
+// (BlueprintCallable, BlueprintEvent)
+
+void AOdpadkoveKose_C::LockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "LockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function OdpadkoveKose.OdpadkoveKose_C.KukamNaTeba
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AOdpadkoveKose_C::KukamNaTeba(bool NE)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("OdpadkoveKose_C", "KukamNaTeba");
+
+	Params::OdpadkoveKose_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -129,331 +369,91 @@ void AOdpadkoveKose_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_ma
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.KukamNaTeba
+// Function OdpadkoveKose.OdpadkoveKose_C.Interakica
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::KukamNaTeba(bool NE)
+void AOdpadkoveKose_C::Interakica()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "KukamNaTeba");
-
-	Params::OdpadkoveKose_C_KukamNaTeba Parms{};
-
-	Parms.NE = NE;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.LockPick
-// (BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::LockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "LockPick");
+		Func = Class->GetFunction("OdpadkoveKose_C", "Interakica");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.OnGameLoad
-// (BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::OnGameLoad()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "OnGameLoad");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.PosliHodnotuLootu
+// Function OdpadkoveKose.OdpadkoveKose_C.InterakciaHold
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota_0                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Kolko_Drzim                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::PosliHodnotuLootu(double Váha_kg, double Hodnota_0)
+void AOdpadkoveKose_C::InterakciaHold(double Kolko_Drzim)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "PosliHodnotuLootu");
+		Func = Class->GetFunction("OdpadkoveKose_C", "InterakciaHold");
 
-	Params::OdpadkoveKose_C_PosliHodnotuLootu Parms{};
+	Params::OdpadkoveKose_C_InterakciaHold Parms{};
 
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota_0 = Hodnota_0;
+	Parms.Kolko_Drzim = Kolko_Drzim;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.random value zase
+// Function OdpadkoveKose.OdpadkoveKose_C.find look at
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 
-void AOdpadkoveKose_C::random_value_zase()
+void AOdpadkoveKose_C::find_look_at()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "random value zase");
+		Func = Class->GetFunction("OdpadkoveKose_C", "find look at");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void AOdpadkoveKose_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function OdpadkoveKose.OdpadkoveKose_C.ExecuteUbergraph_OdpadkoveKose
+// (Final, UbergraphFunction, HasDefaults)
 // Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AOdpadkoveKose_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+void AOdpadkoveKose_C::ExecuteUbergraph_OdpadkoveKose(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Refka na Progressbar");
+		Func = Class->GetFunction("OdpadkoveKose_C", "ExecuteUbergraph_OdpadkoveKose");
 
-	Params::OdpadkoveKose_C_Refka_na_Progressbar Parms{};
+	Params::OdpadkoveKose_C_ExecuteUbergraph_OdpadkoveKose Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
 }
 
 
-// Function OdpadkoveKose.OdpadkoveKose_C.RemoveDynamicEventTxt
+// Function OdpadkoveKose.OdpadkoveKose_C.Adrenaline+
 // (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::RemoveDynamicEventTxt()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "RemoveDynamicEventTxt");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.SetStaticMesh
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::SetStaticMesh()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "SetStaticMesh");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Spawnol som smeti
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Timeline__FinishedFunc
-// (BlueprintEvent)
-
-void AOdpadkoveKose_C::Timeline__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Timeline__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Timeline__UpdateFunc
-// (BlueprintEvent)
-
-void AOdpadkoveKose_C::Timeline__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Timeline__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Unesiem to?
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-bool AOdpadkoveKose_C::Unesiem_to_()
+void AOdpadkoveKose_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Unesiem to?");
+		Func = Class->GetFunction("OdpadkoveKose_C", "Adrenaline+");
 
-	Params::OdpadkoveKose_C_Unesiem_to_ Parms{};
+	Params::OdpadkoveKose_C_Adrenaline_ Parms{};
+
+	Parms.Amount___Max_3 = Amount___Max_3;
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	return Parms.ReturnValue;
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.UserConstructionScript
-// (Event, Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::UserConstructionScript()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "UserConstructionScript");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac_0                                                 (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void AOdpadkoveKose_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "ZiskajHraca");
-
-	Params::OdpadkoveKose_C_ZiskajHraca Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac_0 != nullptr)
-		*Hrac_0 = Parms.Hrac_0;
-}
-
-
-// Function OdpadkoveKose.OdpadkoveKose_C.Zobral som odpadok
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AOdpadkoveKose_C::Zobral_som_odpadok()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("OdpadkoveKose_C", "Zobral som odpadok");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 

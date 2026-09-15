@@ -16,43 +16,21 @@
 
 SDK_NAMESPACE_START
 
-// Function Inventorik.Inventorik_C.ExecuteUbergraph_Inventorik
-// (Final, UbergraphFunction)
+// Function Inventorik.Inventorik_C.ReceiveTick
+// (Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaSeconds_ReceiveTick                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UInventorik_C::ExecuteUbergraph_Inventorik(int32 EntryPoint)
+void UInventorik_C::ReceiveTick(float DeltaSeconds_ReceiveTick)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Inventorik_C", "ExecuteUbergraph_Inventorik");
+		Func = Class->GetFunction("Inventorik_C", "ReceiveTick");
 
-	Params::Inventorik_C_ExecuteUbergraph_Inventorik Parms{};
+	Params::Inventorik_C_ReceiveTick Parms{};
 
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function Inventorik.Inventorik_C.Pridaj mi do inv
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// double                                  Hodnota_lootu_0                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  kg_0                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UInventorik_C::Pridaj_mi_do_inv(double Hodnota_lootu_0, double kg_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("Inventorik_C", "Pridaj mi do inv");
-
-	Params::Inventorik_C_Pridaj_mi_do_inv Parms{};
-
-	Parms.Hodnota_lootu_0 = Hodnota_lootu_0;
-	Parms.kg_0 = kg_0;
+	Parms.DeltaSeconds_ReceiveTick = DeltaSeconds_ReceiveTick;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -72,21 +50,43 @@ void UInventorik_C::ReceiveBeginPlay()
 }
 
 
-// Function Inventorik.Inventorik_C.ReceiveTick
-// (Event, Public, BlueprintEvent)
+// Function Inventorik.Inventorik_C.Pridaj mi do inv
+// (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota_lootu                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  kg                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UInventorik_C::ReceiveTick(float DeltaSeconds)
+void UInventorik_C::Pridaj_mi_do_inv(double Hodnota_lootu, double kg)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Inventorik_C", "ReceiveTick");
+		Func = Class->GetFunction("Inventorik_C", "Pridaj mi do inv");
 
-	Params::Inventorik_C_ReceiveTick Parms{};
+	Params::Inventorik_C_Pridaj_mi_do_inv Parms{};
 
-	Parms.DeltaSeconds = DeltaSeconds;
+	Parms.Hodnota_lootu = Hodnota_lootu;
+	Parms.kg = kg;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function Inventorik.Inventorik_C.ExecuteUbergraph_Inventorik
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UInventorik_C::ExecuteUbergraph_Inventorik(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("Inventorik_C", "ExecuteUbergraph_Inventorik");
+
+	Params::Inventorik_C_ExecuteUbergraph_Inventorik Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

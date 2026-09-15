@@ -39,10 +39,10 @@ public:
 	ETouchIndex                                   Touch_Target;                                      // 0x03B0(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_UI_Thumbstick(int32 EntryPoint);
-	void PreConstruct(bool IsDesignTime);
-	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
 	void Touch_Input_Check(ETouchIndex FingerIndex);
+	void Tick(const struct FGeometry& MyGeometry_Tick, float InDeltaTime_Tick);
+	void PreConstruct(bool IsDesignTime_PreConstruct);
+	void ExecuteUbergraph_UI_Thumbstick(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

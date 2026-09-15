@@ -16,57 +16,255 @@
 
 SDK_NAMESPACE_START
 
-// Function StockSeller.StockSeller_C.Adrenaline+
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void AStockSeller_C::Adrenaline_(int32 Amount___Max_3)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Adrenaline+");
-
-	Params::StockSeller_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function StockSeller.StockSeller_C.ExecuteUbergraph_StockSeller
-// (Final, UbergraphFunction)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void AStockSeller_C::ExecuteUbergraph_StockSeller(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "ExecuteUbergraph_StockSeller");
-
-	Params::StockSeller_C_ExecuteUbergraph_StockSeller Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function StockSeller.StockSeller_C.Interakica
+// Function StockSeller.StockSeller_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void AStockSeller_C::Interakica()
+void AStockSeller_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Interakica");
+		Func = Class->GetFunction("StockSeller_C", "Zobral som odpadok");
 
 	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void AStockSeller_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "ZiskajHraca");
+
+	Params::StockSeller_C_ZiskajHraca Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
+}
+
+
+// Function StockSeller.StockSeller_C.UnlockLockPick
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::UnlockLockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "UnlockLockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Timeline__UpdateFunc
+// (BlueprintEvent)
+
+void AStockSeller_C::Timeline__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Timeline__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Timeline__FinishedFunc
+// (BlueprintEvent)
+
+void AStockSeller_C::Timeline__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Timeline__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void AStockSeller_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "Refka na Progressbar");
+
+	Params::StockSeller_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function StockSeller.StockSeller_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void AStockSeller_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.PosliHodnotuLootu
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AStockSeller_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "PosliHodnotuLootu");
+
+	Params::StockSeller_C_PosliHodnotuLootu Parms{};
+
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function StockSeller.StockSeller_C.lookat
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AStockSeller_C::lookat()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "lookat");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function StockSeller.StockSeller_C.KukamNaTeba
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AStockSeller_C::KukamNaTeba(bool NE)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "KukamNaTeba");
+
+	Params::StockSeller_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -95,255 +293,57 @@ void AStockSeller_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_
 }
 
 
-// Function StockSeller.StockSeller_C.KukamNaTeba
+// Function StockSeller.StockSeller_C.Interakica
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AStockSeller_C::KukamNaTeba(bool NE)
+void AStockSeller_C::Interakica()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "KukamNaTeba");
+		Func = Class->GetFunction("StockSeller_C", "Interakica");
 
-	Params::StockSeller_C_KukamNaTeba Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.NE = NE;
+
+// Function StockSeller.StockSeller_C.ExecuteUbergraph_StockSeller
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AStockSeller_C::ExecuteUbergraph_StockSeller(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("StockSeller_C", "ExecuteUbergraph_StockSeller");
+
+	Params::StockSeller_C_ExecuteUbergraph_StockSeller Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function StockSeller.StockSeller_C.lookat
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::lookat()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "lookat");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.PosliHodnotuLootu
+// Function StockSeller.StockSeller_C.Adrenaline+
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AStockSeller_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+void AStockSeller_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "PosliHodnotuLootu");
+		Func = Class->GetFunction("StockSeller_C", "Adrenaline+");
 
-	Params::StockSeller_C_PosliHodnotuLootu Parms{};
+	Params::StockSeller_C_Adrenaline_ Parms{};
 
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota = Hodnota;
+	Parms.Amount___Max_3 = Amount___Max_3;
 
 	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function StockSeller.StockSeller_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void AStockSeller_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-
-void AStockSeller_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Refka na Progressbar");
-
-	Params::StockSeller_C_Refka_na_Progressbar Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
-}
-
-
-// Function StockSeller.StockSeller_C.RemoveDynamicEventTxt
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::RemoveDynamicEventTxt()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "RemoveDynamicEventTxt");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Spawnol som smeti
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Timeline__FinishedFunc
-// (BlueprintEvent)
-
-void AStockSeller_C::Timeline__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Timeline__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Timeline__UpdateFunc
-// (BlueprintEvent)
-
-void AStockSeller_C::Timeline__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Timeline__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function StockSeller.StockSeller_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac_0                                                 (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void AStockSeller_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "ZiskajHraca");
-
-	Params::StockSeller_C_ZiskajHraca Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac_0 != nullptr)
-		*Hrac_0 = Parms.Hrac_0;
-}
-
-
-// Function StockSeller.StockSeller_C.Zobral som odpadok
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void AStockSeller_C::Zobral_som_odpadok()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("StockSeller_C", "Zobral som odpadok");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 

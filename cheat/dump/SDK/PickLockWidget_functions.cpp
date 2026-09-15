@@ -16,17 +16,25 @@
 
 SDK_NAMESPACE_START
 
-// Function PickLockWidget.PickLockWidget_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Function PickLockWidget.PickLockWidget_C.SetText
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// const struct FLinearColor&              Specified_Color                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class FText&                      Text                                                   (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void UPickLockWidget_C::Construct()
+void UPickLockWidget_C::SetText(const struct FLinearColor& Specified_Color, const class FText& Text)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PickLockWidget_C", "Construct");
+		Func = Class->GetFunction("PickLockWidget_C", "SetText");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::PickLockWidget_C_SetText Parms{};
+
+	Parms.Specified_Color = std::move(Specified_Color);
+	Parms.Text = std::move(Text);
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -50,25 +58,17 @@ void UPickLockWidget_C::ExecuteUbergraph_PickLockWidget(int32 EntryPoint)
 }
 
 
-// Function PickLockWidget.PickLockWidget_C.SetText
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// const struct FLinearColor&              Specified_Color                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class FText&                      Text                                                   (BlueprintVisible, BlueprintReadOnly, Parm)
+// Function PickLockWidget.PickLockWidget_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
 
-void UPickLockWidget_C::SetText(const struct FLinearColor& Specified_Color, const class FText& Text)
+void UPickLockWidget_C::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PickLockWidget_C", "SetText");
+		Func = Class->GetFunction("PickLockWidget_C", "Construct");
 
-	Params::PickLockWidget_C_SetText Parms{};
-
-	Parms.Specified_Color = std::move(Specified_Color);
-	Parms.Text = std::move(Text);
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

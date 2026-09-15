@@ -16,35 +16,15 @@
 
 SDK_NAMESPACE_START
 
-// Function GarbageCar.GarbageCar_C.ExecuteUbergraph_GarbageCar
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// Function GarbageCar.GarbageCar_C.Timeline__UpdateFunc
+// (BlueprintEvent)
 
-void AGarbageCar_C::ExecuteUbergraph_GarbageCar(int32 EntryPoint)
+void AGarbageCar_C::Timeline__UpdateFunc()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("GarbageCar_C", "ExecuteUbergraph_GarbageCar");
-
-	Params::GarbageCar_C_ExecuteUbergraph_GarbageCar Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function GarbageCar.GarbageCar_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void AGarbageCar_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("GarbageCar_C", "ReceiveBeginPlay");
+		Func = Class->GetFunction("GarbageCar_C", "Timeline__UpdateFunc");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
@@ -64,17 +44,37 @@ void AGarbageCar_C::Timeline__FinishedFunc()
 }
 
 
-// Function GarbageCar.GarbageCar_C.Timeline__UpdateFunc
-// (BlueprintEvent)
+// Function GarbageCar.GarbageCar_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
 
-void AGarbageCar_C::Timeline__UpdateFunc()
+void AGarbageCar_C::ReceiveBeginPlay()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("GarbageCar_C", "Timeline__UpdateFunc");
+		Func = Class->GetFunction("GarbageCar_C", "ReceiveBeginPlay");
 
 	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function GarbageCar.GarbageCar_C.ExecuteUbergraph_GarbageCar
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AGarbageCar_C::ExecuteUbergraph_GarbageCar(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("GarbageCar_C", "ExecuteUbergraph_GarbageCar");
+
+	Params::GarbageCar_C_ExecuteUbergraph_GarbageCar Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 

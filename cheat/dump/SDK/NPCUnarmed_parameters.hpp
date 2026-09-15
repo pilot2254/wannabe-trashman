@@ -17,24 +17,6 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function NPCUnarmed.NPCUnarmed_C.AnimGraph
-// 0x0010 (0x0010 - 0x0000)
-struct NPCUnarmed_C_AnimGraph final
-{
-public:
-	struct FPoseLink                              AnimGraph_0;                                       // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
-};
-DUMPER7_ASSERTS_NPCUnarmed_C_AnimGraph;
-
-// Function NPCUnarmed.NPCUnarmed_C.BlueprintUpdateAnimation
-// 0x0004 (0x0004 - 0x0000)
-struct NPCUnarmed_C_BlueprintUpdateAnimation final
-{
-public:
-	float                                         DeltaTimeX;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_NPCUnarmed_C_BlueprintUpdateAnimation;
-
 // Function NPCUnarmed.NPCUnarmed_C.ExecuteUbergraph_NPCUnarmed
 // 0x0070 (0x0070 - 0x0000)
 struct NPCUnarmed_C_ExecuteUbergraph_NPCUnarmed final
@@ -62,6 +44,24 @@ public:
 	double                                        K2Node_Select_Option_0_ImplicitCast;               // 0x0068(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_NPCUnarmed_C_ExecuteUbergraph_NPCUnarmed;
+
+// Function NPCUnarmed.NPCUnarmed_C.BlueprintUpdateAnimation
+// 0x0004 (0x0004 - 0x0000)
+struct NPCUnarmed_C_BlueprintUpdateAnimation final
+{
+public:
+	float                                         DeltaTimeX_BlueprintUpdateAnimation;               // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_NPCUnarmed_C_BlueprintUpdateAnimation;
+
+// Function NPCUnarmed.NPCUnarmed_C.AnimGraph
+// 0x0010 (0x0010 - 0x0000)
+struct NPCUnarmed_C_AnimGraph final
+{
+public:
+	struct FPoseLink                              AnimGraph;                                         // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
+};
+DUMPER7_ASSERTS_NPCUnarmed_C_AnimGraph;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -16,71 +16,213 @@
 
 SDK_NAMESPACE_START
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Adrenaline+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ADonutStoreNotebook_C::Adrenaline_(int32 Amount___Max_3)
+void ADonutStoreNotebook_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Adrenaline+");
-
-	Params::DonutStoreNotebook_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.camera back to norm
-// (BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::camera_back_to_norm()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "camera back to norm");
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Zobral som odpadok");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ExecuteUbergraph_DonutStoreNotebook
-// (Final, UbergraphFunction)
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void ADonutStoreNotebook_C::ExecuteUbergraph_DonutStoreNotebook(int32 EntryPoint)
+void ADonutStoreNotebook_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "ExecuteUbergraph_DonutStoreNotebook");
+		Func = Class->GetFunction("DonutStoreNotebook_C", "ZiskajHraca");
 
-	Params::DonutStoreNotebook_C_ExecuteUbergraph_DonutStoreNotebook Parms{};
+	Params::DonutStoreNotebook_C_ZiskajHraca Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.UnlockLockPick
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::UnlockLockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "UnlockLockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void ADonutStoreNotebook_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Refka na Progressbar");
+
+	Params::DonutStoreNotebook_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ADonutStoreNotebook_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.PosliHodnotuLootu
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ADonutStoreNotebook_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "PosliHodnotuLootu");
+
+	Params::DonutStoreNotebook_C_PosliHodnotuLootu Parms{};
+
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Interakica
+// Function DonutStoreNotebook.DonutStoreNotebook_C.KukamNaTeba
 // (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ADonutStoreNotebook_C::Interakica()
+void ADonutStoreNotebook_C::KukamNaTeba(bool NE)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Interakica");
+		Func = Class->GetFunction("DonutStoreNotebook_C", "KukamNaTeba");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::DonutStoreNotebook_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -109,213 +251,71 @@ void ADonutStoreNotebook_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_
 }
 
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.KukamNaTeba
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Interakica
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ADonutStoreNotebook_C::KukamNaTeba(bool NE)
+void ADonutStoreNotebook_C::Interakica()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "KukamNaTeba");
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Interakica");
 
-	Params::DonutStoreNotebook_C_KukamNaTeba Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.NE = NE;
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ExecuteUbergraph_DonutStoreNotebook
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ADonutStoreNotebook_C::ExecuteUbergraph_DonutStoreNotebook(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "ExecuteUbergraph_DonutStoreNotebook");
+
+	Params::DonutStoreNotebook_C_ExecuteUbergraph_DonutStoreNotebook Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.PosliHodnotuLootu
+// Function DonutStoreNotebook.DonutStoreNotebook_C.camera back to norm
+// (BlueprintCallable, BlueprintEvent)
+
+void ADonutStoreNotebook_C::camera_back_to_norm()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("DonutStoreNotebook_C", "camera back to norm");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Adrenaline+
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ADonutStoreNotebook_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+void ADonutStoreNotebook_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "PosliHodnotuLootu");
+		Func = Class->GetFunction("DonutStoreNotebook_C", "Adrenaline+");
 
-	Params::DonutStoreNotebook_C_PosliHodnotuLootu Parms{};
+	Params::DonutStoreNotebook_C_Adrenaline_ Parms{};
 
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota = Hodnota;
+	Parms.Amount___Max_3 = Amount___Max_3;
 
 	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ADonutStoreNotebook_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-
-void ADonutStoreNotebook_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Refka na Progressbar");
-
-	Params::DonutStoreNotebook_C_Refka_na_Progressbar Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.RemoveDynamicEventTxt
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::RemoveDynamicEventTxt()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "RemoveDynamicEventTxt");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Spawnol som smeti
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac_0                                                 (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ADonutStoreNotebook_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "ZiskajHraca");
-
-	Params::DonutStoreNotebook_C_ZiskajHraca Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac_0 != nullptr)
-		*Hrac_0 = Parms.Hrac_0;
-}
-
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Zobral som odpadok
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ADonutStoreNotebook_C::Zobral_som_odpadok()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("DonutStoreNotebook_C", "Zobral som odpadok");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 

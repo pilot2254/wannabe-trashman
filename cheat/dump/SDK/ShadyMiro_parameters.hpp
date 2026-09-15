@@ -17,60 +17,33 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function ShadyMiro.ShadyMiro_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct ShadyMiro_C_Adrenaline_ final
-{
-public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_ShadyMiro_C_Adrenaline_;
-
-// Function ShadyMiro.ShadyMiro_C.ExecuteUbergraph_ShadyMiro
-// 0x0110 (0x0110 - 0x0000)
-struct ShadyMiro_C_ExecuteUbergraph_ShadyMiro final
-{
-public:
-	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_Event_Ano_NE;                               // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	double                                        K2Node_Event_V_ha_kg;                              // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        K2Node_Event_Hodnota;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_K2_GetComponentScale_ReturnValue;         // 0x0020(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_Add_VectorVector_ReturnValue;             // 0x0038(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FVector                                CallFunc_VLerp_ReturnValue;                        // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0068(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0070(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0080(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_81[0x7];                                       // 0x0081(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0088(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class APlayerController*                      CallFunc_GetPlayerController_ReturnValue;          // 0x0090(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue_1;         // 0x0098(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	struct FTransform                             CallFunc_MakeTransform_ReturnValue;                // 0x00A0(0x0060)(IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue; // 0x0100(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class APickLockminigame_C*                    CallFunc_FinishSpawningActor_ReturnValue;          // 0x0108(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_ShadyMiro_C_ExecuteUbergraph_ShadyMiro;
-
-// Function ShadyMiro.ShadyMiro_C.Kolko je spawned smeti?
+// Function ShadyMiro.ShadyMiro_C.ZiskajHraca
 // 0x0008 (0x0008 - 0x0000)
-struct ShadyMiro_C_Kolko_je_spawned_smeti_ final
+struct ShadyMiro_C_ZiskajHraca final
 {
 public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_ShadyMiro_C_Kolko_je_spawned_smeti_;
+DUMPER7_ASSERTS_ShadyMiro_C_ZiskajHraca;
 
-// Function ShadyMiro.ShadyMiro_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct ShadyMiro_C_KukamNaTeba final
+// Function ShadyMiro.ShadyMiro_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct ShadyMiro_C_Refka_na_Progressbar final
 {
 public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_ShadyMiro_C_KukamNaTeba;
+DUMPER7_ASSERTS_ShadyMiro_C_Refka_na_Progressbar;
+
+// Function ShadyMiro.ShadyMiro_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct ShadyMiro_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_ShadyMiro_C_PosliHodnotuLootu;
 
 // Function ShadyMiro.ShadyMiro_C.lookat
 // 0x01C8 (0x01C8 - 0x0000)
@@ -101,33 +74,60 @@ public:
 };
 DUMPER7_ASSERTS_ShadyMiro_C_lookat;
 
-// Function ShadyMiro.ShadyMiro_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct ShadyMiro_C_PosliHodnotuLootu final
+// Function ShadyMiro.ShadyMiro_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct ShadyMiro_C_KukamNaTeba final
 {
 public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_ShadyMiro_C_PosliHodnotuLootu;
+DUMPER7_ASSERTS_ShadyMiro_C_KukamNaTeba;
 
-// Function ShadyMiro.ShadyMiro_C.Refka na Progressbar
+// Function ShadyMiro.ShadyMiro_C.Kolko je spawned smeti?
 // 0x0008 (0x0008 - 0x0000)
-struct ShadyMiro_C_Refka_na_Progressbar final
+struct ShadyMiro_C_Kolko_je_spawned_smeti_ final
 {
 public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_ShadyMiro_C_Refka_na_Progressbar;
+DUMPER7_ASSERTS_ShadyMiro_C_Kolko_je_spawned_smeti_;
 
-// Function ShadyMiro.ShadyMiro_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct ShadyMiro_C_ZiskajHraca final
+// Function ShadyMiro.ShadyMiro_C.ExecuteUbergraph_ShadyMiro
+// 0x0110 (0x0110 - 0x0000)
+struct ShadyMiro_C_ExecuteUbergraph_ShadyMiro final
 {
 public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         K2Node_Event_Amount___Max_3;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_Event_Ano_NE;                               // 0x0008(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_9[0x7];                                        // 0x0009(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	double                                        K2Node_Event_V_ha_kg;                              // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        K2Node_Event_Hodnota;                              // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_K2_GetComponentScale_ReturnValue;         // 0x0020(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_Add_VectorVector_ReturnValue;             // 0x0038(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FVector                                CallFunc_VLerp_ReturnValue;                        // 0x0050(0x0018)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0068(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0070(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0080(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_81[0x7];                                       // 0x0081(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0088(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class APlayerController*                      CallFunc_GetPlayerController_ReturnValue;          // 0x0090(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue_1;         // 0x0098(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	struct FTransform                             CallFunc_MakeTransform_ReturnValue;                // 0x00A0(0x0060)(IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                 CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue; // 0x0100(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class APickLockminigame_C*                    CallFunc_FinishSpawningActor_ReturnValue;          // 0x0108(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_ShadyMiro_C_ZiskajHraca;
+DUMPER7_ASSERTS_ShadyMiro_C_ExecuteUbergraph_ShadyMiro;
+
+// Function ShadyMiro.ShadyMiro_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct ShadyMiro_C_Adrenaline_ final
+{
+public:
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_ShadyMiro_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

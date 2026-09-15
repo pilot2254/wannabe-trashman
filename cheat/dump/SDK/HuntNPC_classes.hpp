@@ -34,15 +34,15 @@ public:
 	struct FVector                                Last_Seen;                                         // 0x0680(0x0018)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
-	void ExecuteUbergraph_HuntNPC(int32 EntryPoint);
-	void HuntTimer();
-	void OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC(EPathFollowingResult Result, class AAIController* AIController);
-	void OnMoveFinished_C391762A4225A60221C16F9C59022156(EPathFollowingResult Result, class AAIController* AIController);
-	void OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC();
-	void OnRequestFailed_C391762A4225A60221C16F9C59022156();
-	void ReceiveBeginPlay();
 	bool TraceToPlayer();
+	void ReceiveBeginPlay();
+	void OnRequestFailed_C391762A4225A60221C16F9C59022156();
+	void OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC();
+	void OnMoveFinished_C391762A4225A60221C16F9C59022156(EPathFollowingResult Result, class AAIController* AIController);
+	void OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC(EPathFollowingResult Result, class AAIController* AIController);
+	void HuntTimer();
+	void ExecuteUbergraph_HuntNPC(int32 EntryPoint);
+	void BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult);
 
 public:
 	static class UClass* StaticClass()

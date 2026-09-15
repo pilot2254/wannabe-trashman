@@ -28,12 +28,12 @@ public:
 	class FString                                 In_String;                                         // 0x0360(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash)
 
 public:
-	void BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature(const struct FVector2D& NewParam);
-	void BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature(const struct FVector2D& NewParam);
-	void BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature();
-	void Construct();
 	void ExecuteUbergraph_UI_TouchSimple(int32 EntryPoint);
+	void Construct();
+	void BndEvt__UI_TouchInterface_FirstPerson_Btn_Jump_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature();
+	void BndEvt__UI_MobileOverlay_UI_Thumbstick_K2Node_ComponentBoundEvent_0_Stick_Input__DelegateSignature(const struct FVector2D& NewParam);
+	void BndEvt__UI_MobileOverlay_Thumbstick_Aim_K2Node_ComponentBoundEvent_2_Stick_Input__DelegateSignature(const struct FVector2D& NewParam);
+	void BndEvt__UI_MobileOverlay_Btn_Jump_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
 
 public:
 	static class UClass* StaticClass()

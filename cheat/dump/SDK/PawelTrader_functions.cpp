@@ -16,71 +16,269 @@
 
 SDK_NAMESPACE_START
 
-// Function PawelTrader.PawelTrader_C.Adrenaline+
+// Function PawelTrader.PawelTrader_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void APawelTrader_C::Adrenaline_(int32 Amount___Max_3)
+void APawelTrader_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Adrenaline+");
+		Func = Class->GetFunction("PawelTrader_C", "Zobral som odpadok");
 
-	Params::PawelTrader_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function PawelTrader.PawelTrader_C.ExecuteUbergraph_PawelTrader
-// (Final, UbergraphFunction, HasDefaults)
+// Function PawelTrader.PawelTrader_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void APawelTrader_C::ExecuteUbergraph_PawelTrader(int32 EntryPoint)
+void APawelTrader_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "ExecuteUbergraph_PawelTrader");
+		Func = Class->GetFunction("PawelTrader_C", "ZiskajHraca");
 
-	Params::PawelTrader_C_ExecuteUbergraph_PawelTrader Parms{};
-
-	Parms.EntryPoint = EntryPoint;
+	Params::PawelTrader_C_ZiskajHraca Parms{};
 
 	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
 }
 
 
-// Function PawelTrader.PawelTrader_C.Finished_352AFA5749F98F91CEBD4489D72119FB
+// Function PawelTrader.PawelTrader_C.Zapocitaj kolko si spendol
 // (BlueprintCallable, BlueprintEvent)
 
-void APawelTrader_C::Finished_352AFA5749F98F91CEBD4489D72119FB()
+void APawelTrader_C::Zapocitaj_kolko_si_spendol()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Finished_352AFA5749F98F91CEBD4489D72119FB");
+		Func = Class->GetFunction("PawelTrader_C", "Zapocitaj kolko si spendol");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function PawelTrader.PawelTrader_C.Interakica
+// Function PawelTrader.PawelTrader_C.UnlockLockPick
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void APawelTrader_C::Interakica()
+void APawelTrader_C::UnlockLockPick()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Interakica");
+		Func = Class->GetFunction("PawelTrader_C", "UnlockLockPick");
 
 	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Timeline__UpdateFunc
+// (BlueprintEvent)
+
+void APawelTrader_C::Timeline__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Timeline__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Timeline__FinishedFunc
+// (BlueprintEvent)
+
+void APawelTrader_C::Timeline__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Timeline__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void APawelTrader_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "Refka na Progressbar");
+
+	Params::PawelTrader_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function PawelTrader.PawelTrader_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void APawelTrader_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.PosliHodnotuLootu
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void APawelTrader_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "PosliHodnotuLootu");
+
+	Params::PawelTrader_C_PosliHodnotuLootu Parms{};
+
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function PawelTrader.PawelTrader_C.lookat
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void APawelTrader_C::lookat()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "lookat");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function PawelTrader.PawelTrader_C.KukamNaTeba
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void APawelTrader_C::KukamNaTeba(bool NE)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("PawelTrader_C", "KukamNaTeba");
+
+	Params::PawelTrader_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -109,269 +307,71 @@ void APawelTrader_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_
 }
 
 
-// Function PawelTrader.PawelTrader_C.KukamNaTeba
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void APawelTrader_C::KukamNaTeba(bool NE)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "KukamNaTeba");
-
-	Params::PawelTrader_C_KukamNaTeba Parms{};
-
-	Parms.NE = NE;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function PawelTrader.PawelTrader_C.lookat
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::lookat()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "lookat");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.PosliHodnotuLootu
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void APawelTrader_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "PosliHodnotuLootu");
-
-	Params::PawelTrader_C_PosliHodnotuLootu Parms{};
-
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota = Hodnota;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function PawelTrader.PawelTrader_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void APawelTrader_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-
-void APawelTrader_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Refka na Progressbar");
-
-	Params::PawelTrader_C_Refka_na_Progressbar Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
-}
-
-
-// Function PawelTrader.PawelTrader_C.RemoveDynamicEventTxt
+// Function PawelTrader.PawelTrader_C.Interakica
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void APawelTrader_C::RemoveDynamicEventTxt()
+void APawelTrader_C::Interakica()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "RemoveDynamicEventTxt");
+		Func = Class->GetFunction("PawelTrader_C", "Interakica");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function PawelTrader.PawelTrader_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Spawnol som smeti
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Timeline__FinishedFunc
-// (BlueprintEvent)
-
-void APawelTrader_C::Timeline__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Timeline__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Timeline__UpdateFunc
-// (BlueprintEvent)
-
-void APawelTrader_C::Timeline__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Timeline__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void APawelTrader_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function PawelTrader.PawelTrader_C.Zapocitaj kolko si spendol
+// Function PawelTrader.PawelTrader_C.Finished_352AFA5749F98F91CEBD4489D72119FB
 // (BlueprintCallable, BlueprintEvent)
 
-void APawelTrader_C::Zapocitaj_kolko_si_spendol()
+void APawelTrader_C::Finished_352AFA5749F98F91CEBD4489D72119FB()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Zapocitaj kolko si spendol");
+		Func = Class->GetFunction("PawelTrader_C", "Finished_352AFA5749F98F91CEBD4489D72119FB");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function PawelTrader.PawelTrader_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function PawelTrader.PawelTrader_C.ExecuteUbergraph_PawelTrader
+// (Final, UbergraphFunction, HasDefaults)
 // Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac_0                                                 (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void APawelTrader_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0)
+void APawelTrader_C::ExecuteUbergraph_PawelTrader(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "ZiskajHraca");
+		Func = Class->GetFunction("PawelTrader_C", "ExecuteUbergraph_PawelTrader");
 
-	Params::PawelTrader_C_ZiskajHraca Parms{};
+	Params::PawelTrader_C_ExecuteUbergraph_PawelTrader Parms{};
+
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac_0 != nullptr)
-		*Hrac_0 = Parms.Hrac_0;
 }
 
 
-// Function PawelTrader.PawelTrader_C.Zobral som odpadok
+// Function PawelTrader.PawelTrader_C.Adrenaline+
 // (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void APawelTrader_C::Zobral_som_odpadok()
+void APawelTrader_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PawelTrader_C", "Zobral som odpadok");
+		Func = Class->GetFunction("PawelTrader_C", "Adrenaline+");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::PawelTrader_C_Adrenaline_ Parms{};
+
+	Parms.Amount___Max_3 = Amount___Max_3;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 

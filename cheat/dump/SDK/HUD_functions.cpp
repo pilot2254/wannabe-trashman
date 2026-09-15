@@ -16,370 +16,102 @@
 
 SDK_NAMESPACE_START
 
-// Function HUD.HUD_C.BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature
-// (BlueprintEvent)
-// Parameters:
-// const class FString&                    SelectedItem                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-// ESelectInfo                             SelectionType                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UHUD_C::BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature");
-
-	Params::HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature Parms{};
-
-	Parms.SelectedItem = std::move(SelectedItem);
-	Parms.SelectionType = SelectionType;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature
-// (BlueprintEvent)
-// Parameters:
-// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UHUD_C::BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature(float Value)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature");
-
-	Params::HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature Parms{};
-
-	Parms.Value = Value;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature
-// (BlueprintEvent)
-// Parameters:
-// const class FString&                    SelectedItem                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-// ESelectInfo                             SelectionType                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UHUD_C::BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature");
-
-	Params::HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature Parms{};
-
-	Parms.SelectedItem = std::move(SelectedItem);
-	Parms.SelectionType = SelectionType;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHUD_C::BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature
-// (BlueprintEvent)
-// Parameters:
-// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UHUD_C::BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature(float Value)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature");
-
-	Params::HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature Parms{};
-
-	Parms.Value = Value;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HUD.HUD_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UHUD_C::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.ExecuteUbergraph_HUD
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UHUD_C::ExecuteUbergraph_HUD(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "ExecuteUbergraph_HUD");
-
-	Params::HUD_C_ExecuteUbergraph_HUD Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HUD.HUD_C.Load The Milan Prices On Load
-// (BlueprintCallable, BlueprintEvent)
-
-void UHUD_C::Load_The_Milan_Prices_On_Load()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Load The Milan Prices On Load");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.LoadVolume
+// Function HUD.HUD_C.Update time till close gate
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                                   SoundEffectsVolume_0                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   MusicVolume_0                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Time_left                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UHUD_C::LoadVolume(float SoundEffectsVolume_0, float MusicVolume_0)
+void UHUD_C::Update_time_till_close_gate(int32 Time_left)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "LoadVolume");
+		Func = Class->GetFunction("HUD_C", "Update time till close gate");
 
-	Params::HUD_C_LoadVolume Parms{};
+	Params::HUD_C_Update_time_till_close_gate Parms{};
 
-	Parms.SoundEffectsVolume_0 = SoundEffectsVolume_0;
-	Parms.MusicVolume_0 = MusicVolume_0;
+	Parms.Time_left = Time_left;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function HUD.HUD_C.Mam na to €?
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function HUD.HUD_C.UnShowAnimation
+// (BlueprintCallable, BlueprintEvent)
+
+void UHUD_C::UnShowAnimation()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "UnShowAnimation");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.Show PauseMneu
+// (BlueprintCallable, BlueprintEvent)
+
+void UHUD_C::Show_PauseMneu()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "Show PauseMneu");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.PopupText
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   Cena                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool*                                   _                                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// int32*                                  Nová_cena                                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class FText&                      Text                                                   (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void UHUD_C::Mam_na_to___(int32 Cena, bool* _, int32* Nová_cena)
+void UHUD_C::PopupText(const class FText& Text)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Mam na to €?");
+		Func = Class->GetFunction("HUD_C", "PopupText");
 
-	Params::HUD_C_Mam_na_to___ Parms{};
+	Params::HUD_C_PopupText Parms{};
 
-	Parms.Cena = Cena;
+	Parms.Text = std::move(Text);
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	if (_ != nullptr)
-		*_ = Parms._;
-
-	if (Nová_cena != nullptr)
-		*Nová_cena = Parms.Nová_cena;
 }
 
 
-// Function HUD.HUD_C.On_PostProcessingPreset_GenerateWidget
+// Function HUD.HUD_C.Play Upgrade sound
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UHUD_C::Play_Upgrade_sound()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "Play Upgrade sound");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.OnGenerateWidget
 // (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 // const class FString&                    Item                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
 // class UWidget*                          ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
 
-class UWidget* UHUD_C::On_PostProcessingPreset_GenerateWidget(const class FString& Item)
+class UWidget* UHUD_C::OnGenerateWidget(const class FString& Item)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "On_PostProcessingPreset_GenerateWidget");
+		Func = Class->GetFunction("HUD_C", "OnGenerateWidget");
 
-	Params::HUD_C_On_PostProcessingPreset_GenerateWidget Parms{};
+	Params::HUD_C_OnGenerateWidget Parms{};
 
 	Parms.Item = std::move(Item);
 
@@ -412,20 +144,20 @@ class UWidget* UHUD_C::OnGenerateItemWidget(class FName Item)
 }
 
 
-// Function HUD.HUD_C.OnGenerateWidget
+// Function HUD.HUD_C.On_PostProcessingPreset_GenerateWidget
 // (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 // const class FString&                    Item                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
 // class UWidget*                          ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, NoDestructor, HasGetValueTypeHash)
 
-class UWidget* UHUD_C::OnGenerateWidget(const class FString& Item)
+class UWidget* UHUD_C::On_PostProcessingPreset_GenerateWidget(const class FString& Item)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "OnGenerateWidget");
+		Func = Class->GetFunction("HUD_C", "On_PostProcessingPreset_GenerateWidget");
 
-	Params::HUD_C_OnGenerateWidget Parms{};
+	Params::HUD_C_On_PostProcessingPreset_GenerateWidget Parms{};
 
 	Parms.Item = std::move(Item);
 
@@ -435,85 +167,353 @@ class UWidget* UHUD_C::OnGenerateWidget(const class FString& Item)
 }
 
 
-// Function HUD.HUD_C.Play Upgrade sound
-// (Public, BlueprintCallable, BlueprintEvent)
+// Function HUD.HUD_C.Mam na to €?
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int32                                   Cena                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool*                                   _                                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32*                                  Nová_cena                                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UHUD_C::Play_Upgrade_sound()
+void UHUD_C::Mam_na_to___(int32 Cena, bool* _, int32* Nová_cena)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Play Upgrade sound");
+		Func = Class->GetFunction("HUD_C", "Mam na to €?");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::HUD_C_Mam_na_to___ Parms{};
+
+	Parms.Cena = Cena;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (_ != nullptr)
+		*_ = Parms._;
+
+	if (Nová_cena != nullptr)
+		*Nová_cena = Parms.Nová_cena;
 }
 
 
-// Function HUD.HUD_C.PopupText
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Function HUD.HUD_C.LoadVolume
+// (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// const class FText&                      Text                                                   (BlueprintVisible, BlueprintReadOnly, Parm)
+// float                                   SoundEffectsVolume                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   MusicVolume                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UHUD_C::PopupText(const class FText& Text)
+void UHUD_C::LoadVolume(float SoundEffectsVolume, float MusicVolume)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "PopupText");
+		Func = Class->GetFunction("HUD_C", "LoadVolume");
 
-	Params::HUD_C_PopupText Parms{};
+	Params::HUD_C_LoadVolume Parms{};
 
-	Parms.Text = std::move(Text);
+	Parms.SoundEffectsVolume = SoundEffectsVolume;
+	Parms.MusicVolume = MusicVolume;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function HUD.HUD_C.Show PauseMneu
+// Function HUD.HUD_C.Load The Milan Prices On Load
 // (BlueprintCallable, BlueprintEvent)
 
-void UHUD_C::Show_PauseMneu()
+void UHUD_C::Load_The_Milan_Prices_On_Load()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Show PauseMneu");
+		Func = Class->GetFunction("HUD_C", "Load The Milan Prices On Load");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function HUD.HUD_C.UnShowAnimation
-// (BlueprintCallable, BlueprintEvent)
-
-void UHUD_C::UnShowAnimation()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "UnShowAnimation");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HUD.HUD_C.Update time till close gate
-// (BlueprintCallable, BlueprintEvent)
+// Function HUD.HUD_C.ExecuteUbergraph_HUD
+// (Final, UbergraphFunction, HasDefaults)
 // Parameters:
-// int32                                   Time_left                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UHUD_C::Update_time_till_close_gate(int32 Time_left)
+void UHUD_C::ExecuteUbergraph_HUD(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("HUD_C", "Update time till close gate");
+		Func = Class->GetFunction("HUD_C", "ExecuteUbergraph_HUD");
 
-	Params::HUD_C_Update_time_till_close_gate Parms{};
+	Params::HUD_C_ExecuteUbergraph_HUD Parms{};
 
-	Parms.Time_left = Time_left;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HUD.HUD_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UHUD_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature
+// (BlueprintEvent)
+// Parameters:
+// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UHUD_C::BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature(float Value)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature");
+
+	Params::HUD_C_BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature Parms{};
+
+	Parms.Value = Value;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature
+// (BlueprintEvent)
+// Parameters:
+// const class FString&                    SelectedItem                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+// ESelectInfo                             SelectionType                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UHUD_C::BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature");
+
+	Params::HUD_C_BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature Parms{};
+
+	Parms.SelectedItem = std::move(SelectedItem);
+	Parms.SelectionType = SelectionType;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature
+// (BlueprintEvent)
+// Parameters:
+// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UHUD_C::BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature(float Value)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature");
+
+	Params::HUD_C_BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature Parms{};
+
+	Parms.Value = Value;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature
+// (BlueprintEvent)
+// Parameters:
+// const class FString&                    SelectedItem                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
+// ESelectInfo                             SelectionType                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UHUD_C::BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature");
+
+	Params::HUD_C_BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature Parms{};
+
+	Parms.SelectedItem = std::move(SelectedItem);
+	Parms.SelectionType = SelectionType;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HUD.HUD_C.BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHUD_C::BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HUD_C", "BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

@@ -37,10 +37,10 @@ public:
 	bool                                          Bol_uz_stopped_;                                   // 0x0300(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_GarbageCar(int32 EntryPoint);
-	void ReceiveBeginPlay();
-	void Timeline__FinishedFunc();
 	void Timeline__UpdateFunc();
+	void Timeline__FinishedFunc();
+	void ReceiveBeginPlay();
+	void ExecuteUbergraph_GarbageCar(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

@@ -16,23 +16,17 @@
 
 SDK_NAMESPACE_START
 
-// Function Marker.Marker_C.ExecuteUbergraph_Marker
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// Function Marker.Marker_C.Tick
+// (BlueprintCallable, BlueprintEvent)
 
-void AMarker_C::ExecuteUbergraph_Marker(int32 EntryPoint)
+void AMarker_C::Tick()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Marker_C", "ExecuteUbergraph_Marker");
+		Func = Class->GetFunction("Marker_C", "Tick");
 
-	Params::Marker_C_ExecuteUbergraph_Marker Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
@@ -50,17 +44,23 @@ void AMarker_C::ReceiveBeginPlay()
 }
 
 
-// Function Marker.Marker_C.Tick
-// (BlueprintCallable, BlueprintEvent)
+// Function Marker.Marker_C.ExecuteUbergraph_Marker
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void AMarker_C::Tick()
+void AMarker_C::ExecuteUbergraph_Marker(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Marker_C", "Tick");
+		Func = Class->GetFunction("Marker_C", "ExecuteUbergraph_Marker");
 
-	UObject::ProcessEvent(Func, nullptr);
+	Params::Marker_C_ExecuteUbergraph_Marker Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 

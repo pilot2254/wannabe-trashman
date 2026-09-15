@@ -14,14 +14,52 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct DonutStoreNotebook_C_Adrenaline_ final
+// Function DonutStoreNotebook.DonutStoreNotebook_C.ZiskajHraca
+// 0x0008 (0x0008 - 0x0000)
+struct DonutStoreNotebook_C_ZiskajHraca final
 {
 public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_DonutStoreNotebook_C_Adrenaline_;
+DUMPER7_ASSERTS_DonutStoreNotebook_C_ZiskajHraca;
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct DonutStoreNotebook_C_Refka_na_Progressbar final
+{
+public:
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_DonutStoreNotebook_C_Refka_na_Progressbar;
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct DonutStoreNotebook_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_DonutStoreNotebook_C_PosliHodnotuLootu;
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct DonutStoreNotebook_C_KukamNaTeba final
+{
+public:
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_DonutStoreNotebook_C_KukamNaTeba;
+
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Kolko je spawned smeti?
+// 0x0008 (0x0008 - 0x0000)
+struct DonutStoreNotebook_C_Kolko_je_spawned_smeti_ final
+{
+public:
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_DonutStoreNotebook_C_Kolko_je_spawned_smeti_;
 
 // Function DonutStoreNotebook.DonutStoreNotebook_C.ExecuteUbergraph_DonutStoreNotebook
 // 0x0070 (0x0070 - 0x0000)
@@ -48,52 +86,14 @@ public:
 };
 DUMPER7_ASSERTS_DonutStoreNotebook_C_ExecuteUbergraph_DonutStoreNotebook;
 
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Kolko je spawned smeti?
-// 0x0008 (0x0008 - 0x0000)
-struct DonutStoreNotebook_C_Kolko_je_spawned_smeti_ final
+// Function DonutStoreNotebook.DonutStoreNotebook_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct DonutStoreNotebook_C_Adrenaline_ final
 {
 public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_DonutStoreNotebook_C_Kolko_je_spawned_smeti_;
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct DonutStoreNotebook_C_KukamNaTeba final
-{
-public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_DonutStoreNotebook_C_KukamNaTeba;
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct DonutStoreNotebook_C_PosliHodnotuLootu final
-{
-public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_DonutStoreNotebook_C_PosliHodnotuLootu;
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.Refka na Progressbar
-// 0x0008 (0x0008 - 0x0000)
-struct DonutStoreNotebook_C_Refka_na_Progressbar final
-{
-public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_DonutStoreNotebook_C_Refka_na_Progressbar;
-
-// Function DonutStoreNotebook.DonutStoreNotebook_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct DonutStoreNotebook_C_ZiskajHraca final
-{
-public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_DonutStoreNotebook_C_ZiskajHraca;
+DUMPER7_ASSERTS_DonutStoreNotebook_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

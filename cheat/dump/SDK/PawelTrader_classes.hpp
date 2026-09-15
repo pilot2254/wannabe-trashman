@@ -38,28 +38,28 @@ public:
 	int32                                         Koľko_si_dokopy_minu_u_pawla_no_reset;             // 0x06B0(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Adrenaline_(int32 Amount___Max_3);
-	void ExecuteUbergraph_PawelTrader(int32 EntryPoint);
-	void Finished_352AFA5749F98F91CEBD4489D72119FB();
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void KukamNaTeba(bool NE);
-	void lookat();
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
-	void ReceiveBeginPlay();
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Spawnol_som_smeti();
-	void Stop_timerEvent();
-	void Timeline__FinishedFunc();
-	void Timeline__UpdateFunc();
-	void Ukončil_som_Pickup_Predčasne();
-	void UnlockLockPick();
-	void Zapocitaj_kolko_si_spendol();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0);
 	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void Zapocitaj_kolko_si_spendol();
+	void UnlockLockPick();
+	void Ukončil_som_Pickup_Predčasne();
+	void Timeline__UpdateFunc();
+	void Timeline__FinishedFunc();
+	void Stop_timerEvent();
+	void Spawnol_som_smeti();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveBeginPlay();
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void lookat();
+	void KukamNaTeba(bool NE);
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void Finished_352AFA5749F98F91CEBD4489D72119FB();
+	void ExecuteUbergraph_PawelTrader(int32 EntryPoint);
+	void Adrenaline_(int32 Amount___Max_3);
 
 public:
 	static class UClass* StaticClass()

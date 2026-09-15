@@ -88,35 +88,35 @@ public:
 	float                                         MusicVolume;                                       // 0x0528(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType);
-	void BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature(float Value);
-	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature();
-	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType);
-	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature();
-	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature();
-	void BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature();
-	void BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature(float Value);
-	void Construct();
-	void ExecuteUbergraph_HUD(int32 EntryPoint);
-	void Load_The_Milan_Prices_On_Load();
-	void LoadVolume(float SoundEffectsVolume_0, float MusicVolume_0);
-	void Mam_na_to___(int32 Cena, bool* _, int32* Nová_cena);
-	class UWidget* On_PostProcessingPreset_GenerateWidget(const class FString& Item);
-	class UWidget* OnGenerateItemWidget(class FName Item);
-	class UWidget* OnGenerateWidget(const class FString& Item);
-	void Play_Upgrade_sound();
-	void PopupText(const class FText& Text);
-	void Show_PauseMneu();
-	void UnShowAnimation();
 	void Update_time_till_close_gate(int32 Time_left);
+	void UnShowAnimation();
+	void Show_PauseMneu();
+	void PopupText(const class FText& Text);
+	void Play_Upgrade_sound();
+	class UWidget* OnGenerateWidget(const class FString& Item);
+	class UWidget* OnGenerateItemWidget(class FName Item);
+	class UWidget* On_PostProcessingPreset_GenerateWidget(const class FString& Item);
+	void Mam_na_to___(int32 Cena, bool* _, int32* Nová_cena);
+	void LoadVolume(float SoundEffectsVolume, float MusicVolume);
+	void Load_The_Milan_Prices_On_Load();
+	void ExecuteUbergraph_HUD(int32 EntryPoint);
+	void Construct();
+	void BndEvt__HUD_Volume_K2Node_ComponentBoundEvent_1_OnFloatValueChangedEvent__DelegateSignature(float Value);
+	void BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_SETTINGS_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_7_OnButtonPressedEvent__DelegateSignature();
+	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_12_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_SaveGame_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature();
+	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_14_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_quit_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_PostProcessingPreset_K2Node_ComponentBoundEvent_17_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType);
+	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature();
+	void BndEvt__HUD_play_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature();
+	void BndEvt__HUD_Music_K2Node_ComponentBoundEvent_15_OnFloatValueChangedEvent__DelegateSignature(float Value);
+	void BndEvt__HUD_ComboBoxString_0_K2Node_ComponentBoundEvent_16_OnSelectionChangedEvent__DelegateSignature(const class FString& SelectedItem, ESelectInfo SelectionType);
+	void BndEvt__HUD_Button_299_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature();
 
 public:
 	static class UClass* StaticClass()

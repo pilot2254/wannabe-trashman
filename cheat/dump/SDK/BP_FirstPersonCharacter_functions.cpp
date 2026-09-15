@@ -16,261 +16,593 @@
 
 SDK_NAMESPACE_START
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.- Adrenaline
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::__Adrenaline()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "- Adrenaline");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.60Sec 
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Six0Sec_()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "60Sec ");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Adrenaline+
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::Adrenaline_(int32 Amount___Max_3)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Adrenaline+");
-
-	Params::BP_FirstPersonCharacter_C_Adrenaline_ Parms{};
-
-	Parms.Amount___Max_3 = Amount___Max_3;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Aim
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// float                                   Yaw                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Pitch                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::Aim(float Yaw, double Pitch)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Aim");
-
-	Params::BP_FirstPersonCharacter_C_Aim Parms{};
-
-	Parms.Yaw = Yaw;
-	Parms.Pitch = Pitch;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.AUTOSAVE LOOP
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::AUTOSAVE_LOOP()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "AUTOSAVE LOOP");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ClearPlayerInventory
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Zobral som odpadok
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::ClearPlayerInventory()
+void ABP_FirstPersonCharacter_C::Zobral_som_odpadok()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ClearPlayerInventory");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Zobral som odpadok");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Close Milan Menu
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ZiskajHraca
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ZiskajHraca");
+
+	Params::BP_FirstPersonCharacter_C_ZiskajHraca Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Hrac != nullptr)
+		*Hrac = Parms.Hrac;
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Wait for new event
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Close_Milan_Menu()
+void ABP_FirstPersonCharacter_C::Wait_for_new_event()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Close Milan Menu");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Wait for new event");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Drop Collected
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.UnlockLockPick
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::UnlockLockPick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "UnlockLockPick");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Ukončil som Pickup Predčasne
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Ukončil_som_Pickup_Predčasne()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Ukončil som Pickup Predčasne");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Touch Jump Start
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Touch_Jump_Start()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Touch Jump Start");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Touch Jump End
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Touch_Jump_End()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Touch Jump End");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Time left for kufrik
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Drop_Collected()
+void ABP_FirstPersonCharacter_C::Time_left_for_kufrik()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Drop Collected");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Time left for kufrik");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event Garbage Car
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Tick
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Dynamic_Event_Garbage_Car()
+void ABP_FirstPersonCharacter_C::Tick()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event Garbage Car");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Tick");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event Golden Hour
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Stop timerEvent
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Stop_timerEvent()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Stop timerEvent");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.EndBlackScreen
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Start_                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::EndBlackScreen(bool Start_)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "EndBlackScreen");
+
+	Params::BP_FirstPersonCharacter_C_EndBlackScreen Parms{};
+
+	Parms.Start_ = Start_;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Spawnol som smeti
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Spawnol_som_smeti()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Spawnol som smeti");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Secondary Thumbstick
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::Secondary_Thumbstick(const struct FVector2D& Axis)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Secondary Thumbstick");
+
+	Params::BP_FirstPersonCharacter_C_Secondary_Thumbstick Parms{};
+
+	Parms.Axis = std::move(Axis);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Save game
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Dynamic_Event_Golden_Hour()
+void ABP_FirstPersonCharacter_C::Save_game()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event Golden Hour");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Save game");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event VIP DROP
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ResumeTimer
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::ResumeTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ResumeTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ResetKolkoDrzim
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::ResetKolkoDrzim()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ResetKolkoDrzim");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.RemoveDynamicEventTxt
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::RemoveDynamicEventTxt()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "RemoveDynamicEventTxt");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Refka na Progressbar
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Refka na Progressbar");
+
+	Params::BP_FirstPersonCharacter_C_Refka_na_Progressbar Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PB != nullptr)
+		*PB = Parms.PB;
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Reborn
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Dynamic_Event_VIP_DROP()
+void ABP_FirstPersonCharacter_C::Reborn()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event VIP DROP");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Reborn");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ExecuteUbergraph_BP_FirstPersonCharacter
-// (Final, UbergraphFunction, HasDefaults)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Raycast
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class AActor**                          HitActor                                               (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::ExecuteUbergraph_BP_FirstPersonCharacter(int32 EntryPoint)
+void ABP_FirstPersonCharacter_C::Raycast(class AActor** HitActor)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ExecuteUbergraph_BP_FirstPersonCharacter");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Raycast");
 
-	Params::BP_FirstPersonCharacter_C_ExecuteUbergraph_BP_FirstPersonCharacter Parms{};
+	Params::BP_FirstPersonCharacter_C_Raycast Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (HitActor != nullptr)
+		*HitActor = Parms.HitActor;
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Random Dynamic Event
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Random_Dynamic_Event()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Random Dynamic Event");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Primary Thumbstick
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::Primary_Thumbstick(const struct FVector2D& Axis)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Primary Thumbstick");
+
+	Params::BP_FirstPersonCharacter_C_Primary_Thumbstick Parms{};
+
+	Parms.Axis = std::move(Axis);
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1
-// (BlueprintEvent)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PosliHodnotuLootu
+// (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+void ABP_FirstPersonCharacter_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PosliHodnotuLootu");
 
-	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1 Parms{};
+	Params::BP_FirstPersonCharacter_C_PosliHodnotuLootu Parms{};
 
-	Parms.Key = std::move(Key);
-	Parms.ActionValue = std::move(ActionValue);
+	Parms.Váha_kg = Váha_kg;
+	Parms.Hodnota = Hodnota;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0
-// (BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PlayerHoldingMesh
+// (Public, BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+void ABP_FirstPersonCharacter_C::PlayerHoldingMesh()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PlayerHoldingMesh");
 
-	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0 Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.Key = std::move(Key);
-	Parms.ActionValue = std::move(ActionValue);
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PlayDynamic Event Anim
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// const class FText&                      Description                                            (BlueprintVisible, BlueprintReadOnly, Parm)
+// const class FText&                      Name_0                                                 (BlueprintVisible, BlueprintReadOnly, Parm)
+// const struct FLinearColor&              Name_Color                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::PlayDynamic_Event_Anim(const class FText& Description, const class FText& Name_0, const struct FLinearColor& Name_Color)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PlayDynamic Event Anim");
+
+	Params::BP_FirstPersonCharacter_C_PlayDynamic_Event_Anim Parms{};
+
+	Parms.Description = std::move(Description);
+	Parms.Name_0 = std::move(Name_0);
+	Parms.Name_Color = std::move(Name_Color);
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2
-// (BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.OnMusicFinished
+// (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+void ABP_FirstPersonCharacter_C::OnMusicFinished()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "OnMusicFinished");
 
-	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2 Parms{};
+	UObject::ProcessEvent(Func, nullptr);
+}
 
-	Parms.Key = std::move(Key);
-	Parms.ActionValue = std::move(ActionValue);
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Nastav Info do Tab
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Nastav_Info_do_Tab()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Nastav Info do Tab");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.MusicPlayer
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::MusicPlayer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "MusicPlayer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Move
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  _Right                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  _Backward                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::Move(double _Right, double _Backward)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Move");
+
+	Params::BP_FirstPersonCharacter_C_Move Parms{};
+
+	Parms._Right = _Right;
+	Parms._Backward = _Backward;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.LoadItemsToStats
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::LoadItemsToStats()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "LoadItemsToStats");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Load Game
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Load_Game()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Load Game");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.KukamNaTeba
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::KukamNaTeba(bool NE)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "KukamNaTeba");
+
+	Params::BP_FirstPersonCharacter_C_KukamNaTeba Parms{};
+
+	Parms.NE = NE;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Kukam prec
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Kukam_prec()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Kukam prec");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Kolko je spawned smeti?
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int32*                                  Kolko_                                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32*                                  Kolko_je_max_                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Kolko je spawned smeti?");
+
+	Params::BP_FirstPersonCharacter_C_Kolko_je_spawned_smeti_ Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Kolko_ != nullptr)
+		*Kolko_ = Parms.Kolko_;
+
+	if (Kolko_je_max_ != nullptr)
+		*Kolko_je_max_ = Parms.Kolko_je_max_;
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Interakica
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_FirstPersonCharacter_C::Interakica()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Interakica");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0
 // (BlueprintEvent)
 // Parameters:
 // const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
@@ -278,170 +610,14 @@ void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2(co
 // float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0");
 
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8 Parms{};
-
-	Parms.ActionValue = std::move(ActionValue);
-	Parms.ElapsedTime = ElapsedTime;
-	Parms.TriggeredTime = TriggeredTime;
-	Parms.SourceAction = SourceAction;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5
-// (BlueprintEvent)
-// Parameters:
-// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5");
-
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5 Parms{};
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0 Parms{};
 
 	Parms.ActionValue = std::move(ActionValue);
 	Parms.ElapsedTime = ElapsedTime;
@@ -478,7 +654,7 @@ void ABP_FirstPersonCharacter_C::InpActEvt_IA_Move_K2Node_EnhancedInputActionEve
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5
 // (BlueprintEvent)
 // Parameters:
 // const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
@@ -486,14 +662,14 @@ void ABP_FirstPersonCharacter_C::InpActEvt_IA_Move_K2Node_EnhancedInputActionEve
 // float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5");
 
-	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_TabESC_K2Node_EnhancedInputActionEvent_0 Parms{};
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_MouseLook_K2Node_EnhancedInputActionEvent_5 Parms{};
 
 	Parms.ActionValue = std::move(ActionValue);
 	Parms.ElapsedTime = ElapsedTime;
@@ -504,587 +680,411 @@ void ABP_FirstPersonCharacter_C::InpActEvt_IA_TabESC_K2Node_EnhancedInputActionE
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Interakica
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Interakica()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Interakica");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Kolko je spawned smeti?
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8
+// (BlueprintEvent)
 // Parameters:
-// int32*                                  Kolko_                                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// int32*                                  Kolko_je_max_                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_)
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Kolko je spawned smeti?");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8");
 
-	Params::BP_FirstPersonCharacter_C_Kolko_je_spawned_smeti_ Parms{};
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Look_K2Node_EnhancedInputActionEvent_8 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
 
 	UObject::ProcessEvent(Func, &Parms);
-
-	if (Kolko_ != nullptr)
-		*Kolko_ = Parms.Kolko_;
-
-	if (Kolko_je_max_ != nullptr)
-		*Kolko_je_max_ = Parms.Kolko_je_max_;
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Kukam prec
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6
+// (BlueprintEvent)
+// Parameters:
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Jump_K2Node_EnhancedInputActionEvent_6 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4
+// (BlueprintEvent)
+// Parameters:
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_4 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3
+// (BlueprintEvent)
+// Parameters:
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_3 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2
+// (BlueprintEvent)
+// Parameters:
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_2 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1
+// (BlueprintEvent)
+// Parameters:
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// float                                   ElapsedTime                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   TriggeredTime                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// const class UInputAction*               SourceAction                                           (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1(const struct FInputActionValue& ActionValue, float ElapsedTime, float TriggeredTime, const class UInputAction* SourceAction)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_IA_Interact_K2Node_EnhancedInputActionEvent_1 Parms{};
+
+	Parms.ActionValue = std::move(ActionValue);
+	Parms.ElapsedTime = ElapsedTime;
+	Parms.TriggeredTime = TriggeredTime;
+	Parms.SourceAction = SourceAction;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2
+// (BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_X_K2Node_InputDebugKeyEvent_2 Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.ActionValue = std::move(ActionValue);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0
+// (BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_L_K2Node_InputDebugKeyEvent_0 Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.ActionValue = std::move(ActionValue);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1
+// (BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
+// const struct FInputActionValue&         ActionValue                                            (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+
+void ABP_FirstPersonCharacter_C::InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1(const struct FKey& Key, const struct FInputActionValue& ActionValue)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1");
+
+	Params::BP_FirstPersonCharacter_C_InpActEvt_Ctrl_C_K2Node_InputDebugKeyEvent_1 Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.ActionValue = std::move(ActionValue);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ExecuteUbergraph_BP_FirstPersonCharacter
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FirstPersonCharacter_C::ExecuteUbergraph_BP_FirstPersonCharacter(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ExecuteUbergraph_BP_FirstPersonCharacter");
+
+	Params::BP_FirstPersonCharacter_C_ExecuteUbergraph_BP_FirstPersonCharacter Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event VIP DROP
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Kukam_prec()
+void ABP_FirstPersonCharacter_C::Dynamic_Event_VIP_DROP()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Kukam prec");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event VIP DROP");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.KukamNaTeba
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    NE                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::KukamNaTeba(bool NE)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "KukamNaTeba");
-
-	Params::BP_FirstPersonCharacter_C_KukamNaTeba Parms{};
-
-	Parms.NE = NE;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Load Game
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event Golden Hour
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Load_Game()
+void ABP_FirstPersonCharacter_C::Dynamic_Event_Golden_Hour()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Load Game");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event Golden Hour");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.LoadItemsToStats
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::LoadItemsToStats()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "LoadItemsToStats");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Move
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// double                                  _Right                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  _Backward                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::Move(double _Right, double _Backward)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Move");
-
-	Params::BP_FirstPersonCharacter_C_Move Parms{};
-
-	Parms._Right = _Right;
-	Parms._Backward = _Backward;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.MusicPlayer
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Dynamic Event Garbage Car
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::MusicPlayer()
+void ABP_FirstPersonCharacter_C::Dynamic_Event_Garbage_Car()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "MusicPlayer");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Dynamic Event Garbage Car");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Nastav Info do Tab
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Nastav_Info_do_Tab()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Nastav Info do Tab");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.OnMusicFinished
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Drop Collected
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::OnMusicFinished()
+void ABP_FirstPersonCharacter_C::Drop_Collected()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "OnMusicFinished");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Drop Collected");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PlayDynamic Event Anim
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// const class FText&                      Description                                            (BlueprintVisible, BlueprintReadOnly, Parm)
-// const class FText&                      Name_0                                                 (BlueprintVisible, BlueprintReadOnly, Parm)
-// const struct FLinearColor&              Name_Color                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::PlayDynamic_Event_Anim(const class FText& Description, const class FText& Name_0, const struct FLinearColor& Name_Color)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PlayDynamic Event Anim");
-
-	Params::BP_FirstPersonCharacter_C_PlayDynamic_Event_Anim Parms{};
-
-	Parms.Description = std::move(Description);
-	Parms.Name_0 = std::move(Name_0);
-	Parms.Name_Color = std::move(Name_Color);
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PlayerHoldingMesh
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::PlayerHoldingMesh()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PlayerHoldingMesh");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.PosliHodnotuLootu
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// double                                  Váha_kg                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// double                                  Hodnota                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::PosliHodnotuLootu(double Váha_kg, double Hodnota)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "PosliHodnotuLootu");
-
-	Params::BP_FirstPersonCharacter_C_PosliHodnotuLootu Parms{};
-
-	Parms.Váha_kg = Váha_kg;
-	Parms.Hodnota = Hodnota;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Primary Thumbstick
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::Primary_Thumbstick(const struct FVector2D& Axis)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Primary Thumbstick");
-
-	Params::BP_FirstPersonCharacter_C_Primary_Thumbstick Parms{};
-
-	Parms.Axis = std::move(Axis);
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Random Dynamic Event
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Close Milan Menu
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Random_Dynamic_Event()
+void ABP_FirstPersonCharacter_C::Close_Milan_Menu()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Random Dynamic Event");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Close Milan Menu");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Raycast
-// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class AActor**                          HitActor                                               (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ClearPlayerInventory
+// (Public, BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Raycast(class AActor** HitActor)
+void ABP_FirstPersonCharacter_C::ClearPlayerInventory()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Raycast");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ClearPlayerInventory");
 
-	Params::BP_FirstPersonCharacter_C_Raycast Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (HitActor != nullptr)
-		*HitActor = Parms.HitActor;
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Reborn
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.AUTOSAVE LOOP
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Reborn()
+void ABP_FirstPersonCharacter_C::AUTOSAVE_LOOP()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Reborn");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "AUTOSAVE LOOP");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Refka na Progressbar
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class UWB_RoundProgressBar_C**          PB                                                     (Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Refka na Progressbar");
-
-	Params::BP_FirstPersonCharacter_C_Refka_na_Progressbar Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (PB != nullptr)
-		*PB = Parms.PB;
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.RemoveDynamicEventTxt
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::RemoveDynamicEventTxt()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "RemoveDynamicEventTxt");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ResetKolkoDrzim
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::ResetKolkoDrzim()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ResetKolkoDrzim");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ResumeTimer
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::ResumeTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ResumeTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Save game
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Save_game()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Save game");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Secondary Thumbstick
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Aim
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   Yaw                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Pitch                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::Secondary_Thumbstick(const struct FVector2D& Axis)
+void ABP_FirstPersonCharacter_C::Aim(float Yaw, double Pitch)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Secondary Thumbstick");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Aim");
 
-	Params::BP_FirstPersonCharacter_C_Secondary_Thumbstick Parms{};
+	Params::BP_FirstPersonCharacter_C_Aim Parms{};
 
-	Parms.Axis = std::move(Axis);
+	Parms.Yaw = Yaw;
+	Parms.Pitch = Pitch;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Spawnol som smeti
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Adrenaline+
 // (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Spawnol_som_smeti()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Spawnol som smeti");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.EndBlackScreen
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Start_                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Amount___Max_3                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_FirstPersonCharacter_C::EndBlackScreen(bool Start_)
+void ABP_FirstPersonCharacter_C::Adrenaline_(int32 Amount___Max_3)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "EndBlackScreen");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Adrenaline+");
 
-	Params::BP_FirstPersonCharacter_C_EndBlackScreen Parms{};
+	Params::BP_FirstPersonCharacter_C_Adrenaline_ Parms{};
 
-	Parms.Start_ = Start_;
+	Parms.Amount___Max_3 = Amount___Max_3;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Stop timerEvent
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Stop_timerEvent()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Stop timerEvent");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Tick
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.60Sec 
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Tick()
+void ABP_FirstPersonCharacter_C::Six0Sec_()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Tick");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "60Sec ");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Time left for kufrik
+// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.- Adrenaline
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_FirstPersonCharacter_C::Time_left_for_kufrik()
+void ABP_FirstPersonCharacter_C::__Adrenaline()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Time left for kufrik");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Touch Jump End
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Touch_Jump_End()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Touch Jump End");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Touch Jump Start
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Touch_Jump_Start()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Touch Jump Start");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Ukončil som Pickup Predčasne
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Ukončil_som_Pickup_Predčasne()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Ukončil som Pickup Predčasne");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.UnlockLockPick
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::UnlockLockPick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "UnlockLockPick");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Wait for new event
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Wait_for_new_event()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Wait for new event");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.ZiskajHraca
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_FirstPersonCharacter_C**      Hrac                                                   (Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void ABP_FirstPersonCharacter_C::ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "ZiskajHraca");
-
-	Params::BP_FirstPersonCharacter_C_ZiskajHraca Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Hrac != nullptr)
-		*Hrac = Parms.Hrac;
-}
-
-
-// Function BP_FirstPersonCharacter.BP_FirstPersonCharacter_C.Zobral som odpadok
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_FirstPersonCharacter_C::Zobral_som_odpadok()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "Zobral som odpadok");
+		Func = Class->GetFunction("BP_FirstPersonCharacter_C", "- Adrenaline");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

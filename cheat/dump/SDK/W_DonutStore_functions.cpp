@@ -16,167 +16,15 @@
 
 SDK_NAMESPACE_START
 
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature
-// (BlueprintEvent)
-// Parameters:
-// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UW_DonutStore_C::BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature(float Value)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature");
-
-	Params::W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature Parms{};
-
-	Parms.Value = Value;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UW_DonutStore_C::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.ExecuteUbergraph_W_DonutStore
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UW_DonutStore_C::ExecuteUbergraph_W_DonutStore(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "ExecuteUbergraph_W_DonutStore");
-
-	Params::W_DonutStore_C_ExecuteUbergraph_W_DonutStore Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.Got Supplies Ready
+// Function W_DonutStore.W_DonutStore_C.Timer Start
 // (BlueprintCallable, BlueprintEvent)
 
-void UW_DonutStore_C::Got_Supplies_Ready()
+void UW_DonutStore_C::Timer_Start()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "Got Supplies Ready");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.LoadGame
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_DonutStore_C::LoadGame()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "LoadGame");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function W_DonutStore.W_DonutStore_C.Secs
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_DonutStore_C::Secs()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "Secs");
+		Func = Class->GetFunction("W_DonutStore_C", "Timer Start");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
@@ -202,15 +50,167 @@ void UW_DonutStore_C::SetShopStatus(bool BoughSupplies_)
 }
 
 
-// Function W_DonutStore.W_DonutStore_C.Timer Start
+// Function W_DonutStore.W_DonutStore_C.Secs
 // (BlueprintCallable, BlueprintEvent)
 
-void UW_DonutStore_C::Timer_Start()
+void UW_DonutStore_C::Secs()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("W_DonutStore_C", "Timer Start");
+		Func = Class->GetFunction("W_DonutStore_C", "Secs");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.LoadGame
+// (BlueprintCallable, BlueprintEvent)
+
+void UW_DonutStore_C::LoadGame()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "LoadGame");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.Got Supplies Ready
+// (BlueprintCallable, BlueprintEvent)
+
+void UW_DonutStore_C::Got_Supplies_Ready()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "Got Supplies Ready");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.ExecuteUbergraph_W_DonutStore
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UW_DonutStore_C::ExecuteUbergraph_W_DonutStore(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "ExecuteUbergraph_W_DonutStore");
+
+	Params::W_DonutStore_C_ExecuteUbergraph_W_DonutStore Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UW_DonutStore_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature
+// (BlueprintEvent)
+// Parameters:
+// float                                   Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature(float Value)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature");
+
+	Params::W_DonutStore_C_BndEvt__W_DonutStore_StockValueSlider_K2Node_ComponentBoundEvent_3_OnFloatValueChangedEvent__DelegateSignature Parms{};
+
+	Parms.Value = Value;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_gethelpButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_Exit_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_CashOut_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_BuyStocksButton_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function W_DonutStore.W_DonutStore_C.BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UW_DonutStore_C::BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("W_DonutStore_C", "BndEvt__W_DonutStore_Buy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

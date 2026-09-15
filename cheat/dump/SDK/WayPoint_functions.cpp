@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function WayPoint.WayPoint_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UWayPoint_C::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WayPoint_C", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function WayPoint.WayPoint_C.ExecuteUbergraph_WayPoint
 // (Final, UbergraphFunction, HasDefaults)
 // Parameters:
@@ -47,6 +33,20 @@ void UWayPoint_C::ExecuteUbergraph_WayPoint(int32 EntryPoint)
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WayPoint.WayPoint_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UWayPoint_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WayPoint_C", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

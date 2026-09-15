@@ -12,9 +12,9 @@
 
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
+#include "ControlRig_structs.hpp"
 #include "ABP_Unarmed_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
-#include "ControlRig_structs.hpp"
 #include "CoreUObject_structs.hpp"
 
 
@@ -68,11 +68,11 @@ public:
 	bool                                          IsFalling;                                         // 0x0F31(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void AnimGraph(struct FPoseLink* AnimGraph_0);
-	void BlueprintInitializeAnimation();
-	void BlueprintUpdateAnimation(float DeltaTimeX);
-	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Unarmed_AnimGraphNode_TransitionResult_0E3DC2854F5C527DFEECC298E8C3D6FA();
 	void ExecuteUbergraph_ABP_Unarmed(int32 EntryPoint);
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Unarmed_AnimGraphNode_TransitionResult_0E3DC2854F5C527DFEECC298E8C3D6FA();
+	void BlueprintUpdateAnimation(float DeltaTimeX_BlueprintUpdateAnimation);
+	void BlueprintInitializeAnimation();
+	void AnimGraph(struct FPoseLink* AnimGraph);
 
 public:
 	static class UClass* StaticClass()

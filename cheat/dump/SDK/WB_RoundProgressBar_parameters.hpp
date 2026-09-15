@@ -17,12 +17,39 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.ExecuteUbergraph_WB_RoundProgressBar
+// 0x0048 (0x0048 - 0x0000)
+struct WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar final
+{
+public:
+	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0008(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0010(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0020(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_21[0x7];                                       // 0x0021(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0028(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_Event_IsDesignTime;                         // 0x0030(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_31[0x3];                                       // 0x0031(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FWidgetAnimationHandle                 CallFunc_PlayAnimation_ReturnValue;                // 0x0034(0x0010)(NoDestructor, ContainsInstancedReference, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar;
+
+// Function WB_RoundProgressBar.WB_RoundProgressBar_C.PreConstruct
+// 0x0001 (0x0001 - 0x0000)
+struct WB_RoundProgressBar_C_PreConstruct final
+{
+public:
+	bool                                          IsDesignTime_PreConstruct;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_WB_RoundProgressBar_C_PreConstruct;
+
 // Function WB_RoundProgressBar.WB_RoundProgressBar_C.Set%
 // 0x00D0 (0x00D0 - 0x0000)
 struct WB_RoundProgressBar_C_Set_ final
 {
 public:
-	double                                        Percent_0;                                         // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Percent;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class USoundBase*                             Sound;                                             // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	double                                        Kedy_zrychlit;                                     // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                          done_;                                             // 0x0018(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -55,33 +82,6 @@ public:
 	float                                         CallFunc_MakeColor_B_ImplicitCast;                 // 0x00CC(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_WB_RoundProgressBar_C_Set_;
-
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.PreConstruct
-// 0x0001 (0x0001 - 0x0000)
-struct WB_RoundProgressBar_C_PreConstruct final
-{
-public:
-	bool                                          IsDesignTime;                                      // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_WB_RoundProgressBar_C_PreConstruct;
-
-// Function WB_RoundProgressBar.WB_RoundProgressBar_C.ExecuteUbergraph_WB_RoundProgressBar
-// 0x0048 (0x0048 - 0x0000)
-struct WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar final
-{
-public:
-	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	class ACharacter*                             CallFunc_GetPlayerCharacter_ReturnValue;           // 0x0008(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	TScriptInterface<class IKomunikacia_C>        K2Node_DynamicCast_AsKomunikacia;                  // 0x0010(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0020(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_21[0x7];                                       // 0x0021(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class ABP_FirstPersonCharacter_C*             CallFunc_ZiskajHraca_Hrac;                         // 0x0028(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_Event_IsDesignTime;                         // 0x0030(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_31[0x3];                                       // 0x0031(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FWidgetAnimationHandle                 CallFunc_PlayAnimation_ReturnValue;                // 0x0034(0x0010)(NoDestructor, ContainsInstancedReference, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_WB_RoundProgressBar_C_ExecuteUbergraph_WB_RoundProgressBar;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

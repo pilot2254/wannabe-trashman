@@ -18,6 +18,35 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
+// Function W_LockPick.W_LockPick_C.Timeline output
+// 0x0008 (0x0008 - 0x0000)
+struct W_LockPick_C_Timeline_output final
+{
+public:
+	double                                        Alpha;                                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_W_LockPick_C_Timeline_output;
+
+// Function W_LockPick.W_LockPick_C.PreConstruct
+// 0x0001 (0x0001 - 0x0000)
+struct W_LockPick_C_PreConstruct final
+{
+public:
+	bool                                          IsDesignTime_PreConstruct;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_W_LockPick_C_PreConstruct;
+
+// Function W_LockPick.W_LockPick_C.PlaySoundd
+// 0x0018 (0x0018 - 0x0000)
+struct W_LockPick_C_PlaySoundd final
+{
+public:
+	class USoundBase*                             Sound;                                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_W_LockPick_C_PlaySoundd;
+
 // Function W_LockPick.W_LockPick_C.ExecuteUbergraph_W_LockPick
 // 0x0180 (0x0180 - 0x0000)
 struct W_LockPick_C_ExecuteUbergraph_W_LockPick final
@@ -90,35 +119,6 @@ public:
 	float                                         CallFunc_SetPercent_InPercent_ImplicitCast_1;      // 0x0178(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_W_LockPick_C_ExecuteUbergraph_W_LockPick;
-
-// Function W_LockPick.W_LockPick_C.PlaySoundd
-// 0x0018 (0x0018 - 0x0000)
-struct W_LockPick_C_PlaySoundd final
-{
-public:
-	class USoundBase*                             Sound_0;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UAudioComponent*                        CallFunc_SpawnSound2D_ReturnValue;                 // 0x0008(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_W_LockPick_C_PlaySoundd;
-
-// Function W_LockPick.W_LockPick_C.PreConstruct
-// 0x0001 (0x0001 - 0x0000)
-struct W_LockPick_C_PreConstruct final
-{
-public:
-	bool                                          IsDesignTime;                                      // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_W_LockPick_C_PreConstruct;
-
-// Function W_LockPick.W_LockPick_C.Timeline output
-// 0x0008 (0x0008 - 0x0000)
-struct W_LockPick_C_Timeline_output final
-{
-public:
-	double                                        Alpha;                                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_W_LockPick_C_Timeline_output;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

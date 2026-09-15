@@ -18,41 +18,86 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function UnlockableDoor.UnlockableDoor_C.Adrenaline+
-// 0x0004 (0x0004 - 0x0000)
-struct UnlockableDoor_C_Adrenaline_ final
+// Function UnlockableDoor.UnlockableDoor_C.ZiskajHraca
+// 0x0008 (0x0008 - 0x0000)
+struct UnlockableDoor_C_ZiskajHraca final
 {
 public:
-	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_FirstPersonCharacter_C*             Hrac;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_Adrenaline_;
+DUMPER7_ASSERTS_UnlockableDoor_C_ZiskajHraca;
 
-// Function UnlockableDoor.UnlockableDoor_C.BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
-// 0x0120 (0x0120 - 0x0000)
-struct UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature final
+// Function UnlockableDoor.UnlockableDoor_C.Set Timer Text
+// 0x0058 (0x0058 - 0x0000)
+struct UnlockableDoor_C_Set_Timer_Text final
 {
 public:
-	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
+	int32                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          K2Node_SwitchInteger_CmpSuccess;                   // 0x0004(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	class FText                                   CallFunc_Conv_IntToText_ReturnValue;               // 0x0008(0x0010)()
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor;                      // 0x0018(0x0014)()
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor_1;                    // 0x002C(0x0014)()
+	struct FSlateColor                            K2Node_MakeStruct_SlateColor_2;                    // 0x0040(0x0014)()
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature;
+DUMPER7_ASSERTS_UnlockableDoor_C_Set_Timer_Text;
 
-// Function UnlockableDoor.UnlockableDoor_C.BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature
+// Function UnlockableDoor.UnlockableDoor_C.Unlocked Tag
 // 0x0020 (0x0020 - 0x0000)
-struct UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature final
+struct UnlockableDoor_C_Unlocked_Tag final
 {
 public:
-	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	TArray<class FName>                           K2Node_MakeArray_Array;                            // 0x0000(0x0010)(ReferenceParm)
+	TArray<class FName>                           K2Node_MakeArray_Array_1;                          // 0x0010(0x0010)(ReferenceParm)
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature;
+DUMPER7_ASSERTS_UnlockableDoor_C_Unlocked_Tag;
+
+// Function UnlockableDoor.UnlockableDoor_C.Refka na Progressbar
+// 0x0008 (0x0008 - 0x0000)
+struct UnlockableDoor_C_Refka_na_Progressbar final
+{
+public:
+	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UnlockableDoor_C_Refka_na_Progressbar;
+
+// Function UnlockableDoor.UnlockableDoor_C.PosliHodnotuLootu
+// 0x0010 (0x0010 - 0x0000)
+struct UnlockableDoor_C_PosliHodnotuLootu final
+{
+public:
+	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UnlockableDoor_C_PosliHodnotuLootu;
+
+// Function UnlockableDoor.UnlockableDoor_C.Close
+// 0x0001 (0x0001 - 0x0000)
+struct UnlockableDoor_C_Close final
+{
+public:
+	bool                                          Condition;                                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UnlockableDoor_C_Close;
+
+// Function UnlockableDoor.UnlockableDoor_C.KukamNaTeba
+// 0x0001 (0x0001 - 0x0000)
+struct UnlockableDoor_C_KukamNaTeba final
+{
+public:
+	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UnlockableDoor_C_KukamNaTeba;
+
+// Function UnlockableDoor.UnlockableDoor_C.Kolko je spawned smeti?
+// 0x0008 (0x0008 - 0x0000)
+struct UnlockableDoor_C_Kolko_je_spawned_smeti_ final
+{
+public:
+	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_UnlockableDoor_C_Kolko_je_spawned_smeti_;
 
 // Function UnlockableDoor.UnlockableDoor_C.ExecuteUbergraph_UnlockableDoor
 // 0x06D0 (0x06D0 - 0x0000)
@@ -144,86 +189,41 @@ public:
 };
 DUMPER7_ASSERTS_UnlockableDoor_C_ExecuteUbergraph_UnlockableDoor;
 
-// Function UnlockableDoor.UnlockableDoor_C.Kolko je spawned smeti?
-// 0x0008 (0x0008 - 0x0000)
-struct UnlockableDoor_C_Kolko_je_spawned_smeti_ final
-{
-public:
-	int32                                         Kolko_;                                            // 0x0000(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         Kolko_je_max_;                                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UnlockableDoor_C_Kolko_je_spawned_smeti_;
-
-// Function UnlockableDoor.UnlockableDoor_C.KukamNaTeba
-// 0x0001 (0x0001 - 0x0000)
-struct UnlockableDoor_C_KukamNaTeba final
-{
-public:
-	bool                                          NE;                                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UnlockableDoor_C_KukamNaTeba;
-
-// Function UnlockableDoor.UnlockableDoor_C.Close
-// 0x0001 (0x0001 - 0x0000)
-struct UnlockableDoor_C_Close final
-{
-public:
-	bool                                          Condition;                                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UnlockableDoor_C_Close;
-
-// Function UnlockableDoor.UnlockableDoor_C.PosliHodnotuLootu
-// 0x0010 (0x0010 - 0x0000)
-struct UnlockableDoor_C_PosliHodnotuLootu final
-{
-public:
-	double                                        Váha_kg;                                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	double                                        Hodnota;                                           // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UnlockableDoor_C_PosliHodnotuLootu;
-
-// Function UnlockableDoor.UnlockableDoor_C.Refka na Progressbar
-// 0x0008 (0x0008 - 0x0000)
-struct UnlockableDoor_C_Refka_na_Progressbar final
-{
-public:
-	class UWB_RoundProgressBar_C*                 PB;                                                // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_UnlockableDoor_C_Refka_na_Progressbar;
-
-// Function UnlockableDoor.UnlockableDoor_C.Unlocked Tag
+// Function UnlockableDoor.UnlockableDoor_C.BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature
 // 0x0020 (0x0020 - 0x0000)
-struct UnlockableDoor_C_Unlocked_Tag final
+struct UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature final
 {
 public:
-	TArray<class FName>                           K2Node_MakeArray_Array;                            // 0x0000(0x0010)(ReferenceParm)
-	TArray<class FName>                           K2Node_MakeArray_Array_1;                          // 0x0010(0x0010)(ReferenceParm)
+	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_Unlocked_Tag;
+DUMPER7_ASSERTS_UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature;
 
-// Function UnlockableDoor.UnlockableDoor_C.Set Timer Text
-// 0x0058 (0x0058 - 0x0000)
-struct UnlockableDoor_C_Set_Timer_Text final
+// Function UnlockableDoor.UnlockableDoor_C.BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+// 0x0120 (0x0120 - 0x0000)
+struct UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature final
 {
 public:
-	int32                                         Value;                                             // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          K2Node_SwitchInteger_CmpSuccess;                   // 0x0004(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	class FText                                   CallFunc_Conv_IntToText_ReturnValue;               // 0x0008(0x0010)()
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor;                      // 0x0018(0x0014)()
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor_1;                    // 0x002C(0x0014)()
-	struct FSlateColor                            K2Node_MakeStruct_SlateColor_2;                    // 0x0040(0x0014)()
+	class UPrimitiveComponent*                    OverlappedComponent;                               // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                 OtherActor;                                        // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class UPrimitiveComponent*                    OtherComp;                                         // 0x0010(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	int32                                         OtherBodyIndex;                                    // 0x0018(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          bFromSweep;                                        // 0x001C(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_1D[0x3];                                       // 0x001D(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FHitResult                             SweepResult;                                       // 0x0020(0x0100)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference)
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_Set_Timer_Text;
+DUMPER7_ASSERTS_UnlockableDoor_C_BndEvt__UnlockableDoor_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature;
 
-// Function UnlockableDoor.UnlockableDoor_C.ZiskajHraca
-// 0x0008 (0x0008 - 0x0000)
-struct UnlockableDoor_C_ZiskajHraca final
+// Function UnlockableDoor.UnlockableDoor_C.Adrenaline+
+// 0x0004 (0x0004 - 0x0000)
+struct UnlockableDoor_C_Adrenaline_ final
 {
 public:
-	class ABP_FirstPersonCharacter_C*             Hrac_0;                                            // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	int32                                         Amount___Max_3;                                    // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
-DUMPER7_ASSERTS_UnlockableDoor_C_ZiskajHraca;
+DUMPER7_ASSERTS_UnlockableDoor_C_Adrenaline_;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -31,7 +31,7 @@ public:
 	struct FAnimNode_ControlRig                   AnimGraphNode_ControlRig;                          // 0x0568(0x04B8)(ContainsInstancedReference)
 
 public:
-	void AnimGraph(struct FPoseLink* AnimGraph_0);
+	void AnimGraph(struct FPoseLink* AnimGraph);
 
 public:
 	static class UClass* StaticClass()

@@ -43,30 +43,30 @@ public:
 	class UWB_RoundProgressBar_C*                 SELF_WB_Round_Progress_Bar;                        // 0x0330(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void Adrenaline_(int32 Amount___Max_3);
-	void ExecuteUbergraph_garbageTruckInv(int32 EntryPoint);
-	void find_look_at();
-	void InterakciaHold(double Kolko_Drzim_0);
-	void Interakica();
-	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
-	void KukamNaTeba(bool NE);
-	void Nastav_Value_Smetiarkseho_auta();
-	void PosliHodnotuLootu(double Váha_kg, double Hodnota_0);
-	void random_value_zase();
-	void ReceiveBeginPlay();
-	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
-	void RemoveDynamicEventTxt();
-	void ResetKolkoDrzim();
-	void ResumeTimer();
-	void Spawnol_som_smeti();
-	void Stop_timerEvent();
-	void Timeline__FinishedFunc();
-	void Timeline__UpdateFunc();
-	void Ukončil_som_Pickup_Predčasne();
-	bool Unesiem_to_();
-	void UnlockLockPick();
-	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac_0);
 	void Zobral_som_odpadok();
+	void ZiskajHraca(class ABP_FirstPersonCharacter_C** Hrac);
+	void UnlockLockPick();
+	bool Unesiem_to_();
+	void Ukončil_som_Pickup_Predčasne();
+	void Timeline__UpdateFunc();
+	void Timeline__FinishedFunc();
+	void Stop_timerEvent();
+	void Spawnol_som_smeti();
+	void ResumeTimer();
+	void ResetKolkoDrzim();
+	void RemoveDynamicEventTxt();
+	void Refka_na_Progressbar(class UWB_RoundProgressBar_C** PB);
+	void ReceiveBeginPlay();
+	void random_value_zase();
+	void PosliHodnotuLootu(double Váha_kg, double Hodnota);
+	void Nastav_Value_Smetiarkseho_auta();
+	void KukamNaTeba(bool NE);
+	void Kolko_je_spawned_smeti_(int32* Kolko_, int32* Kolko_je_max_);
+	void Interakica();
+	void InterakciaHold(double Kolko_Drzim);
+	void find_look_at();
+	void ExecuteUbergraph_garbageTruckInv(int32 EntryPoint);
+	void Adrenaline_(int32 Amount___Max_3);
 
 public:
 	static class UClass* StaticClass()

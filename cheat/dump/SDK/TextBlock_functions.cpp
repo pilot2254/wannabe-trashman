@@ -16,6 +16,26 @@
 
 SDK_NAMESPACE_START
 
+// Function TextBlock.TextBlock_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UTextBlock_C::PreConstruct(bool IsDesignTime_PreConstruct)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("TextBlock_C", "PreConstruct");
+
+	Params::TextBlock_C_PreConstruct Parms{};
+
+	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
 // Function TextBlock.TextBlock_C.ExecuteUbergraph_TextBlock
 // (Final, UbergraphFunction)
 // Parameters:
@@ -31,26 +51,6 @@ void UTextBlock_C::ExecuteUbergraph_TextBlock(int32 EntryPoint)
 	Params::TextBlock_C_ExecuteUbergraph_TextBlock Parms{};
 
 	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function TextBlock.TextBlock_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UTextBlock_C::PreConstruct(bool IsDesignTime)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("TextBlock_C", "PreConstruct");
-
-	Params::TextBlock_C_PreConstruct Parms{};
-
-	Parms.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

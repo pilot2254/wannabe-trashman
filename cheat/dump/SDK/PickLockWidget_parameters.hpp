@@ -17,6 +17,16 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
+// Function PickLockWidget.PickLockWidget_C.SetText
+// 0x0020 (0x0020 - 0x0000)
+struct PickLockWidget_C_SetText final
+{
+public:
+	struct FLinearColor                           Specified_Color;                                   // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class FText                                   Text;                                              // 0x0010(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm)
+};
+DUMPER7_ASSERTS_PickLockWidget_C_SetText;
+
 // Function PickLockWidget.PickLockWidget_C.ExecuteUbergraph_PickLockWidget
 // 0x0040 (0x0040 - 0x0000)
 struct PickLockWidget_C_ExecuteUbergraph_PickLockWidget final
@@ -29,16 +39,6 @@ public:
 	struct FSlateColor                            K2Node_MakeStruct_SlateColor;                      // 0x0028(0x0014)()
 };
 DUMPER7_ASSERTS_PickLockWidget_C_ExecuteUbergraph_PickLockWidget;
-
-// Function PickLockWidget.PickLockWidget_C.SetText
-// 0x0020 (0x0020 - 0x0000)
-struct PickLockWidget_C_SetText final
-{
-public:
-	struct FLinearColor                           Specified_Color;                                   // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class FText                                   Text;                                              // 0x0010(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm)
-};
-DUMPER7_ASSERTS_PickLockWidget_C_SetText;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

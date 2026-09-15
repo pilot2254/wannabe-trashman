@@ -16,171 +16,71 @@
 
 SDK_NAMESPACE_START
 
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
+// Function UpgradeHUD.UpgradeHUD_C.Set Moneytxt
+// (BlueprintCallable, BlueprintEvent)
 
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
+void UUpgradeHUD_C::Set_Moneytxt()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature");
+		Func = Class->GetFunction("UpgradeHUD_C", "Set Moneytxt");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
+// Function UpgradeHUD.UpgradeHUD_C.Play Sound
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class USoundBase*                       Sound                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature()
+void UUpgradeHUD_C::Play_Sound(class USoundBase* Sound)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature");
+		Func = Class->GetFunction("UpgradeHUD_C", "Play Sound");
+
+	Params::UpgradeHUD_C_Play_Sound Parms{};
+
+	Parms.Sound = Sound;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.LoadAcutalUpgrades
+// (BlueprintCallable, BlueprintEvent)
+
+void UUpgradeHUD_C::LoadAcutalUpgrades()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "LoadAcutalUpgrades");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
+// Function UpgradeHUD.UpgradeHUD_C.ExecuteUbergraph_UpgradeHUD
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature()
+void UUpgradeHUD_C::ExecuteUbergraph_UpgradeHUD(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature");
+		Func = Class->GetFunction("UpgradeHUD_C", "ExecuteUbergraph_UpgradeHUD");
 
-	UObject::ProcessEvent(Func, nullptr);
-}
+	Params::UpgradeHUD_C_ExecuteUbergraph_UpgradeHUD Parms{};
 
+	Parms.EntryPoint = EntryPoint;
 
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature");
-
-	UObject::ProcessEvent(Func, nullptr);
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -208,69 +108,169 @@ void UUpgradeHUD_C::DoPlayer_Have_Money_(int32 Price, bool* no)
 }
 
 
-// Function UpgradeHUD.UpgradeHUD_C.ExecuteUbergraph_UpgradeHUD
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
 
-void UUpgradeHUD_C::ExecuteUbergraph_UpgradeHUD(int32 EntryPoint)
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "ExecuteUbergraph_UpgradeHUD");
-
-	Params::UpgradeHUD_C_ExecuteUbergraph_UpgradeHUD Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function UpgradeHUD.UpgradeHUD_C.LoadAcutalUpgrades
-// (BlueprintCallable, BlueprintEvent)
-
-void UUpgradeHUD_C::LoadAcutalUpgrades()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "LoadAcutalUpgrades");
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function UpgradeHUD.UpgradeHUD_C.Play Sound
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class USoundBase*                       Sound                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
 
-void UUpgradeHUD_C::Play_Sound(class USoundBase* Sound)
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "Play Sound");
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature");
 
-	Params::UpgradeHUD_C_Play_Sound Parms{};
-
-	Parms.Sound = Sound;
-
-	UObject::ProcessEvent(Func, &Parms);
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function UpgradeHUD.UpgradeHUD_C.Set Moneytxt
-// (BlueprintCallable, BlueprintEvent)
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
 
-void UUpgradeHUD_C::Set_Moneytxt()
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("UpgradeHUD_C", "Set Moneytxt");
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_GlovesBuy_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_Close_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BootsBuy_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function UpgradeHUD.UpgradeHUD_C.BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UUpgradeHUD_C::BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UpgradeHUD_C", "BndEvt__UpgradeHUD_BackpackBuy_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

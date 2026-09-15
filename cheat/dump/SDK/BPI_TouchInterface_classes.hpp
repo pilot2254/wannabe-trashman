@@ -20,10 +20,10 @@ SDK_NAMESPACE_START
 class IBPI_TouchInterface_C final
 {
 public:
-	void Primary_Thumbstick(const struct FVector2D& Axis);
-	void Secondary_Thumbstick(const struct FVector2D& Axis);
-	void Touch_Jump_End();
 	void Touch_Jump_Start();
+	void Touch_Jump_End();
+	void Secondary_Thumbstick(const struct FVector2D& Axis);
+	void Primary_Thumbstick(const struct FVector2D& Axis);
 
 public:
 	static class UClass* StaticClass()

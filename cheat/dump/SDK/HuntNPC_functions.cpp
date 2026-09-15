@@ -16,6 +16,146 @@
 
 SDK_NAMESPACE_START
 
+// Function HuntNPC.HuntNPC_C.TraceToPlayer
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+bool AHuntNPC_C::TraceToPlayer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "TraceToPlayer");
+
+	Params::HuntNPC_C_TraceToPlayer Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	return Parms.ReturnValue;
+}
+
+
+// Function HuntNPC.HuntNPC_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void AHuntNPC_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HuntNPC.HuntNPC_C.OnRequestFailed_C391762A4225A60221C16F9C59022156
+// (BlueprintCallable, BlueprintEvent)
+
+void AHuntNPC_C::OnRequestFailed_C391762A4225A60221C16F9C59022156()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "OnRequestFailed_C391762A4225A60221C16F9C59022156");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HuntNPC.HuntNPC_C.OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC
+// (BlueprintCallable, BlueprintEvent)
+
+void AHuntNPC_C::OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HuntNPC.HuntNPC_C.OnMoveFinished_C391762A4225A60221C16F9C59022156
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPathFollowingResult                    Result                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class AAIController*                    AIController                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void AHuntNPC_C::OnMoveFinished_C391762A4225A60221C16F9C59022156(EPathFollowingResult Result, class AAIController* AIController)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "OnMoveFinished_C391762A4225A60221C16F9C59022156");
+
+	Params::HuntNPC_C_OnMoveFinished_C391762A4225A60221C16F9C59022156 Parms{};
+
+	Parms.Result = Result;
+	Parms.AIController = AIController;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HuntNPC.HuntNPC_C.OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPathFollowingResult                    Result                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class AAIController*                    AIController                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void AHuntNPC_C::OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC(EPathFollowingResult Result, class AAIController* AIController)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC");
+
+	Params::HuntNPC_C_OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC Parms{};
+
+	Parms.Result = Result;
+	Parms.AIController = AIController;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function HuntNPC.HuntNPC_C.HuntTimer
+// (BlueprintCallable, BlueprintEvent)
+
+void AHuntNPC_C::HuntTimer()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "HuntTimer");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function HuntNPC.HuntNPC_C.ExecuteUbergraph_HuntNPC
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void AHuntNPC_C::ExecuteUbergraph_HuntNPC(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("HuntNPC_C", "ExecuteUbergraph_HuntNPC");
+
+	Params::HuntNPC_C_ExecuteUbergraph_HuntNPC Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
 // Function HuntNPC.HuntNPC_C.BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
 // (HasOutParams, BlueprintEvent)
 // Parameters:
@@ -43,146 +183,6 @@ void AHuntNPC_C::BndEvt__NPC_Capsule_K2Node_ComponentBoundEvent_1_ComponentBegin
 	Parms.SweepResult = std::move(SweepResult);
 
 	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HuntNPC.HuntNPC_C.ExecuteUbergraph_HuntNPC
-// (Final, UbergraphFunction, HasDefaults)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void AHuntNPC_C::ExecuteUbergraph_HuntNPC(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "ExecuteUbergraph_HuntNPC");
-
-	Params::HuntNPC_C_ExecuteUbergraph_HuntNPC Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HuntNPC.HuntNPC_C.HuntTimer
-// (BlueprintCallable, BlueprintEvent)
-
-void AHuntNPC_C::HuntTimer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "HuntTimer");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HuntNPC.HuntNPC_C.OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// EPathFollowingResult                    Result                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class AAIController*                    AIController                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void AHuntNPC_C::OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC(EPathFollowingResult Result, class AAIController* AIController)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC");
-
-	Params::HuntNPC_C_OnMoveFinished_997F4325439E3C969CB9E58E18E90BAC Parms{};
-
-	Parms.Result = Result;
-	Parms.AIController = AIController;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HuntNPC.HuntNPC_C.OnMoveFinished_C391762A4225A60221C16F9C59022156
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// EPathFollowingResult                    Result                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class AAIController*                    AIController                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void AHuntNPC_C::OnMoveFinished_C391762A4225A60221C16F9C59022156(EPathFollowingResult Result, class AAIController* AIController)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "OnMoveFinished_C391762A4225A60221C16F9C59022156");
-
-	Params::HuntNPC_C_OnMoveFinished_C391762A4225A60221C16F9C59022156 Parms{};
-
-	Parms.Result = Result;
-	Parms.AIController = AIController;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function HuntNPC.HuntNPC_C.OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC
-// (BlueprintCallable, BlueprintEvent)
-
-void AHuntNPC_C::OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "OnRequestFailed_997F4325439E3C969CB9E58E18E90BAC");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HuntNPC.HuntNPC_C.OnRequestFailed_C391762A4225A60221C16F9C59022156
-// (BlueprintCallable, BlueprintEvent)
-
-void AHuntNPC_C::OnRequestFailed_C391762A4225A60221C16F9C59022156()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "OnRequestFailed_C391762A4225A60221C16F9C59022156");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HuntNPC.HuntNPC_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void AHuntNPC_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function HuntNPC.HuntNPC_C.TraceToPlayer
-// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-bool AHuntNPC_C::TraceToPlayer()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("HuntNPC_C", "TraceToPlayer");
-
-	Params::HuntNPC_C_TraceToPlayer Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	return Parms.ReturnValue;
 }
 
 

@@ -16,23 +16,31 @@
 
 SDK_NAMESPACE_START
 
-// Function BPI_TouchInterface.BPI_TouchInterface_C.Primary Thumbstick
+// Function BPI_TouchInterface.BPI_TouchInterface_C.Touch Jump Start
 // (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void IBPI_TouchInterface_C::Primary_Thumbstick(const struct FVector2D& Axis)
+void IBPI_TouchInterface_C::Touch_Jump_Start()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Primary Thumbstick");
+		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Touch Jump Start");
 
-	Params::BPI_TouchInterface_C_Primary_Thumbstick Parms{};
+	AsUObject()->ProcessEvent(Func, nullptr);
+}
 
-	Parms.Axis = std::move(Axis);
 
-	AsUObject()->ProcessEvent(Func, &Parms);
+// Function BPI_TouchInterface.BPI_TouchInterface_C.Touch Jump End
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void IBPI_TouchInterface_C::Touch_Jump_End()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Touch Jump End");
+
+	AsUObject()->ProcessEvent(Func, nullptr);
 }
 
 
@@ -56,31 +64,23 @@ void IBPI_TouchInterface_C::Secondary_Thumbstick(const struct FVector2D& Axis)
 }
 
 
-// Function BPI_TouchInterface.BPI_TouchInterface_C.Touch Jump End
+// Function BPI_TouchInterface.BPI_TouchInterface_C.Primary Thumbstick
 // (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// const struct FVector2D&                 Axis                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void IBPI_TouchInterface_C::Touch_Jump_End()
+void IBPI_TouchInterface_C::Primary_Thumbstick(const struct FVector2D& Axis)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Touch Jump End");
+		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Primary Thumbstick");
 
-	AsUObject()->ProcessEvent(Func, nullptr);
-}
+	Params::BPI_TouchInterface_C_Primary_Thumbstick Parms{};
 
+	Parms.Axis = std::move(Axis);
 
-// Function BPI_TouchInterface.BPI_TouchInterface_C.Touch Jump Start
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void IBPI_TouchInterface_C::Touch_Jump_Start()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = AsUObject()->Class->GetFunction("BPI_TouchInterface_C", "Touch Jump Start");
-
-	AsUObject()->ProcessEvent(Func, nullptr);
+	AsUObject()->ProcessEvent(Func, &Parms);
 }
 
 
