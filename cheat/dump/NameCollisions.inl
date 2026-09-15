@@ -12,13 +12,13 @@
 namespace ABP_FP_Copy { struct FAnimBlueprintGeneratedConstantData; }
 
 
-namespace NPCUnarmed
+namespace ABP_Unarmed
 {
 	struct FAnimBlueprintGeneratedConstantData;
 	struct FAnimBlueprintGeneratedMutableData;
 }
 
-namespace ABP_Unarmed
+namespace NPCUnarmed
 {
 	struct FAnimBlueprintGeneratedConstantData;
 	struct FAnimBlueprintGeneratedMutableData;

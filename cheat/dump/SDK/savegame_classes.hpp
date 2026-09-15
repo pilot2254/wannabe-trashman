@@ -11,11 +11,11 @@
 #include "Basic.hpp"
 
 #include "CoreUObject_structs.hpp"
-#include "invnetoryUpgrades_structs.hpp"
-#include "GlovesUpgrades_structs.hpp"
 #include "BootsUpgrade_structs.hpp"
-#include "S_SaveKontajner_structs.hpp"
+#include "GlovesUpgrades_structs.hpp"
+#include "invnetoryUpgrades_structs.hpp"
 #include "S_LockedAreas_structs.hpp"
+#include "S_SaveKontajner_structs.hpp"
 #include "Engine_classes.hpp"
 
 

@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
+#include "GlovesUpgrades_structs.hpp"
 #include "BootsUpgrade_structs.hpp"
 #include "Engine_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "UMG_structs.hpp"
-#include "invnetoryUpgrades_structs.hpp"
-#include "GlovesUpgrades_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "invnetoryUpgrades_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
+#include "E_Difficulty_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "E_Difficulty_structs.hpp"
 #include "CoreUObject_structs.hpp"
 
 
@@ -44,7 +44,7 @@ public:
 	int32                                         Fails;                                             // 0x0338(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_33C[0x4];                                      // 0x033C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
 	class UPickLockWidget_C*                      LockpickHud;                                       // 0x0340(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	class AActor*                                 parrent;                                           // 0x0348(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	class AActor*                                 Parrent;                                           // 0x0348(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	int32                                         Max_Amount_Of_Fails;                               // 0x0350(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_354[0x4];                                      // 0x0354(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
 	double                                        Error_Tolerance;                                   // 0x0358(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -66,7 +66,7 @@ public:
 	void ReceiveBeginPlay();
 	void ReceiveTick(float DeltaSeconds);
 	void ResetDoOnceRotation();
-	void Set_difficulty();
+	void Set_Difficulty();
 	void Set_Rotation(double elapsed_sec);
 	void Set_Win_Number();
 	void Timeline__FinishedFunc();

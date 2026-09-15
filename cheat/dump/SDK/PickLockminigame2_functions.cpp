@@ -300,15 +300,15 @@ void APickLockminigame2_C::ResumeTimer()
 }
 
 
-// Function PickLockminigame2.PickLockminigame2_C.Set difficulty
+// Function PickLockminigame2.PickLockminigame2_C.Set Difficulty
 // (BlueprintCallable, BlueprintEvent)
 
-void APickLockminigame2_C::Set_difficulty()
+void APickLockminigame2_C::Set_Difficulty()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PickLockminigame2_C", "Set difficulty");
+		Func = Class->GetFunction("PickLockminigame2_C", "Set Difficulty");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

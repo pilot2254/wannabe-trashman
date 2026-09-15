@@ -216,15 +216,15 @@ void APickLockminigame_C::ResetDoOnceRotation()
 }
 
 
-// Function PickLockminigame.PickLockminigame_C.Set difficulty
+// Function PickLockminigame.PickLockminigame_C.Set Difficulty
 // (BlueprintCallable, BlueprintEvent)
 
-void APickLockminigame_C::Set_difficulty()
+void APickLockminigame_C::Set_Difficulty()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("PickLockminigame_C", "Set difficulty");
+		Func = Class->GetFunction("PickLockminigame_C", "Set Difficulty");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

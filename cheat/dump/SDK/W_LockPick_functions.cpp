@@ -160,15 +160,15 @@ void UW_LockPick_C::Resetuj_PB()
 }
 
 
-// Function W_LockPick.W_LockPick_C.Set difficulty
+// Function W_LockPick.W_LockPick_C.Set Difficulty
 // (BlueprintCallable, BlueprintEvent)
 
-void UW_LockPick_C::Set_difficulty()
+void UW_LockPick_C::Set_Difficulty()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("W_LockPick_C", "Set difficulty");
+		Func = Class->GetFunction("W_LockPick_C", "Set Difficulty");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
