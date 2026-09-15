@@ -63,6 +63,12 @@
     <ClInclude Include="dump\SDK\BP_FirstPersonCharacter_parameters.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dump\SDK\Inventorik_classes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dump\SDK\Inventorik_parameters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -84,6 +90,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dump\SDK\BP_FirstPersonCharacter_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dump\SDK\Inventorik_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

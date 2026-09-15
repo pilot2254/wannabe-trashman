@@ -16,7 +16,6 @@ static void CheatThread()
     while (true)
     {
         cheat.Tick();
-        Sleep(50);
     }
 }
 
