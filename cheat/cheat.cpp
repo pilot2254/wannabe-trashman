@@ -61,3 +61,5 @@ void Cheat::Tick()
 
     Sleep(tick_sleep_time);
 }
+
+//todo: add esp and blackjack shit
