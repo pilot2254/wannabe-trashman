@@ -169,7 +169,6 @@
     <ClInclude Include="dump\SDK\NPC_parameters.hpp" />
     <ClInclude Include="dump\UnrealContainers.hpp" />
     <ClInclude Include="dump\UtfN.hpp" />
-    <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>

@@ -48,19 +48,24 @@ void Cheat::KeyPressEvents()
     if (GetAsyncKeyState(VK_RBUTTON) & 1) Character->K2_SetActorLocation(Character->K2_GetActorLocation() + Character->GetActorForwardVector() * 500.f, false, nullptr, true);
     if (GetAsyncKeyState(VK_NUMPAD0) & 1)
     {
-        for (int i{}; i < UObject::GObjects->Num(); ++i)
+        for (int i{}; i < UObject::GObjects->Num(); i++)
         {
             UObject* Obj = UObject::GObjects->GetByIndex(i);
 
             if (!Obj) continue;
+            if (Obj->IsDefaultObject()) continue;
+            if (!Obj->IsA(ANPC_C::StaticClass())) continue;
 
-            if (Obj->IsA(ANPC_C::StaticClass()))
-            {
-                ANPC_C* npc = static_cast<ANPC_C*>(Obj);
-                if (!npc) continue;
+            //idk why it keeps crashing
 
-                npc->Pohni_sa_inde();
-            }
+            ANPC_C* NPC = static_cast<ANPC_C*>(Obj);
+
+            if (!NPC) continue;
+
+            printf("found NPC: %s\n", NPC->GetName().c_str());
+
+            NPC->Pohni_sa_inde();
+            NPC->Particle();
         }
     }
 }
