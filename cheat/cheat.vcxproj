@@ -165,6 +165,8 @@
     <ClInclude Include="dump\SDK\Engine_structs.hpp" />
     <ClInclude Include="dump\SDK\Inventorik_classes.hpp" />
     <ClInclude Include="dump\SDK\Inventorik_parameters.hpp" />
+    <ClInclude Include="dump\SDK\NPC_classes.hpp" />
+    <ClInclude Include="dump\SDK\NPC_parameters.hpp" />
     <ClInclude Include="dump\UnrealContainers.hpp" />
     <ClInclude Include="dump\UtfN.hpp" />
     <ClInclude Include="framework.h" />
@@ -190,6 +192,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="dump\SDK\Inventorik_functions.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dump\SDK\NPC_functions.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>

@@ -45,8 +45,24 @@ void Cheat::UpdateInventory()
 void Cheat::KeyPressEvents()
 {
     if (GetAsyncKeyState(VK_F1) & 1) Inventory->Pridaj_mi_do_inv(11111.0, 0.0);
-
     if (GetAsyncKeyState(VK_RBUTTON) & 1) Character->K2_SetActorLocation(Character->K2_GetActorLocation() + Character->GetActorForwardVector() * 500.f, false, nullptr, true);
+    if (GetAsyncKeyState(VK_NUMPAD0) & 1)
+    {
+        for (int i{}; i < UObject::GObjects->Num(); ++i)
+        {
+            UObject* Obj = UObject::GObjects->GetByIndex(i);
+
+            if (!Obj) continue;
+
+            if (Obj->IsA(ANPC_C::StaticClass()))
+            {
+                ANPC_C* npc = static_cast<ANPC_C*>(Obj);
+                if (!npc) continue;
+
+                npc->Pohni_sa_inde();
+            }
+        }
+    }
 }
 
 void Cheat::Tick()
